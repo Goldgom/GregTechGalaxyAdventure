@@ -1,0 +1,4 @@
+2024-07-31 00:56:17.989 [info] Initial editor state {"filesToOpenOrCreate":[{"fileUri":{"$mid":1,"path":"/G:/Games/HMCL/.minecraft/versions/1.20.1/kubejs/server_scripts/tfc/data.js","scheme":"file"},"type":1,"exists":true,"options":{}}],"filesToDiff":[],"filesToMerge":[]}
+2024-07-31 00:56:18.670 [info] Started local extension host with pid 6708.
+2024-07-31 00:56:19.772 [warning] [cmake-tools]: Couldn't find message for key cmake-tools.configuration.cmake.deleteBuildDirOnCleanCconfigure.description.
+2024-07-31 00:56:24.833 [info] [perf] Render performance baseline is 122ms

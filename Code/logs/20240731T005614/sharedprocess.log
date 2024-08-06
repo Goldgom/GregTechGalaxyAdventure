@@ -1,0 +1,20 @@
+2024-07-31 00:56:20.988 [warning] [cmake-tools]: Couldn't find message for key cmake-tools.configuration.cmake.deleteBuildDirOnCleanCconfigure.description.
+2024-07-31 00:56:21.416 [warning] [cmake-tools]: Couldn't find message for key cmake-tools.configuration.cmake.deleteBuildDirOnCleanCconfigure.description.
+2024-07-31 00:56:22.086 [warning] [cmake-tools]: Couldn't find message for key cmake-tools.configuration.cmake.deleteBuildDirOnCleanCconfigure.description.
+2024-07-31 00:56:22.342 [info] Deleted uninstalled extension from disk github.copilot c:\Users\qym20\.vscode\extensions\github.copilot-1.218.0
+2024-07-31 00:56:22.371 [info] Deleted uninstalled extension from disk ms-vscode.cpptools c:\Users\qym20\.vscode\extensions\ms-vscode.cpptools-1.21.3-win32-x64
+2024-07-31 00:56:22.416 [error] [uncaught exception in sharedProcess]: Error: ENOENT: no such file or directory, stat 'c:\Users\qym20\.vscode\extensions\postman.postman-for-vscode-1.1.0.-5d544344.vsctmp': EntryNotFound (FileSystemError): Error: ENOENT: no such file or directory, stat 'c:\Users\qym20\.vscode\extensions\postman.postman-for-vscode-1.1.0.-5d544344.vsctmp'
+    at h.create (d:\Program Files\Microsoft VS Code\resources\app\out\vs\code\node\sharedProcess\sharedProcessMain.js:54:19262)
+    at f (d:\Program Files\Microsoft VS Code\resources\app\out\vs\code\node\sharedProcess\sharedProcessMain.js:54:19372)
+    at P.hb (d:\Program Files\Microsoft VS Code\resources\app\out\vs\code\node\sharedProcess\sharedProcessMain.js:59:36571)
+    at P.stat (d:\Program Files\Microsoft VS Code\resources\app\out\vs\code\node\sharedProcess\sharedProcessMain.js:59:28919)
+    at async s.stat (d:\Program Files\Microsoft VS Code\resources\app\out\vs\code\node\sharedProcess\sharedProcessMain.js:59:14907)
+    at async V.vb (d:\Program Files\Microsoft VS Code\resources\app\out\vs\code\node\sharedProcess\sharedProcessMain.js:105:119283)
+2024-07-31 00:56:22.610 [warning] [cmake-tools]: Couldn't find message for key cmake-tools.configuration.cmake.deleteBuildDirOnCleanCconfigure.description.
+2024-07-31 00:56:23.058 [warning] [cmake-tools]: Couldn't find message for key cmake-tools.configuration.cmake.deleteBuildDirOnCleanCconfigure.description.
+2024-07-31 00:56:23.141 [info] Deleted uninstalled extension from disk postman.postman-for-vscode c:\Users\qym20\.vscode\extensions\postman.postman-for-vscode-1.1.0
+2024-07-31 00:56:26.602 [warning] [cmake-tools]: Couldn't find message for key cmake-tools.configuration.cmake.deleteBuildDirOnCleanCconfigure.description.
+2024-07-31 00:56:26.618 [warning] [cmake-tools]: Couldn't find message for key cmake-tools.configuration.cmake.deleteBuildDirOnCleanCconfigure.description.
+2024-07-31 00:56:27.895 [warning] [cmake-tools]: Couldn't find message for key cmake-tools.configuration.cmake.deleteBuildDirOnCleanCconfigure.description.
+2024-07-31 00:56:28.314 [warning] [cmake-tools]: Couldn't find message for key cmake-tools.configuration.cmake.deleteBuildDirOnCleanCconfigure.description.
+2024-07-31 00:56:29.016 [warning] [cmake-tools]: Couldn't find message for key cmake-tools.configuration.cmake.deleteBuildDirOnCleanCconfigure.description.

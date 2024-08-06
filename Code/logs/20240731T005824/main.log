@@ -1,0 +1,4 @@
+2024-07-31 00:58:24.494 [error] Error: Error mutex already exists
+    at yt.W (D:\Program Files\Microsoft VS Code\resources\app\out\vs\code\electron-main\main.js:114:71250)
+2024-07-31 00:58:24.533 [info] update#setState idle
+2024-07-31 00:58:28.830 [info] Extension host with pid 20360 exited with code: 0, signal: unknown.

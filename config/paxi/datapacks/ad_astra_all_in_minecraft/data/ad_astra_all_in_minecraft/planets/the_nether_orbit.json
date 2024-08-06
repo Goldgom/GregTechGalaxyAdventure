@@ -1,0 +1,9 @@
+{
+    "dimension": "ad_astra_all_in_minecraft:the_nether_orbit",
+    "gravity": 0.0,
+    "oxygen": false,
+    "solar_power": 500,
+    "solar_system": "ad_astra:solar_system",
+    "temperature": 10,
+    "tier": 1
+  }

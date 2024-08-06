@@ -1,0 +1,37 @@
+2024-07-31 00:56:20.781 [info] Extension host with pid 6708 started
+2024-07-31 00:56:20.994 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2024-07-31 00:56:21.083 [info] ExtensionService#_doActivateExtension vscode.typescript-language-features, startup: false, activationEvent: 'onLanguage:javascript'
+2024-07-31 00:56:21.456 [info] ExtensionService#_doActivateExtension VisualStudioExptTeam.vscodeintellicode, startup: false, activationEvent: 'onLanguage:javascript'
+2024-07-31 00:56:23.048 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*'
+2024-07-31 00:56:23.068 [info] ExtensionService#_doActivateExtension christian-kohler.path-intellisense, startup: true, activationEvent: '*'
+2024-07-31 00:56:23.180 [info] ExtensionService#_doActivateExtension formulahendry.auto-close-tag, startup: true, activationEvent: '*'
+2024-07-31 00:56:23.186 [info] ExtensionService#_doActivateExtension formulahendry.auto-rename-tag, startup: true, activationEvent: '*'
+2024-07-31 00:56:23.359 [info] ExtensionService#_doActivateExtension Huawei.deveco-chip-config, startup: true, activationEvent: '*'
+2024-07-31 00:56:23.412 [info] ExtensionService#_doActivateExtension Huawei.deveco-device-tool, startup: true, activationEvent: '*'
+2024-07-31 00:56:23.611 [info] ExtensionService#_doActivateExtension Huawei.deveco-device-tool-remote, startup: true, activationEvent: '*'
+2024-07-31 00:56:25.743 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2024-07-31 00:56:28.740 [info] Extension host terminating: renderer closed the MessagePort
+2024-07-31 00:56:28.967 [error] Canceled: Canceled
+    at new I (d:\Program Files\Microsoft VS Code\resources\app\out\vs\workbench\api\node\extensionHostProcess.js:144:34990)
+    at S.U (d:\Program Files\Microsoft VS Code\resources\app\out\vs\workbench\api\node\extensionHostProcess.js:151:6023)
+    at Proxy.z.<computed>.F.charCodeAt.T.CharCode.DollarSign.z.<computed> (d:\Program Files\Microsoft VS Code\resources\app\out\vs\workbench\api\node\extensionHostProcess.js:151:3107)
+    at f.g (d:\Program Files\Microsoft VS Code\resources\app\out\vs\workbench\api\node\extensionHostProcess.js:154:203861)
+    at f.executeCommand (d:\Program Files\Microsoft VS Code\resources\app\out\vs\workbench\api\node\extensionHostProcess.js:154:203299)
+    at A.registerCommand.description (d:\Program Files\Microsoft VS Code\resources\app\out\vs\workbench\api\node\extensionHostProcess.js:154:202623)
+    at f.h (d:\Program Files\Microsoft VS Code\resources\app\out\vs\workbench\api\node\extensionHostProcess.js:154:204400)
+    at f.g (d:\Program Files\Microsoft VS Code\resources\app\out\vs\workbench\api\node\extensionHostProcess.js:154:203392)
+    at f.executeCommand (d:\Program Files\Microsoft VS Code\resources\app\out\vs\workbench\api\node\extensionHostProcess.js:154:203299)
+    at Object.subscriptions [as executeCommand] (d:\Program Files\Microsoft VS Code\resources\app\out\vs\workbench\api\node\extensionHostProcess.js:164:23051)
+    at Object.deactivate (c:\Users\qym20\.vscode\extensions\huawei.deveco-device-tool-remote-4.0.400\dist\webpack:\deveco-device-tool-remote\src\main.js:1029:17)
+    at Module.H (c:\Users\qym20\.vscode\extensions\huawei.deveco-device-tool-remote-4.0.400\dist\extension.js:1:32303)
+    at m.eb (d:\Program Files\Microsoft VS Code\resources\app\out\vs\workbench\api\node\extensionHostProcess.js:160:9844)
+    at d:\Program Files\Microsoft VS Code\resources\app\out\vs\workbench\api\node\extensionHostProcess.js:160:7915
+    at Array.map (<anonymous>)
+    at m.$ (d:\Program Files\Microsoft VS Code\resources\app\out\vs\workbench\api\node\extensionHostProcess.js:160:7902)
+    at m.terminate (d:\Program Files\Microsoft VS Code\resources\app\out\vs\workbench\api\node\extensionHostProcess.js:160:8175)
+    at d.terminate (d:\Program Files\Microsoft VS Code\resources\app\out\vs\workbench\api\node\extensionHostProcess.js:164:1513)
+    at i (d:\Program Files\Microsoft VS Code\resources\app\out\vs\workbench\api\node\extensionHostProcess.js:177:10617)
+    at MessagePortMain.<anonymous> (d:\Program Files\Microsoft VS Code\resources\app\out\vs\workbench\api\node\extensionHostProcess.js:177:6809)
+    at MessagePortMain.emit (node:events:514:28)
+    at Object.MessagePortMain._internalPort.emit (node:electron/js2c/utility_init:2:2285) setContext undefined
+2024-07-31 00:56:28.967 [info] Extension host with pid 6708 exiting with code 0

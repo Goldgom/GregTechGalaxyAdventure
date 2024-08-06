@@ -1,0 +1,62 @@
+{
+    "userDataProfilesMigration": true,
+    "profileAssociations": {
+        "workspaces": {},
+        "emptyWindows": {
+            "1722358575277": "__default__profile__",
+            "1722358704343": "__default__profile__"
+        }
+    },
+    "profileAssociationsMigration": true,
+    "telemetry.sqmId": "{53AEE1FD-75E9-4ED0-A981-43DA53B80360}",
+    "telemetry.machineId": "5cc94e9230ad4727275c9c7336c3bf0653f000b117b526592c479abbbbca626c",
+    "telemetry.devDeviceId": "f5bc273a-2a53-4358-9812-ccf4eb8ec6ce",
+    "backupWorkspaces": {
+        "workspaces": [],
+        "folders": [],
+        "emptyWindows": [
+            {
+                "backupFolder": "1722358704343"
+            }
+        ]
+    },
+    "windowControlHeight": 35,
+    "windowsState": {
+        "lastActiveWindow": {
+            "backupPath": "G:\\Games\\HMCL\\Code\\Backups\\1722358704343",
+            "uiState": {
+                "mode": 1,
+                "x": 256,
+                "y": 48,
+                "width": 1024,
+                "height": 768
+            }
+        },
+        "openedWindows": []
+    },
+    "theme": "vs-dark",
+    "themeBackground": "#1f1f1f",
+    "windowSplash": {
+        "zoomLevel": 0,
+        "baseTheme": "vs-dark",
+        "colorInfo": {
+            "foreground": "#cccccc",
+            "background": "#1f1f1f",
+            "editorBackground": "#1f1f1f",
+            "titleBarBackground": "#181818",
+            "activityBarBackground": "#181818",
+            "sideBarBackground": "#181818",
+            "statusBarBackground": "#181818",
+            "statusBarNoFolderBackground": "#1f1f1f"
+        },
+        "layoutInfo": {
+            "sideBarSide": "left",
+            "editorPartMinWidth": 220,
+            "titleBarHeight": 35,
+            "activityBarWidth": 48,
+            "sideBarWidth": 0,
+            "statusBarHeight": 22,
+            "windowBorder": false
+        }
+    }
+}
