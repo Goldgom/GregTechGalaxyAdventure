@@ -3,7 +3,7 @@ ServerEvents.recipes(event => {
 
     event.shaped('create:mechanical_crafter',
     [
-        'HS ',
+        'HW ',
         'LC ',
         '   '
     ],
@@ -12,7 +12,7 @@ ServerEvents.recipes(event => {
         C: 'minecraft:crafting_table',
         L: '#forge:leather',
         S: '#minecraft:wooden_slabs',
-
+        W: 'create:cogwheel'
     }
 )
 
