@@ -62,13 +62,13 @@ ItemEvents.modification(event => {
 		item.craftingRemainder = Item.of('gtceu:brick_wooden_form').item
 	})
 
-	event.modify('kubejs:drinkable_liquid_concrete', item => {
-		item.foodProperties = food => {
-			food.alwaysEdible(true)
-			food.hunger(12)
-			food.saturation(24)
-		}
-	})
+	// event.modify('kubejs:drinkable_liquid_concrete', item => {
+	// 	item.foodProperties = food => {
+	// 		food.alwaysEdible(true)
+	// 		food.hunger(12)
+	// 		food.saturation(24)
+	// 	}
+	// })
 
 	event.modify('gtceu:raw_coal', item => {
 		item.burnTime = 1600

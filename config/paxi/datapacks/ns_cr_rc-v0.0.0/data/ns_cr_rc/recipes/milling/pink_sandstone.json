@@ -1,0 +1,14 @@
+{
+  "type": "create:milling",
+  "ingredients": [
+    {
+      "item": "natures_spirit:pink_sandstone"
+    }
+  ],
+  "processingTime": 150,
+  "results": [
+    {
+      "item": "natures_spirit:pink_sand"
+    }
+  ]
+}

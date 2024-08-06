@@ -1,0 +1,14 @@
+{
+  "type": "create:crushing",
+  "ingredients": [
+    {
+      "item": "natures_spirit:pink_sandstone"
+    }
+  ],
+  "processingTime": 100,
+  "results": [
+    {
+      "item": "natures_spirit:pink_sand"
+    }
+  ]
+}

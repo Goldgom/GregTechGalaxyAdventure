@@ -33,4 +33,5 @@
 /usercache.json
 /usernamecache.json
 /tlm_custom_pack
+/*.backup*
 /.mixin.out

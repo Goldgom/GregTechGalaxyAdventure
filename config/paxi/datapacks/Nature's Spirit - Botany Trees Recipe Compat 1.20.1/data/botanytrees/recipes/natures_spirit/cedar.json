@@ -1,0 +1,45 @@
+{
+    "bookshelf:load_conditions": [
+        {
+            "type": "bookshelf:item_exists",
+            "values": [
+                "natures_spirit:cedar_sapling"
+            ]
+        }
+    ],
+    "type": "botanypots:crop",
+    "seed": {
+        "item": "natures_spirit:cedar_sapling"
+    },
+    "categories": [
+        "dirt"
+    ],
+    "growthTicks": 2400,
+    "display": {
+        "block": "natures_spirit:cedar_sapling"
+    },
+    "drops": [
+        {
+            "chance": 1.00,
+            "output": {
+                "item": "natures_spirit:cedar_log"
+            },
+            "minRolls": 12,
+            "maxRolls": 24
+        },
+        {
+            "chance": 0.20,
+            "output": {
+                "item": "minecraft:stick"
+            },
+            "minRolls": 1,
+            "maxRolls": 5
+        },
+        {
+            "chance": 0.15,
+            "output": {
+                "item": "natures_spirit:cedar_sapling"
+            }
+        }
+    ]
+}

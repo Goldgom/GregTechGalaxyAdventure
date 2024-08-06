@@ -1,5 +1,5 @@
 StartupEvents.registry('item', event => {
-	event.create('drinkable_liquid_concrete').useAnimation("drink").displayName('Bucket of Drinkable Liquid Concrete')
+	// event.create('drinkable_liquid_concrete').useAnimation("drink").displayName('Bucket of Drinkable Liquid Concrete')
 
 	// LV components
 	event.create('inc_lv_motor', 'create:sequenced_assembly').displayName('Incomplete LV Motor')

@@ -1,0 +1,14 @@
+{
+  "type": "create:cutting",
+  "ingredients": [
+    {
+      "item": "natures_spirit:larch_log"
+    }
+  ],
+  "processingTime": 50,
+  "results": [
+    {
+      "item": "natures_spirit:stripped_larch_log"
+    }
+  ]
+}

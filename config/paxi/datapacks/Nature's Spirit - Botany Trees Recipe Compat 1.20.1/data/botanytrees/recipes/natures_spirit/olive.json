@@ -1,0 +1,61 @@
+{
+    "bookshelf:load_conditions": [
+        {
+            "type": "bookshelf:item_exists",
+            "values": [
+                "natures_spirit:olive_sapling"
+            ]
+        }
+    ],
+    "type": "botanypots:crop",
+    "seed": {
+        "item": "natures_spirit:olive_sapling"
+    },
+    "categories": [
+        "dirt"
+    ],
+    "growthTicks": 2400,
+    "display": {
+        "block": "natures_spirit:olive_sapling"
+    },
+    "drops": [
+        {
+            "chance": 1.00,
+            "output": {
+                "item": "natures_spirit:olive_log"
+            },
+            "minRolls": 5,
+            "maxRolls": 8
+        },
+        {
+            "chance": 0.20,
+            "output": {
+                "item": "minecraft:stick"
+            },
+            "minRolls": 1,
+            "maxRolls": 2
+        },
+        {
+            "chance": 0.10,
+            "output": {
+                "item": "natures_spirit:green_olives"
+            },
+            "minRolls": 1,
+            "maxRolls": 1
+        },
+        {
+            "chance": 0.10,
+            "output": {
+                "item": "natures_spirit:black_olives"
+            },
+            "minRolls": 1,
+            "maxRolls": 1
+        },
+        {
+            "chance": 0.15,
+            "output": {
+                "item": "natures_spirit:olive_sapling"
+            }
+        }
+    ]
+}

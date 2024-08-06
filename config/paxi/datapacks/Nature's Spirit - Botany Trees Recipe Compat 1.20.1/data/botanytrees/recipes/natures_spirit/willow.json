@@ -1,0 +1,53 @@
+{
+    "bookshelf:load_conditions": [
+        {
+            "type": "bookshelf:item_exists",
+            "values": [
+                "natures_spirit:willow_sapling"
+            ]
+        }
+    ],
+    "type": "botanypots:crop",
+    "seed": {
+        "item": "natures_spirit:willow_sapling"
+    },
+    "categories": [
+        "dirt"
+    ],
+    "growthTicks": 2400,
+    "display": {
+        "block": "natures_spirit:willow_sapling"
+    },
+    "drops": [
+        {
+            "chance": 1.00,
+            "output": {
+                "item": "natures_spirit:willow_log"
+            },
+            "minRolls": 35,
+            "maxRolls": 40
+        },
+        {
+            "chance": 0.20,
+            "output": {
+                "item": "minecraft:stick"
+            },
+            "minRolls": 12,
+            "maxRolls": 20
+        },
+        {
+            "chance": 1.00,
+            "output": {
+                "item": "natures_spirit:willow_vines"
+            },
+            "minRolls": 50,
+            "maxRolls": 60
+        },
+        {
+            "chance": 0.15,
+            "output": {
+                "item": "natures_spirit:willow_sapling"
+            }
+        }
+    ]
+}
