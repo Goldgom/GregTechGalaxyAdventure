@@ -1,0 +1,14 @@
+{
+  "type": "create:cutting",
+  "ingredients": [
+    {
+      "item": "natures_spirit:cedar_wood"
+    }
+  ],
+  "processingTime": 50,
+  "results": [
+    {
+      "item": "natures_spirit:stripped_cedar_wood"
+    }
+  ]
+}
