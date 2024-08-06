@@ -1,0 +1,69 @@
+{
+  "dependencies": [
+    "setting_up_camp",
+    "primitive_crafting",
+    "more_forms_to_sign"
+  ],
+  "tasks": {
+    "clay_bucket": {
+      "type": "heracles:item",
+      "item": "ceramicbucket:ceramic_bucket",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {
+    "lootbag": {
+      "item": {
+        "id": "lootbags:loot_bag",
+        "count": 1,
+        "nbt": {
+          "Loot": "lootbags:kjs/1nahon2xq5tpy6fivtu10isy8",
+          "Name": "Lootbag (Dirt Age)",
+          "Color": 13882323,
+          "Type": "COMMON"
+        }
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "Since you are not able to smelt metals yet, something more primitive is needed. Luckly this /d/Ceramic Bucket/d/ will suffice!",
+      "",
+      "You can smelt the /d/Unfired Ceramic Bucket/d/ on the /d/Campfire/d/ to turn it into a useable /d/Bucket/d/.",
+      "",
+      "/c/WARNING/c/: May break under extreme temperatures."
+    ],
+    "groups": {
+      "Introduction": {
+        "position": [
+          35,
+          105
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "ceramicbucket:ceramic_bucket",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Moving Fluids"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

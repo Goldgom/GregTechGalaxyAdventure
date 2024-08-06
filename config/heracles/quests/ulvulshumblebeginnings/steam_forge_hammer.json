@@ -1,0 +1,50 @@
+{
+  "dependencies": [
+    "bronze_brick_casing"
+  ],
+  "tasks": {
+    "0BA366648050021A": {
+      "type": "heracles:item",
+      "item": "gtceu:lp_steam_forge_hammer",
+      "nbt": {},
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "You'll appreciate this machine alot. It can make plates much cheaper than hammers."
+    ],
+    "groups": {
+      "ULV/ULS - Humble Beginnings": {
+        "position": [
+          -48,
+          -49
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "gtceu:lp_steam_forge_hammer",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Steam Forge Hammer"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

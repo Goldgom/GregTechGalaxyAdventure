@@ -1,0 +1,57 @@
+{
+  "dependencies": [
+    "steel_ingot"
+  ],
+  "tasks": {
+    "casing": {
+      "type": "heracles:item",
+      "item": "gtceu:solid_machine_casing",
+      "amount": 25,
+      "collection": "AUTOMATIC"
+    },
+    "controller": {
+      "type": "heracles:item",
+      "item": "gtceu:steel_multiblock_tank",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "You may have noticed that the /d/Wooden Multiblock Tank/d/ is unable to store steam.",
+      "",
+      "Now that you have access to steel, you can construct a /d/Steel Multiblock Tank/d/, which is capable of storing massive amounts of steam."
+    ],
+    "groups": {
+      "LV/LS - The Grind Starts Here": {
+        "position": [
+          -8,
+          -21
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "gtceu:steel_multiblock_tank",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Storing Steam"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

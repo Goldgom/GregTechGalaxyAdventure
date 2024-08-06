@@ -1,0 +1,76 @@
+{
+  "dependencies": [
+    "please_sign_this_form"
+  ],
+  "tasks": {
+    "gtceu:brick_wooden_form": {
+      "type": "heracles:item",
+      "item": "gtceu:brick_wooden_form",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    },
+    "block_wooden_form": {
+      "type": "heracles:item",
+      "item": "kubejs:block_wooden_form",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    },
+    "nugget_wooden_form": {
+      "type": "heracles:item",
+      "item": "kubejs:nugget_wooden_form",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {
+    "lootbag": {
+      "item": {
+        "id": "lootbags:loot_bag",
+        "count": 1,
+        "nbt": {
+          "Type": "COMMON",
+          "Color": 13882323,
+          "Loot": "lootbags:kjs/1nahon2xq5tpy6fivtu10isy8",
+          "Name": "Lootbag (Dirt Age)"
+        }
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "Each form has a specific purpose:",
+      "",
+      "/d/Nugget Form/d/: For making Nuggets",
+      "/d/Ingot Form/d/: For making Ingots",
+      "/d/Block Form/d/: For making Clay Blocks"
+    ],
+    "groups": {
+      "Introduction": {
+        "position": [
+          0,
+          140
+        ]
+      }
+    },
+    "icon": {
+      "item": "#gbth:forms",
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "More Forms to Sign?!"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

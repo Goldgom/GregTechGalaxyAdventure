@@ -1,0 +1,51 @@
+{
+  "dependencies": [
+    "brass_hands"
+  ],
+  "tasks": {
+    "106BF1877C826D19": {
+      "type": "heracles:item",
+      "item": "create:deployer",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "The deployer, where to start. It's essentially a hands-off right clicking machine, it can place blocks and are the main machines involved with sequenced assembly.",
+      "",
+      "To power this, you'll have to use /d/Gear Ratios/d/ to slow down the deployer, until you can unlock better stress generation methods."
+    ],
+    "groups": {
+      "ULV/ULS - Humble Beginnings": {
+        "position": [
+          143,
+          -130
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "create:deployer",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Pokey Pokey!"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

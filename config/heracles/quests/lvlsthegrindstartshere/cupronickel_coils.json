@@ -1,0 +1,49 @@
+{
+  "dependencies": [
+    "assemblers_unite"
+  ],
+  "tasks": {
+    "coil": {
+      "type": "heracles:item",
+      "item": "gtceu:cupronickel_coil_block",
+      "amount": 16,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      ""
+    ],
+    "groups": {
+      "LV/LS - The Grind Starts Here": {
+        "position": [
+          -154,
+          -109
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "gtceu:cupronickel_coil_block",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Cupronickel Coils"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

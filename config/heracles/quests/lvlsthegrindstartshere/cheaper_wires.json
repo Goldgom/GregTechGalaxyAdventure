@@ -1,0 +1,50 @@
+{
+  "dependencies": [
+    "lv_machine_hull",
+    "microcrafting_hell_begins_1"
+  ],
+  "tasks": {
+    "wiremill": {
+      "type": "heracles:item",
+      "item": "gtceu:lv_wiremill",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "Allows making /d/wires/d/ in a /d/1:1/d/ ratio."
+    ],
+    "groups": {
+      "LV/LS - The Grind Starts Here": {
+        "position": [
+          -35,
+          -21
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "gtceu:lv_wiremill",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Cheaper Wires"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

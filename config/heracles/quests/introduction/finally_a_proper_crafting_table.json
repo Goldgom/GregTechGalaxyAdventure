@@ -1,0 +1,62 @@
+{
+  "dependencies": [
+    "andesite_alloy"
+  ],
+  "tasks": {
+    "crafting_table": {
+      "type": "heracles:item",
+      "item": "minecraft:crafting_table",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {
+    "complete_early_game_stage": {
+      "title": "Complete early game stage",
+      "icon": {
+        "item": {
+          "id": "minecraft:crafting_table",
+          "count": 1
+        },
+        "type": "heracles:item"
+      },
+      "command": "kubejs stages add @s early_game_completed",
+      "type": "heracles:command"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "Congrats! You have made it through the introduction chapter. Good luck on the rest of your journey!"
+    ],
+    "groups": {
+      "Introduction": {
+        "position": [
+          0,
+          280
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "minecraft:crafting_table",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/diamonds.png",
+    "title": {
+      "translate": "Finally, a Proper Crafting Table"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": true,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "dependencies": [
+    "lets_get_goopy"
+  ],
+  "tasks": {
+    "4F54E34EFE5F4ED6": {
+      "type": "heracles:item",
+      "item": "gtceu:resin_printed_circuit_board",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    },
+    "2418DFCEDA4EAB20": {
+      "type": "heracles:item",
+      "item": "gtceu:resin_circuit_board",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "The base of the circuit."
+    ],
+    "groups": {
+      "ULV/ULS - Humble Beginnings": {
+        "position": [
+          -81,
+          90
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "gtceu:resin_printed_circuit_board",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Resin Printed Circuit Board"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

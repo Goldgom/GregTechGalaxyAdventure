@@ -1,0 +1,49 @@
+{
+  "dependencies": [
+    "bronze_brick_casing"
+  ],
+  "tasks": {
+    "extractor": {
+      "type": "heracles:item",
+      "item": "gtceu:lp_steam_extractor",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "Turns stuff to liquid or extracts substances."
+    ],
+    "groups": {
+      "ULV/ULS - Humble Beginnings": {
+        "position": [
+          -79,
+          -49
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "gtceu:lp_steam_extractor",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Steam Extractor"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

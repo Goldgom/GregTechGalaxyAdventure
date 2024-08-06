@@ -1,0 +1,49 @@
+{
+  "dependencies": [
+    "mix_it_up"
+  ],
+  "tasks": {
+    "blaze_burner": {
+      "type": "heracles:item",
+      "item": "create:blaze_burner",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      ""
+    ],
+    "groups": {
+      "ULV/ULS - Humble Beginnings": {
+        "position": [
+          80,
+          -135
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "create:blaze_burner",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Heating the Mixer"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

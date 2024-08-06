@@ -1,0 +1,51 @@
+{
+  "dependencies": [
+    "pyrolysis"
+  ],
+  "tasks": {
+    "hand_crank": {
+      "type": "heracles:item",
+      "item": "create:hand_crank",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "Provides rotational force to /d/Create/Greate/d/ machines. ",
+      "",
+      "This only provides /d/8su/d/, at the cost of your hunger slowly depleting."
+    ],
+    "groups": {
+      "ULV/ULS - Humble Beginnings": {
+        "position": [
+          -176,
+          -208
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "create:hand_crank",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Hand Crank"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "dependencies": [
+    "steel_ingot",
+    "steam_alloy_smelter"
+  ],
+  "tasks": {
+    "5A9FB09B94ACBA3A": {
+      "type": "heracles:item",
+      "item": "gtceu:nugget_casting_mold",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    },
+    "09C0BFD89A41ACD8": {
+      "type": "heracles:item",
+      "item": "gtceu:empty_mold",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "Then he went around and molded all over the place. These molds will allow you to make glass balls, solifiy fluids and make wrought iron too."
+    ],
+    "groups": {
+      "ULV/ULS - Humble Beginnings": {
+        "position": [
+          12,
+          -80
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "gtceu:empty_mold",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "It's moldin' time"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "dependencies": [
+    "pumpin"
+  ],
+  "tasks": {
+    "spout": {
+      "type": "heracles:item",
+      "item": "create:spout",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "This is used to pour liquid onto things. Really useful. By the way, you /c/cannot/c/ input stuff into the spout using a container directly. Instead, you must use a /d/Mechanical Pump/d/, or a gregtech /d/Electric Pump/d/."
+    ],
+    "groups": {
+      "ULV/ULS - Humble Beginnings": {
+        "position": [
+          -48,
+          80
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "create:spout",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Controlling Liquids"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

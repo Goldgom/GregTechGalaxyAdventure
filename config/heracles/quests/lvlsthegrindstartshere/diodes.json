@@ -1,0 +1,49 @@
+{
+  "dependencies": [
+    "assemblers_unite"
+  ],
+  "tasks": {
+    "diode": {
+      "type": "heracles:item",
+      "item": "gtceu:diode",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "Used in the production of your first /d/MV/d/ circuit."
+    ],
+    "groups": {
+      "LV/LS - The Grind Starts Here": {
+        "position": [
+          -154,
+          -191
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "gtceu:diode",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Diodes"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

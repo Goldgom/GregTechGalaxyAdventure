@@ -1,0 +1,63 @@
+{
+  "dependencies": [
+    "gregtech_tools_and_you"
+  ],
+  "tasks": {
+    "Fine Copper Wire": {
+      "type": "heracles:item",
+      "item": "gtceu:fine_copper_wire",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {
+    "lootbag": {
+      "item": {
+        "id": "lootbags:loot_bag",
+        "count": 1,
+        "nbt": {
+          "Type": "COMMON",
+          "Color": 13882323,
+          "Loot": "lootbags:kjs/3ui6gksr7gxl82e5t9pkch2ls",
+          "Name": "Lootbag (ULV Age)"
+        }
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "Finer than the average wire! What's their number if i may ask?"
+    ],
+    "groups": {
+      "ULV/ULS - Humble Beginnings": {
+        "position": [
+          -153,
+          45
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "gtceu:fine_copper_wire",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Fine Copper Wire"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": false,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

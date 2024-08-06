@@ -1,0 +1,73 @@
+{
+  "dependencies": [
+    "setting_up_camp"
+  ],
+  "tasks": {
+    "firestarter": {
+      "type": "heracles:item",
+      "item": "kubejs:fire_starter",
+      "nbt": {
+        "Damage": 0
+      },
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {
+    "lootbag": {
+      "item": {
+        "id": "lootbags:loot_bag",
+        "count": 1,
+        "nbt": {
+          "Type": "COMMON",
+          "Color": 13882323,
+          "Loot": "lootbags:kjs/1nahon2xq5tpy6fivtu10isy8",
+          "Name": "Lootbag (Dirt Age)"
+        }
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "What, do you think /d/Campfires/d/ just light themselves when created in real life?! Of course not.",
+      "",
+      "Right Click a/d/ Campfire/d/ with a /d/Fire Starter/d/ to light it.",
+      "",
+      "Use a /d/Shovel/d/ on a /d/Campfire/d/ to extinguish it."
+    ],
+    "groups": {
+      "Introduction": {
+        "position": [
+          35,
+          70
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "kubejs:fire_starter",
+        "count": 1,
+        "nbt": {
+          "Damage": 0
+        }
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "We Didn't Start the Fire"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

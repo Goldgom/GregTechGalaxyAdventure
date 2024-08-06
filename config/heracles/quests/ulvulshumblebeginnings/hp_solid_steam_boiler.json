@@ -1,0 +1,49 @@
+{
+  "dependencies": [
+    "steel_ingot"
+  ],
+  "tasks": {
+    "boiler": {
+      "type": "heracles:item",
+      "item": "gtceu:hp_steam_solid_boiler",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "Now that you have /d/Steel/d/, you can upgrade your solid boiler to a HP boiler that will produce more steam."
+    ],
+    "groups": {
+      "ULV/ULS - Humble Beginnings": {
+        "position": [
+          8,
+          -179
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "gtceu:hp_steam_solid_boiler",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "HP Solid Steam Boiler"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

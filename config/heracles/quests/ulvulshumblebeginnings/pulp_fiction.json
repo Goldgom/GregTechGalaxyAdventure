@@ -1,0 +1,49 @@
+{
+  "dependencies": [
+    "steam_extractor"
+  ],
+  "tasks": {
+    "00BA00D223C6470F": {
+      "type": "heracles:item",
+      "item": "gtceu:raw_rubber_dust",
+      "amount": 32,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "Made with sticky resin."
+    ],
+    "groups": {
+      "ULV/ULS - Humble Beginnings": {
+        "position": [
+          -48,
+          -16
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "gtceu:raw_rubber_dust",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "(Rubber) Pulp Fiction"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

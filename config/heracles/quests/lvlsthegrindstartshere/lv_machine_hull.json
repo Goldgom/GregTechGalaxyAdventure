@@ -1,0 +1,49 @@
+{
+  "dependencies": [
+    "steel_ingot"
+  ],
+  "tasks": {
+    "hull": {
+      "type": "heracles:item",
+      "item": "gtceu:lv_machine_hull",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      ""
+    ],
+    "groups": {
+      "LV/LS - The Grind Starts Here": {
+        "position": [
+          -35,
+          9
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "gtceu:lv_machine_hull",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "LV Machine Hull"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

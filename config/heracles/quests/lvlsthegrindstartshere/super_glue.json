@@ -1,0 +1,55 @@
+{
+  "dependencies": [
+    "lv_canner"
+  ],
+  "tasks": {
+    "glue": {
+      "type": "heracles:item",
+      "item": "create:super_glue",
+      "nbt": {
+        "Damage": 0
+      },
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "Used for gluing blocks together, in order to make a /d/Contraption/d/."
+    ],
+    "groups": {
+      "LV/LS - The Grind Starts Here": {
+        "position": [
+          -20,
+          -194
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "create:super_glue",
+        "count": 1,
+        "nbt": {
+          "Damage": 0
+        }
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Super Glue"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

@@ -1,0 +1,65 @@
+{
+  "dependencies": [
+    "straw"
+  ],
+  "tasks": {
+    "spice_rack": {
+      "type": "heracles:item",
+      "item": "cookingforblockheads:spice_rack",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {
+    "lootbag": {
+      "item": {
+        "id": "lootbags:loot_bag",
+        "count": 1,
+        "nbt": {
+          "Type": "COMMON",
+          "Color": 13882323,
+          "Loot": "lootbags:kjs/b045vtieklvgv2fvdtm88qeks",
+          "Name": "Lootbag (Common Food)"
+        }
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "Since you're unable to make a crafting table, and thus a chest currently, how about a /d/Spice Rack/d/ instead? ",
+      "",
+      "You can store /d/9 Stacks/d/ per /d/Spice Rack/d/."
+    ],
+    "groups": {
+      "Introduction": {
+        "position": [
+          35,
+          35
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "cookingforblockheads:spice_rack",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Spice It Up"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

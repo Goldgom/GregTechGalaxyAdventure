@@ -1,0 +1,54 @@
+{
+  "dependencies": [
+    "gregtech_tools_and_you"
+  ],
+  "tasks": {
+    "bed": {
+      "type": "heracles:item",
+      "item": "#minecraft:beds",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {
+    "crafted_bed": {
+      "title": "Unlock ability to use beds",
+      "command": "kubejs stages add @s crafted_bed",
+      "type": "heracles:command"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "Finally, a real bed!",
+      "",
+      "Crafting will unlock the ability to use a bed."
+    ],
+    "groups": {
+      "ULV/ULS - Humble Beginnings": {
+        "position": [
+          -112,
+          -256
+        ]
+      }
+    },
+    "icon": {
+      "item": "#minecraft:beds",
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "On the Floor No-More!"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": true,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

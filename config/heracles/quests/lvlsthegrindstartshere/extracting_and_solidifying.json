@@ -1,0 +1,57 @@
+{
+  "dependencies": [
+    "lv_machine_hull"
+  ],
+  "tasks": {
+    "soldifier": {
+      "type": "heracles:item",
+      "item": "gtceu:lv_fluid_solidifier",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    },
+    "extractor": {
+      "type": "heracles:item",
+      "item": "gtceu:lv_extractor",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "Allows for cheaper rotors, bolts, screws, gears and small gears.",
+      "",
+      "You'll also need a /d/Casting Mold/d/ of the specific component you want to solidify, so make sure to make the correct one!"
+    ],
+    "groups": {
+      "LV/LS - The Grind Starts Here": {
+        "position": [
+          -64,
+          37
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "gtceu:lv_extractor",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Extracting and Solidifying"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "dependencies": [
+    "steam_alloy_smelter"
+  ],
+  "tasks": {
+    "0BC06EB9CBFEA2B1": {
+      "type": "heracles:item",
+      "item": "gtceu:red_alloy_ingot",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "Made with &&mlove&&r 4 redstone and one copper"
+    ],
+    "groups": {
+      "ULV/ULS - Humble Beginnings": {
+        "position": [
+          -19,
+          -49
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "gtceu:red_alloy_ingot",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Red Alloy Ingot"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

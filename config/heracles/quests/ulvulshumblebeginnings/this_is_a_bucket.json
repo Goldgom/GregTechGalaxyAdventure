@@ -1,0 +1,65 @@
+{
+  "dependencies": [
+    "finally_some_iron"
+  ],
+  "tasks": {
+    "774D2C75246AF40C": {
+      "type": "heracles:item",
+      "item": "minecraft:bucket",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {
+    "lootbag": {
+      "item": {
+        "id": "lootbags:loot_bag",
+        "count": 1,
+        "nbt": {
+          "Type": "COMMON",
+          "Color": 13882323,
+          "Loot": "lootbags:kjs/3ui6gksr7gxl82e5t9pkch2ls",
+          "Name": "Lootbag (ULV Age)"
+        }
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "translate": "Dear GOD."
+    },
+    "description": [
+      "Buckets are now made with /d/Iron Plates/d/, not /d/Iron Ingots/d/.",
+      "",
+      "Oh, and you need a /d/Hammer/d/."
+    ],
+    "groups": {
+      "ULV/ULS - Humble Beginnings": {
+        "position": [
+          -21,
+          -112
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "minecraft:bucket",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "This is a bucket."
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

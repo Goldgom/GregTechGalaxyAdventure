@@ -1,0 +1,49 @@
+{
+  "dependencies": [
+    "the_chemistry_begins"
+  ],
+  "tasks": {
+    "circuit": {
+      "type": "heracles:item",
+      "item": "gtceu:phenolic_printed_circuit_board",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "Can be gotten by combining either /d/Iron III Chloride/d/ or /d/Sodium Persulfate/d/ with /d/Silver Foil/d/ and /d/Phenolic Circuit Boards/d/ in a /d/Chemical Reactor/d/."
+    ],
+    "groups": {
+      "LV/LS - The Grind Starts Here": {
+        "position": [
+          -248,
+          -159
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "gtceu:phenolic_printed_circuit_board",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Phenolic Printed Circuit Board"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

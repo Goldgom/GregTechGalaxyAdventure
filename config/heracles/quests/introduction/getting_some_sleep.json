@@ -1,0 +1,48 @@
+{
+  "dependencies": [
+    "the_start_of_something_new"
+  ],
+  "tasks": {
+    "bag": {
+      "type": "heracles:item",
+      "item": "#gbth:sleeping_bags",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "You may have noticed beds are /c/disabled/c/ until you are able to craft one. However, there is an alternative. ",
+      "",
+      "The /d/Sleeping Bag/d/ allows you to skip the night, but it /c/does not/c/ set your spawnpoint."
+    ],
+    "groups": {
+      "Introduction": {
+        "position": [
+          -35,
+          0
+        ]
+      }
+    },
+    "icon": {
+      "item": "#gbth:sleeping_bags",
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Getting Some Sleep"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

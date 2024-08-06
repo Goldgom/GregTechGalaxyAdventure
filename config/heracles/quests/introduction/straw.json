@@ -1,0 +1,63 @@
+{
+  "dependencies": [
+    "flint_knife"
+  ],
+  "tasks": {
+    "straw": {
+      "type": "heracles:item",
+      "item": "farmersdelight:straw",
+      "amount": 8,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {
+    "lootbag": {
+      "item": {
+        "id": "lootbags:loot_bag",
+        "count": 1,
+        "nbt": {
+          "Type": "COMMON",
+          "Color": 13882323,
+          "Loot": "lootbags:kjs/1nahon2xq5tpy6fivtu10isy8",
+          "Name": "Lootbag (Dirt Age)"
+        }
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "To be able to craft tools, start by using your newly crafted /d/Flint Knife/d/ to collect /d/straw/d/ by breaking /d/grass/d/."
+    ],
+    "groups": {
+      "Introduction": {
+        "position": [
+          0,
+          35
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "farmersdelight:straw",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Straw"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

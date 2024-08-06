@@ -1,0 +1,97 @@
+{
+  "dependencies": [
+    "the_start_of_something_new"
+  ],
+  "tasks": {
+    "knife": {
+      "type": "heracles:item",
+      "item": "gtceu:flint_knife",
+      "nbt": {
+        "DisallowContainerItem": 0,
+        "GT.Behaviours": {},
+        "HideFlags": 2,
+        "Enchantments": [
+          {
+            "lvl": 2,
+            "id": "minecraft:fire_aspect"
+          }
+        ],
+        "GT.Tool": {
+          "AttackDamage": 1,
+          "MaxDamage": 63,
+          "Damage": 0,
+          "AttackSpeed": 3
+        }
+      },
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {
+    "lootbag": {
+      "item": {
+        "id": "lootbags:loot_bag",
+        "count": 1,
+        "nbt": {
+          "Type": "COMMON",
+          "Color": 13882323,
+          "Loot": "lootbags:kjs/1nahon2xq5tpy6fivtu10isy8",
+          "Name": "Lootbag (Dirt Age)"
+        }
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "First things first, it's good to get your bearings. As you probably figured out by now, you cannot collect logs using your fists. That requires a tool now. Sorry!",
+      "",
+      "Psst: If you’re coming from 1.7, you can get /d/sticks/d/ by breaking /d/leaves/d/ now!"
+    ],
+    "groups": {
+      "Introduction": {
+        "position": [
+          0,
+          0
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "gtceu:flint_knife",
+        "count": 1,
+        "nbt": {
+          "DisallowContainerItem": 0,
+          "GT.Behaviours": {},
+          "HideFlags": 2,
+          "Enchantments": [
+            {
+              "lvl": 2,
+              "id": "minecraft:fire_aspect"
+            }
+          ],
+          "GT.Tool": {
+            "MaxDamage": 63,
+            "Damage": 0
+          }
+        }
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Flint Knife"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "dependencies": [
+    "fine_copper_wire",
+    "paper",
+    "lets_get_goopy"
+  ],
+  "tasks": {
+    "5F023AF069A7E9A4": {
+      "type": "heracles:item",
+      "item": "gtceu:resistor",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "Irresistable to the eyes of any hardware engineer."
+    ],
+    "groups": {
+      "ULV/ULS - Humble Beginnings": {
+        "position": [
+          -118,
+          118
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "gtceu:resistor",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Resistor"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

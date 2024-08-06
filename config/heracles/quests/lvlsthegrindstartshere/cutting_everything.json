@@ -1,0 +1,49 @@
+{
+  "dependencies": [
+    "microcrafting_hell_begins_5"
+  ],
+  "tasks": {
+    "cutter": {
+      "type": "heracles:item",
+      "item": "greate:steel_mechanical_saw",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      ""
+    ],
+    "groups": {
+      "LV/LS - The Grind Starts Here": {
+        "position": [
+          59,
+          -148
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "greate:steel_mechanical_saw",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Cutting Everything"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

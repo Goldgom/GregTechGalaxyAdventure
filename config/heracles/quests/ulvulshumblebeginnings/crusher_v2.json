@@ -1,0 +1,49 @@
+{
+  "dependencies": [
+    "mechanical_crafting"
+  ],
+  "tasks": {
+    "crushing_wheels": {
+      "type": "heracles:item",
+      "item": "greate:andesite_alloy_crushing_wheel",
+      "amount": 2,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "Can crush multiple items at once."
+    ],
+    "groups": {
+      "ULV/ULS - Humble Beginnings": {
+        "position": [
+          176,
+          -130
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "greate:andesite_alloy_crushing_wheel",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Crusher V2"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

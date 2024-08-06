@@ -1,0 +1,78 @@
+{
+  "dependencies": [
+    "bloomery",
+    "finding_ores"
+  ],
+  "tasks": {
+    "bloom": {
+      "type": "heracles:item",
+      "item": "#gbth:blooms",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    },
+    "stone_hammer": {
+      "type": "heracles:item",
+      "item": "gtceu:stone_hammer",
+      "nbt": {
+        "DisallowContainerItem": 0,
+        "GT.Behaviours": {},
+        "HideFlags": 2,
+        "GT.Tool": {
+          "MaxDamage": 63,
+          "Damage": 0
+        }
+      },
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {
+    "lootbag": {
+      "item": {
+        "id": "lootbags:loot_bag",
+        "count": 1,
+        "nbt": {
+          "Loot": "lootbags:kjs/1nahon2xq5tpy6fivtu10isy8",
+          "Name": "Lootbag (Dirt Age)",
+          "Color": 13882323,
+          "Type": "COMMON"
+        }
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "Once you get your first /d/Blooms/d/ from the /d/Bloomery/d/, you can shape them into /d/Nuggets/d/ or /d/Ingots/d/ by using a /d/Nugget/d/ or /d/Ingot Form/d/ with the /d/Bloom/d/ and a /d/Stone Hammer/d/.",
+      "",
+      "Wrought Iron will be needed for andesite alloy."
+    ],
+    "groups": {
+      "Introduction": {
+        "position": [
+          0,
+          210
+        ]
+      }
+    },
+    "icon": {
+      "item": "#gbth:blooms",
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Bloomery Products"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

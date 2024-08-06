@@ -1,0 +1,49 @@
+{
+  "dependencies": [
+    "steam_compressor"
+  ],
+  "tasks": {
+    "iron_ingot": {
+      "type": "heracles:item",
+      "item": "minecraft:iron_ingot",
+      "amount": 8,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "In order to make some /d/Iron Ingots/d/, you'll need to turn your /d/Wrought Iron/d/ into nuggets, smelt them, then compress them."
+    ],
+    "groups": {
+      "ULV/ULS - Humble Beginnings": {
+        "position": [
+          -48,
+          -112
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "minecraft:iron_ingot",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Finally, some Iron!"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

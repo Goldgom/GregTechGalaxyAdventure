@@ -1,0 +1,51 @@
+{
+  "dependencies": [
+    "lv_machine_hull",
+    "the_first_of_many",
+    "microcrafting_hell_begins_1"
+  ],
+  "tasks": {
+    "chem_reactor": {
+      "type": "heracles:item",
+      "item": "gtceu:lv_chemical_reactor",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "Gregtech adds a multitude of chemicals, so get ready to sit in front of this machine and react chemicals together!"
+    ],
+    "groups": {
+      "LV/LS - The Grind Starts Here": {
+        "position": [
+          -248,
+          9
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "gtceu:lv_chemical_reactor",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "The Chemistry Begins"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "dependencies": [
+    "bronze_brick_casing"
+  ],
+  "tasks": {
+    "alloy_smelter": {
+      "type": "heracles:item",
+      "item": "gtceu:lp_steam_alloy_smelter",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "Makes alloys at cheaper prices."
+    ],
+    "groups": {
+      "ULV/ULS - Humble Beginnings": {
+        "position": [
+          -48,
+          -80
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "gtceu:lp_steam_alloy_smelter",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Steam Alloy Smelter"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

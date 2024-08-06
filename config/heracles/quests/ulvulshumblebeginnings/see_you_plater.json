@@ -1,0 +1,50 @@
+{
+  "dependencies": [
+    "the_andesite_age"
+  ],
+  "tasks": {
+    "depot": {
+      "type": "heracles:item",
+      "item": "create:depot",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "Magmati will later add a proper description when this is finalised. He will deffinately not  forget to write this.",
+      "&&oLooks like he forgot to write this&&r - lonevox"
+    ],
+    "groups": {
+      "ULV/ULS - Humble Beginnings": {
+        "position": [
+          115,
+          -256
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "create:depot",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "See You Plater!"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

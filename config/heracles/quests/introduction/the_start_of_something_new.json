@@ -1,0 +1,45 @@
+{
+  "dependencies": [],
+  "tasks": {
+    "537B6CCDA4BAFB82": {
+      "title": "I understand",
+      "type": "heracles:check"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "Welcome user! This pack is designed to provide a integrated experience utilizing /d/Gregtech/d/ and/d/ Create/d/ as the main tech mods of the pack. This pack is inspired by both /d/GTNH/d/ and /d/Create: Above and Beyond/d/. Enjoy!"
+    ],
+    "groups": {
+      "Introduction": {
+        "position": [
+          0,
+          -70
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "minecraft:experience_bottle",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "The Start of Something New"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

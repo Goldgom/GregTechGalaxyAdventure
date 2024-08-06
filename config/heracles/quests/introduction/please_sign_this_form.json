@@ -1,0 +1,63 @@
+{
+  "dependencies": [
+    "collecting_wood"
+  ],
+  "tasks": {
+    "empty_form": {
+      "type": "heracles:item",
+      "item": "gtceu:empty_wooden_form",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {
+    "lootbag": {
+      "item": {
+        "id": "lootbags:loot_bag",
+        "count": 1,
+        "nbt": {
+          "Type": "COMMON",
+          "Color": 13882323,
+          "Loot": "lootbags:kjs/1nahon2xq5tpy6fivtu10isy8",
+          "Name": "Lootbag (Dirt Age)"
+        }
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "The basis for the other 3 forms."
+    ],
+    "groups": {
+      "Introduction": {
+        "position": [
+          -35,
+          105
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "gtceu:empty_wooden_form",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Please Sign This Form"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

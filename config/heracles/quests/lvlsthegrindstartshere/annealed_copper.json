@@ -1,0 +1,50 @@
+{
+  "dependencies": [
+    "getting_oxygen",
+    "arc_furnace"
+  ],
+  "tasks": {
+    "copper": {
+      "type": "heracles:item",
+      "item": "gtceu:annealed_copper_ingot",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "Useful for making various components more efficiently."
+    ],
+    "groups": {
+      "LV/LS - The Grind Starts Here": {
+        "position": [
+          21,
+          37
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "gtceu:annealed_copper_ingot",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Annealed Copper"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

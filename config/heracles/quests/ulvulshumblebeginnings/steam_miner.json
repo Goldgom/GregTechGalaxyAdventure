@@ -1,0 +1,49 @@
+{
+  "dependencies": [
+    "bronze_brick_casing"
+  ],
+  "tasks": {
+    "3A5170EDCF7B97CF": {
+      "type": "heracles:item",
+      "item": "gtceu:steam_miner",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "Mining your ore veins for you!"
+    ],
+    "groups": {
+      "ULV/ULS - Humble Beginnings": {
+        "position": [
+          -176,
+          -112
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "gtceu:steam_miner",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Steam Miner"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

@@ -1,0 +1,63 @@
+{
+  "dependencies": [
+    "bloomery_products"
+  ],
+  "tasks": {
+    "andesite_alloy": {
+      "type": "heracles:item",
+      "item": "gtceu:andesite_alloy_ingot",
+      "amount": 2,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {
+    "lootbag": {
+      "item": {
+        "id": "lootbags:loot_bag",
+        "count": 1,
+        "nbt": {
+          "Type": "COMMON",
+          "Color": 13882323,
+          "Loot": "lootbags:kjs/1nahon2xq5tpy6fivtu10isy8",
+          "Name": "Lootbag (Dirt Age)"
+        }
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "The final step before making a /d/Crafting Table/d/ is the creation of /d/Andesite Alloy/d/."
+    ],
+    "groups": {
+      "Introduction": {
+        "position": [
+          0,
+          245
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "gtceu:andesite_alloy_ingot",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Andesite Alloy"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

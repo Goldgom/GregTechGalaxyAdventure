@@ -1,0 +1,50 @@
+{
+  "dependencies": [
+    "red_alloy_ingot",
+    "controlling_liquids"
+  ],
+  "tasks": {
+    "7D021FE5D107A3C3": {
+      "type": "heracles:item",
+      "item": "gtceu:red_alloy_single_cable",
+      "amount": 2,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "Another wire. Good luck finding a redstone vein."
+    ],
+    "groups": {
+      "ULV/ULS - Humble Beginnings": {
+        "position": [
+          -19,
+          79
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "gtceu:red_alloy_single_cable",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Red Alloy Wires"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "dependencies": [
+    "the_andesite_age"
+  ],
+  "tasks": {
+    "1AD2CFD30C66D801": {
+      "title": "I understand",
+      "type": "heracles:check"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "Create now has tiers that mirror GregTech tiers. This means:",
+      "",
+      "/d/\"Stress Tiers\"/d/ use the same values as GregTech /d/Voltage Tiers/d/. LV: 32 volts. LS: 32 stress units.",
+      "",
+      "Shafts have an SU limit and SU consumption, similar to GregTech wires. Shafts made of different materials have different SU limits and SU consumption.",
+      "",
+      "Other Tiered Blocks now have an SU limit, meaning once the amount of /d/stress generated/d/ on a line is /c/exceeded/c/, machines will stop until rectified. (Similar to how overcapacity works)",
+      "",
+      "Recipes in Create machines have /d/minimum SU requirements/d/ based on tier, which can be viewed in JEI."
+    ],
+    "groups": {
+      "ULV/ULS - Humble Beginnings": {
+        "position": [
+          80,
+          -288
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "greate:steel_cogwheel",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Whole new Create... Greate!"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

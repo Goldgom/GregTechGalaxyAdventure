@@ -1,0 +1,47 @@
+{
+  "dependencies": [
+    "lv_canner",
+    "lv_alloy_smelter"
+  ],
+  "tasks": {
+    "battery": {
+      "type": "heracles:item",
+      "item": "#gtceu:batteries/lv",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "Used for making various items that require power, and can also be used in battery buffers."
+    ],
+    "groups": {
+      "LV/LS - The Grind Starts Here": {
+        "position": [
+          -85,
+          -176
+        ]
+      }
+    },
+    "icon": {
+      "item": "#gtceu:batteries/lv",
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Portable EU Storage"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

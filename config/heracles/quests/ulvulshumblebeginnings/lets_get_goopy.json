@@ -1,0 +1,47 @@
+{
+  "dependencies": [],
+  "tasks": {
+    "0B17999C579A39AD": {
+      "type": "heracles:item",
+      "item": "gtceu:sticky_resin",
+      "amount": 32,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "Great for making rubber and glue. No horses were harmed in the glue-making process."
+    ],
+    "groups": {
+      "ULV/ULS - Humble Beginnings": {
+        "position": [
+          -81,
+          45
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "gtceu:sticky_resin",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "LET'S GET GOOPY!"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

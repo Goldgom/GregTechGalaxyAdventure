@@ -1,0 +1,49 @@
+{
+  "dependencies": [
+    "gregtech_tools_and_you"
+  ],
+  "tasks": {
+    "6DCBD4BEF03D9452": {
+      "type": "heracles:item",
+      "item": "gtceu:copper_single_wire",
+      "amount": 16,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "Not as fine as I like them."
+    ],
+    "groups": {
+      "ULV/ULS - Humble Beginnings": {
+        "position": [
+          58,
+          118
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "gtceu:copper_single_wire",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Copper Wires"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": false,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

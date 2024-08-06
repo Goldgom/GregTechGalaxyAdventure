@@ -1,0 +1,52 @@
+{
+  "dependencies": [
+    "lv_emitter",
+    "your_first_mv_circuit",
+    "microcrafting_hell_begins_5",
+    "microcrafting_hell_begins_4"
+  ],
+  "tasks": {
+    "circuit_assembler": {
+      "type": "heracles:item",
+      "item": "gtceu:lv_circuit_assembler",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "Used in the creation of cheaper circuits."
+    ],
+    "groups": {
+      "LV/LS - The Grind Starts Here": {
+        "position": [
+          30,
+          -225
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "gtceu:lv_circuit_assembler",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Circuit Assembler"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

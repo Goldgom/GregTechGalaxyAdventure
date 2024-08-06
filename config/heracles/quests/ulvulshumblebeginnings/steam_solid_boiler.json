@@ -1,0 +1,49 @@
+{
+  "dependencies": [
+    "pump_it_up"
+  ],
+  "tasks": {
+    "boiler": {
+      "type": "heracles:item",
+      "item": "gtceu:lp_steam_solid_boiler",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "The first way to make /d/Steam/d/ is burning /d/Solid/d/ fuels, such as /d/Coal/d/ or /d/Charcoal/d/."
+    ],
+    "groups": {
+      "ULV/ULS - Humble Beginnings": {
+        "position": [
+          -176,
+          -176
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "gtceu:lp_steam_solid_boiler",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Steam Solid Boiler"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

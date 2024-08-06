@@ -1,0 +1,56 @@
+{
+  "dependencies": [
+    "the_andesite_age",
+    "whisky_business"
+  ],
+  "tasks": {
+    "mixer": {
+      "type": "heracles:item",
+      "item": "greate:andesite_alloy_mechanical_mixer",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    },
+    "basin": {
+      "type": "heracles:item",
+      "item": "create:basin",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      ""
+    ],
+    "groups": {
+      "ULV/ULS - Humble Beginnings": {
+        "position": [
+          80,
+          -183
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "greate:andesite_alloy_mechanical_mixer",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Mix It Up!"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

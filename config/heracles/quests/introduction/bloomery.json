@@ -1,0 +1,92 @@
+{
+  "dependencies": [
+    "getting_muddy",
+    "more_forms_to_sign"
+  ],
+  "tasks": {
+    "mud_bricks": {
+      "type": "heracles:item",
+      "item": "minecraft:mud_bricks",
+      "amount": 13,
+      "collection": "AUTOMATIC"
+    },
+    "mud_brick_slabs": {
+      "type": "heracles:item",
+      "item": "minecraft:mud_brick_slab",
+      "amount": 4,
+      "collection": "AUTOMATIC"
+    },
+    "bloomery": {
+      "block": "gbthcore:bloomery",
+      "state": {},
+      "icon": {
+        "item": {
+          "id": "gbthcore:bloomery",
+          "count": 1
+        },
+        "type": "heracles:item"
+      },
+      "type": "heracles:block_interaction"
+    },
+    "campfire": {
+      "type": "heracles:item",
+      "item": "minecraft:campfire",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {
+    "lootbag": {
+      "item": {
+        "id": "lootbags:loot_bag",
+        "count": 1,
+        "nbt": {
+          "Type": "COMMON",
+          "Color": 13882323,
+          "Loot": "lootbags:kjs/1nahon2xq5tpy6fivtu10isy8",
+          "Name": "Lootbag (Dirt Age)"
+        }
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "To smelt your newly aquired /d/Raw Metals/d/, you'll need a /d/Bloomery/d/.",
+      "",
+      "The /d/Bloomery/d/ will produce /d/Blooms/d/, which will need to be hammered into either /d/Nuggets/d/ or /d/Ingots/d/.",
+      "",
+      "To craft one, __crouch and right-click__ on a /d/Campfire/d/ with a /d/Mud Brick/d/ block."
+    ],
+    "groups": {
+      "Introduction": {
+        "position": [
+          0,
+          175
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "gbthcore:bloomery",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Bloomery"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "dependencies": [
+    "the_brass_age"
+  ],
+  "tasks": {
+    "5FF6C1A67FA755F2": {
+      "type": "heracles:item",
+      "item": "create:brass_hand",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "Only used to make deployers."
+    ],
+    "groups": {
+      "ULV/ULS - Humble Beginnings": {
+        "position": [
+          143,
+          -160
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "create:brass_hand",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Brass Hands"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

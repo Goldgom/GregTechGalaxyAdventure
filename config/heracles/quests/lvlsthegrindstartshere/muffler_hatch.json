@@ -1,0 +1,49 @@
+{
+  "dependencies": [
+    "microcrafting_hell_begins_1"
+  ],
+  "tasks": {
+    "muffler_hatch": {
+      "type": "heracles:item",
+      "item": "gtceu:lv_muffler_hatch",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      ""
+    ],
+    "groups": {
+      "LV/LS - The Grind Starts Here": {
+        "position": [
+          -196,
+          -65
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "gtceu:lv_muffler_hatch",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Muffler Hatch"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

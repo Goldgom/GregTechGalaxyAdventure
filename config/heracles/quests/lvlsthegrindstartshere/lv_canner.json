@@ -1,0 +1,49 @@
+{
+  "dependencies": [
+    "the_first_of_many"
+  ],
+  "tasks": {
+    "canner": {
+      "type": "heracles:item",
+      "item": "gtceu:lv_canner",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      ""
+    ],
+    "groups": {
+      "LV/LS - The Grind Starts Here": {
+        "position": [
+          -50,
+          -176
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "gtceu:lv_canner",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "LV Canner"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

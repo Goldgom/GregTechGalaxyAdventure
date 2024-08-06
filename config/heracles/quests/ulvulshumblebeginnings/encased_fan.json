@@ -1,0 +1,56 @@
+{
+  "dependencies": [
+    "the_andesite_age"
+  ],
+  "tasks": {
+    "624C5DF7FAFB83E9": {
+      "type": "heracles:item",
+      "item": "greate:andesite_alloy_encased_fan",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "Encased fans have a variety of functions when certain blocks are placed in front of them.",
+      "",
+      "/d/Lava/d/: For /d/Smelting/d/ or /d/Blasting/d/ related recipes.",
+      "/d/Fire/d/: For /d/Smoking/d/ related recipes.",
+      "/d/Water/d/: For /d/Washing/d/ related recipes (non GT).",
+      "/d/Soul Fire/d/: For /d/Haunting/d/ related recipes.",
+      "",
+      "Also technically you can push items and other entities with it."
+    ],
+    "groups": {
+      "ULV/ULS - Humble Beginnings": {
+        "position": [
+          48,
+          -256
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "create:encased_fan",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Encased Fan"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

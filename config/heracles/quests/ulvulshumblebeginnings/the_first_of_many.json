@@ -1,0 +1,66 @@
+{
+  "dependencies": [
+    "resin_printed_circuit_board",
+    "vacuum_tubes",
+    "resistor",
+    "red_alloy_wires"
+  ],
+  "tasks": {
+    "183450116A86B09D": {
+      "type": "heracles:item",
+      "item": "gtceu:basic_electronic_circuit",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {
+    "lootbag": {
+      "item": {
+        "id": "lootbags:loot_bag",
+        "count": 1,
+        "nbt": {
+          "Type": "COMMON",
+          "Color": 13882323,
+          "Loot": "lootbags:kjs/3ui6gksr7gxl82e5t9pkch2ls",
+          "Name": "Lootbag (ULV Age)"
+        }
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "Congratulations! Now make more of them as they will be used throughout the next chapter."
+    ],
+    "groups": {
+      "ULV/ULS - Humble Beginnings": {
+        "position": [
+          -45,
+          118
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "gtceu:basic_electronic_circuit",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/octagons.png",
+    "title": {
+      "translate": "The First of Many"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

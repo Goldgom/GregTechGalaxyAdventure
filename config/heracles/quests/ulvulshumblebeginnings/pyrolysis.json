@@ -1,0 +1,55 @@
+{
+  "dependencies": [
+    "no_not_that_coke"
+  ],
+  "tasks": {
+    "14DABD0A5524E40B": {
+      "type": "heracles:item",
+      "item": "gtceu:coke_gem",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    },
+    "32D4D08DF57700CD": {
+      "type": "heracles:item",
+      "item": "minecraft:charcoal",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "Time for another multiblock. Currently, you may only be able to afford one, but in the not-so-near future you'll need to scale this up."
+    ],
+    "groups": {
+      "ULV/ULS - Humble Beginnings": {
+        "position": [
+          -112,
+          -208
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "gtceu:coke_gem",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Pyrolysis"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

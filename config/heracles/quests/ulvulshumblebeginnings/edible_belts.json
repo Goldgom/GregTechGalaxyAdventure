@@ -1,0 +1,51 @@
+{
+  "dependencies": [
+    "pulp_fiction"
+  ],
+  "tasks": {
+    "2F28652D1DC6C843": {
+      "type": "heracles:item",
+      "item": "greate:rubber_belt_connector",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "Logistic principles incarnate.",
+      "",
+      "Can connect to /d/Andesite Alloy/d/ and /d/Steel/d/ shafts."
+    ],
+    "groups": {
+      "ULV/ULS - Humble Beginnings": {
+        "position": [
+          -79,
+          -16
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "greate:rubber_belt_connector",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Edible Belts?"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

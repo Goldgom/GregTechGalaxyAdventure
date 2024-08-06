@@ -1,0 +1,49 @@
+{
+  "dependencies": [
+    "the_first_of_many"
+  ],
+  "tasks": {
+    "alloy_smelter": {
+      "type": "heracles:item",
+      "item": "gtceu:lv_alloy_smelter",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      ""
+    ],
+    "groups": {
+      "LV/LS - The Grind Starts Here": {
+        "position": [
+          -123,
+          -176
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "gtceu:lv_alloy_smelter",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "LV Alloy Smelter"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

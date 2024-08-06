@@ -1,0 +1,65 @@
+{
+  "dependencies": [],
+  "tasks": {
+    "raw_iron": {
+      "type": "heracles:item",
+      "item": "#gbth:wrought_iron_bloom_inputs",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {
+    "lootbag": {
+      "item": {
+        "id": "lootbags:loot_bag",
+        "count": 1,
+        "nbt": {
+          "Type": "COMMON",
+          "Color": 13882323,
+          "Loot": "lootbags:kjs/1nahon2xq5tpy6fivtu10isy8",
+          "Name": "Lootbag (Dirt Age)"
+        }
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "/d/Gregtech/d/ changes ore generation from vanilla. Instead of spawning ores in tiny clumps, Gregtech instead spawns massive veins of different ores, depending on the type. These can be found by searching for surface rocks above ground, which will show what ore vien is underneath. Also, only 1 ore vein will spawn in a valid chunk.",
+      "",
+      "<text>You can view where an ore spawns by pressing '<light_purple><keybind>key.jei.showRecipe</keybind></light_purple>' on any raw ore.</text>",
+      "",
+      "/c/Note/c/: In this pack, ore veins are placed 6 chunks apart."
+    ],
+    "groups": {
+      "Introduction": {
+        "position": [
+          -35,
+          210
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "minecraft:raw_iron",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Finding Ores"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

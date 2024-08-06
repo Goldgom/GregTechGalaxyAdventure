@@ -1,0 +1,49 @@
+{
+  "dependencies": [
+    "the_first_of_many"
+  ],
+  "tasks": {
+    "sensor": {
+      "type": "heracles:item",
+      "item": "gtceu:lv_sensor",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      ""
+    ],
+    "groups": {
+      "LV/LS - The Grind Starts Here": {
+        "position": [
+          -123,
+          -204
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "gtceu:lv_sensor",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "LV Sensor"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

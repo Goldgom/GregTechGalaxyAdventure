@@ -1,0 +1,60 @@
+{
+  "dependencies": [
+    "toolcrafting"
+  ],
+  "tasks": {
+    "logs": {
+      "type": "heracles:item",
+      "item": "#minecraft:logs",
+      "amount": 16,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {
+    "lootbag": {
+      "item": {
+        "id": "lootbags:loot_bag",
+        "count": 1,
+        "nbt": {
+          "Type": "COMMON",
+          "Color": 13882323,
+          "Loot": "lootbags:kjs/1nahon2xq5tpy6fivtu10isy8",
+          "Name": "Lootbag (Dirt Age)"
+        }
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "Like any other modpack, now is the time for some deforestation!"
+    ],
+    "groups": {
+      "Introduction": {
+        "position": [
+          -35,
+          70
+        ]
+      }
+    },
+    "icon": {
+      "item": "#minecraft:logs",
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Collecting Wood"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

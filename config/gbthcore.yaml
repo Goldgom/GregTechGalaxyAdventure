@@ -1,0 +1,39 @@
+# Restricts the spreading of water (creating new source blocks) to specific biomes defined in allowedWaterSpreadBiomes.
+# Default: true
+restrictWaterSpread: true
+
+# List of biomes in which water can spread to create new source blocks.
+allowedWaterSpreadBiomes:
+  - minecraft:river
+  - minecraft:frozen_river
+  - minecraft:ocean
+  - minecraft:deep_ocean
+  - minecraft:frozen_ocean
+  - minecraft:deep_frozen_ocean
+  - minecraft:cold_ocean
+  - minecraft:deep_cold_ocean
+  - minecraft:lukewarm_ocean
+  - minecraft:deep_lukewarm_ocean
+  - minecraft:warm_ocean
+  - wythers:icy_ocean
+  - wythers:deep_icy_ocean
+  - wythers:badlands_river
+  - wythers:black_river
+  - wythers:desert_river
+  - wythers:deep_desert_river
+  - wythers:gravelly_river
+  - wythers:icy_river
+  - wythers:jungle_river
+  - wythers:lantern_river
+  - wythers:savanna_river
+  - wythers:tropical_forest_river
+  - biomesoplenty:frozen_ocean
+  - biomesoplenty:land_of_lakes
+  - biomesoplenty:floodplain
+  - biomesoplenty:coral_reef
+  - biomesoplenty:kelp_forest
+  - biomesoplenty:bayou
+  - biomesoplenty:deep_bayou
+  - biomesoplenty:wetland_marsh
+  - biomesoplenty:bayou_mangrove
+  - biomesoplenty:grove_lakes

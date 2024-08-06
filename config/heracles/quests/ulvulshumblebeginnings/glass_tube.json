@@ -1,0 +1,55 @@
+{
+  "dependencies": [
+    "its_moldin_time"
+  ],
+  "tasks": {
+    "7CF1981E9B88A306": {
+      "type": "heracles:item",
+      "item": "gtceu:glass_tube",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    },
+    "38627AE4494BDDF1": {
+      "type": "heracles:item",
+      "item": "gtceu:ball_casting_mold",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "Hehe, Glass --balls--"
+    ],
+    "groups": {
+      "ULV/ULS - Humble Beginnings": {
+        "position": [
+          12,
+          44
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "gtceu:glass_tube",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Glass Tube"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}
