@@ -297,6 +297,17 @@
         "value": 1000000
       }
     },
+    "reach-entity-attributes:attack_range": {
+      "enabled": false,
+      "min": {
+        "default": -1024,
+        "value": -1024
+      },
+      "max": {
+        "default": 1024,
+        "value": 1024
+      }
+    },
     "l2damagetracker:bow_strength": {
       "enabled": false,
       "min": {
@@ -350,6 +361,17 @@
       "max": {
         "default": 64,
         "value": 64
+      }
+    },
+    "reach-entity-attributes:reach": {
+      "enabled": false,
+      "min": {
+        "default": -1024,
+        "value": -1024
+      },
+      "max": {
+        "default": 1024,
+        "value": 1024
       }
     },
     "forge:block_reach": {

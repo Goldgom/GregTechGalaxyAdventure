@@ -32,3 +32,5 @@
 /rhino.local.properties
 /usercache.json
 /usernamecache.json
+/tlm_custom_pack
+/.mixin.out

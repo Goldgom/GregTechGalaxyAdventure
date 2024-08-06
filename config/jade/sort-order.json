@@ -10,6 +10,7 @@
   "ae2:pattern_provider": null,
   "ae2:power_storage": null,
   "ae2:server_data": null,
+  "collectorsreap:crop_progress": null,
   "cookingforblockheads:fridge": null,
   "cookingforblockheads:milk_jar": null,
   "cookingforblockheads:oven": null,
@@ -97,5 +98,10 @@
   "minecraft:zombie_villager": null,
   "supplementaries:hat_stand": null,
   "supplementaries:present": null,
-  "supplementaries:safe": null
+  "supplementaries:safe": null,
+  "touhou_little_maid:altar": null,
+  "touhou_little_maid:maid": null,
+  "touhou_little_maid:picnic_mat": null,
+  "touhou_little_maid:shrine_lamp": null,
+  "touhou_little_maid:tombstone": null
 }

@@ -3,8 +3,8 @@
   "gravity": 18,
   "orbit": "ad_astra_all_in_minecraft:the_nether_orbit",
   "oxygen": true,
-  "solar_power": 300,
-  "solar_system": "ad_astra:solar_system",
+  "solar_power": 10,
+  "solar_system": "ad_astra:proxima_centauri",
   "temperature": 270,
   "tier": 2
 }
