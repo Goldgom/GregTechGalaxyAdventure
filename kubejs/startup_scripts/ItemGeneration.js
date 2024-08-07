@@ -29,6 +29,7 @@ StartupEvents.registry('item', event => {
 	event.create('inc_hv_conveyor', 'create:sequenced_assembly').displayName('Incomplete HV Conveyor')
 	event.create('inc_hv_robot_arm', 'create:sequenced_assembly').displayName('Incomplete HV Robot Arm')
 
+	event.create('primitive_sand_paper', 'create:sandpaper').maxDamage(1).displayName('Primitive Sand Paper')
 	event.create('andesite_alloy_sand_paper', 'create:sandpaper').maxDamage(8).displayName('Andesite Alloy Sand Paper')
 	event.create('steel_sand_paper', 'create:sandpaper').maxDamage(32).displayName('Steel Sand Paper')
 	event.create('aluminium_sand_paper', 'create:sandpaper').maxDamage(128).displayName('Aluminium Sand Paper')
