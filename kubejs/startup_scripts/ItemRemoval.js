@@ -190,8 +190,10 @@ removeNamespaceItems('farmersdelight', [
 	'iron_knife', 
 	'diamond_knife', 
 	'netherite_knife', 
-	'golden_knife'
+	'golden_knife', 
 ])
+
+removeItem(/(.*)delight:(.*)stove/)
 
 
 //Aquaculture
