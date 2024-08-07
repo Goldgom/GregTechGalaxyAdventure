@@ -2,6 +2,7 @@
 ## 4li77l3n00b
 ### Now working on (in priority order):
 - Early stage stone tools and recipes
+- New materials and New processing lines for making sand papers
 - Food related compat works
 - Can help with ammo assembly lines
 ### Notes:
