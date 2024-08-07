@@ -56,12 +56,15 @@ ServerEvents.tags('item', event => {
 	
 	event.add('mynethersdelight:powdery_logs', ['mynethersdelight:powdery_block', 'mynethersdelight:stripped_powdery_block'])
 
+	event.add('gbth:stoves', /bakery:(.*)stove/)
 	
 	//#region remove item tag
 	event.remove('create:sandpaper', ['create:sand_paper', 'create:red_sand_paper'])
 
 	event.remove('minecraft:planks', ['gtceu:treated_wood_planks', 'createdieselgenerators:chip_wood_block'])
 	event.remove('minecraft:wooden_slabs', 'createdieselgenerators:chip_wood_slab')
+
+	event.remove('gbth:stoves', /(.*)delight:(.*)stove/)
 })
 
 ServerEvents.tags('block', event => {
