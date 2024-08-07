@@ -111,35 +111,35 @@ ServerEvents.recipes(event => {
 event.recipes.gtceu.forming_press(AmmoModel[0].id + "_builder")
     .duration(40)
     .EUt(16)
-    .itemOutputs('8x'+ProcessedAmmo[0].id)
+    .itemOutputs('8x '+ProcessedAmmo[0].id)
     .itemInputs(['#forge:plates/brass'])
     .notConsumable(AmmoModel[0].id);
 
 event.recipes.gtceu.forming_press(AmmoModel[1].id + "_builder")
     .duration(200)
     .EUt(24)
-    .itemOutputs('4x'+ProcessedAmmo[1].id)
+    .itemOutputs('4x '+ProcessedAmmo[1].id)
     .itemInputs(['#forge:plates/iron'])
     .notConsumable(AmmoModel[1].id);
 
 event.recipes.gtceu.forming_press(AmmoModel[2].id + "_builder")
     .duration(100)
     .EUt(64)
-    .itemOutputs('4x'+ProcessedAmmo[2].id)
+    .itemOutputs('4x '+ProcessedAmmo[2].id)
     .itemInputs(['#forge:plates/brass'])
     .notConsumable(AmmoModel[2].id);
 
 event.recipes.gtceu.forming_press(AmmoModel[3].id + "_builder")
     .duration(40)
     .EUt(16)
-    .itemOutputs('10x'+ProcessedAmmo[3].id)
+    .itemOutputs('10x '+ProcessedAmmo[3].id)
     .itemInputs(['#forge:plates/brass'])
     .notConsumable(AmmoModel[3].id);
 
 event.recipes.gtceu.forming_press(AmmoModel[4].id + "_builder")
     .duration(160)
     .EUt(24)
-    .itemOutputs('4x'+ProcessedAmmo[4].id)
+    .itemOutputs('4x '+ProcessedAmmo[4].id)
     .itemInputs(['#forge:plates/steel'])
     .notConsumable(AmmoModel[4].id);
 
@@ -153,63 +153,63 @@ event.recipes.gtceu.forming_press(AmmoModel[5].id + "_builder")
 event.recipes.gtceu.forming_press(AmmoModel[6].id + "_builder")
     .duration(100)
     .EUt(32)
-    .itemOutputs('4x'+ProcessedAmmo[6].id)
+    .itemOutputs('4x '+ProcessedAmmo[6].id)
     .itemInputs(['#forge:plates/brass'])
     .notConsumable(AmmoModel[6].id);
 
 event.recipes.gtceu.forming_press(AmmoModel[7].id + "_builder")
     .duration(60)
     .EUt(20)
-    .itemOutputs('8x'+ProcessedAmmo[7].id)
+    .itemOutputs('8x '+ProcessedAmmo[7].id)
     .itemInputs(['#forge:plates/brass'])
     .notConsumable(AmmoModel[7].id);
 
 event.recipes.gtceu.forming_press(AmmoModel[8].id + "_builder")
     .duration(40)
     .EUt(26)
-    .itemOutputs('8x'+ProcessedAmmo[8].id)
+    .itemOutputs('8x '+ProcessedAmmo[8].id)
     .itemInputs(['#forge:plates/brass'])
     .notConsumable(AmmoModel[8].id);
 
 event.recipes.gtceu.forming_press(AmmoModel[9].id + "_builder")
     .duration(40)
     .EUt(42)
-    .itemOutputs('3x'+ProcessedAmmo[9].id)
+    .itemOutputs('3x '+ProcessedAmmo[9].id)
     .itemInputs(['#forge:plates/brass'])
     .notConsumable(AmmoModel[9].id);
 
 event.recipes.gtceu.forming_press(AmmoModel[10].id + "_builder")
     .duration(20)
     .EUt(16)
-    .itemOutputs('4x'+ProcessedAmmo[10].id)
+    .itemOutputs('4x '+ProcessedAmmo[10].id)
     .itemInputs(['#forge:plates/brass'])
     .notConsumable(AmmoModel[10].id);
 
 event.recipes.gtceu.forming_press(AmmoModel[11].id + "_builder")
     .duration(200)
     .EUt(32)
-    .itemOutputs('6x'+ProcessedAmmo[11].id)
+    .itemOutputs('6x '+ProcessedAmmo[11].id)
     .itemInputs(['#forge:plates/brass'])
     .notConsumable(AmmoModel[11].id);
 
 event.recipes.gtceu.forming_press(AmmoModel[12].id + "_builder")
     .duration(160)
     .EUt(64)
-    .itemOutputs('2x'+ProcessedAmmo[12].id)
+    .itemOutputs('2x '+ProcessedAmmo[12].id)
     .itemInputs(['#forge:plates/brass'])
     .notConsumable(AmmoModel[12].id);
 
 event.recipes.gtceu.forming_press(AmmoModel[13].id + "_builder")
     .duration(20)
     .EUt(48)
-    .itemOutputs('3x'+ProcessedAmmo[13].id)
+    .itemOutputs('3x '+ProcessedAmmo[13].id)
     .itemInputs(['#forge:ingots/magnetic_steel'])
     .notConsumable(AmmoModel[13].id);
 
 event.recipes.gtceu.forming_press(AmmoModel[14].id + "_builder")
     .duration(180)
     .EUt(42)
-    .itemOutputs('3x'+ProcessedAmmo[14].id)
+    .itemOutputs('3x '+ProcessedAmmo[14].id)
     .itemInputs(['#forge:plates/brass'])
     .notConsumable(AmmoModel[14].id);
 
@@ -230,49 +230,49 @@ event.recipes.gtceu.forming_press(AmmoModel[16].id + "_builder")
 event.recipes.gtceu.forming_press(AmmoModel[17].id + "_builder")
     .duration(100)
     .EUt(32)
-    .itemOutputs('4x'+ProcessedAmmo[17].id)
+    .itemOutputs('4x '+ProcessedAmmo[17].id)
     .itemInputs(['#forge:plates/brass'])
     .notConsumable(AmmoModel[17].id);
 
 event.recipes.gtceu.forming_press(AmmoModel[18].id + "_builder")
     .duration(140)
     .EUt(32)
-    .itemOutputs('6x'+ProcessedAmmo[18].id)
+    .itemOutputs('6x '+ProcessedAmmo[18].id)
     .itemInputs(['#forge:plates/brass'])
     .notConsumable(AmmoModel[18].id);
 
 event.recipes.gtceu.forming_press(AmmoModel[19].id + "_builder")
     .duration(160)
     .EUt(32)
-    .itemOutputs('5x'+ProcessedAmmo[19].id)
+    .itemOutputs('5x '+ProcessedAmmo[19].id)
     .itemInputs(['#forge:plates/brass'])
     .notConsumable(AmmoModel[19].id);
 
 event.recipes.gtceu.forming_press(AmmoModel[20].id + "_builder")
     .duration(60)
     .EUt(8)
-    .itemOutputs('16x'+ProcessedAmmo[20].id)
+    .itemOutputs('16x '+ProcessedAmmo[20].id)
     .itemInputs(['#forge:plates/lead'])
     .notConsumable(AmmoModel[20].id);
 
 event.recipes.gtceu.forming_press(AmmoModel[21].id + "_builder")
     .duration(400)
     .EUt(80)
-    .itemOutputs('2x'+ProcessedAmmo[21].id)
+    .itemOutputs('2x '+ProcessedAmmo[21].id)
     .itemInputs(['#forge:plates/brass'])
     .notConsumable(AmmoModel[21].id);
 
 event.recipes.gtceu.forming_press(AmmoModel[22].id + "_builder")
     .duration(220)
     .EUt(32)
-    .itemOutputs('4x'+ProcessedAmmo[22].id)
+    .itemOutputs('4x '+ProcessedAmmo[22].id)
     .itemInputs(['#forge:plates/brass'])
     .notConsumable(AmmoModel[22].id);
 
 event.recipes.gtceu.forming_press(AmmoModel[23].id + "_builder")
     .duration(240)
     .EUt(32)
-    .itemOutputs('4x'+ProcessedAmmo[23].id)
+    .itemOutputs('4x '+ProcessedAmmo[23].id)
     .itemInputs(['#forge:plates/copper'])
     .notConsumable(AmmoModel[23].id);
 
