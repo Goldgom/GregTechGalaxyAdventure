@@ -3,7 +3,7 @@ ServerEvents.recipes(event => {
   event.remove({id: 'gtceu:shaped/saw_stone'})
   event.remove({id: 'gtceu:shaped/mining_hammer_stone'})
 
-
+  
 
   bloomeryRecipe('minecraft:iron_ingot', 300, 'minecraft:iron_ingot', ['gtceu:wrought_iron_ingot', '#forge:gems/coke'])
 
