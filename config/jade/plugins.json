@@ -116,6 +116,9 @@
   "twilightforest": {
     "quest_ram_wool": true
   },
+  "untitledduckmod": {
+    "lay_egg": true
+  },
   "create": {
     "filter": true,
     "backtank_capacity": true,
