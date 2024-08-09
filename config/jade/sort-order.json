@@ -96,6 +96,15 @@
   "minecraft:total_enchantment_power": null,
   "minecraft:villager_profession": null,
   "minecraft:zombie_villager": null,
+  "monazite:auto_output_info": null,
+  "monazite:cable_info": null,
+  "monazite:exhaust_vent_info": null,
+  "monazite:machine_mode": null,
+  "monazite:maintenance_info": null,
+  "monazite:multiblock_structure": null,
+  "monazite:parallel": null,
+  "monazite:recipe_output_info": null,
+  "monazite:stained_color": null,
   "supplementaries:hat_stand": null,
   "supplementaries:present": null,
   "supplementaries:safe": null,
@@ -104,5 +113,6 @@
   "touhou_little_maid:picnic_mat": null,
   "touhou_little_maid:shrine_lamp": null,
   "touhou_little_maid:tombstone": null,
-  "twilightforest:quest_ram_wool": null
+  "twilightforest:quest_ram_wool": null,
+  "untitledduckmod:lay_egg": null
 }
