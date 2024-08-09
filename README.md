@@ -5,6 +5,7 @@
 - Aluminium oxide line
 - Can help with ammo assembly lines
 ### Todo List:
+- Compat work between ALL WORLDGEN MODS (HUGE WORK NEED HELP)
 - Paper making line
 - Silicone carbide line
 - Food related compat works
