@@ -1,5 +1,7 @@
-//priority: 999
+//priority: 1
 GTCEuStartupEvents.registry("gtceu:material", (event) => {
+    const PropertyKey = Java.loadClass('com.gregtechceu.gtceu.api.data.chemical.material.properties.PropertyKey')
+    const OreProperty = Java.loadClass('com.gregtechceu.gtceu.api.data.chemical.material.properties.OreProperty')
     event.create('gamma_alumina')
         .components('aluminium_oxide')
         .iconSet(GTMaterialIconSet.BRIGHT)
@@ -9,4 +11,30 @@ GTCEuStartupEvents.registry("gtceu:material", (event) => {
         .components('aluminium_hydroxide', 'sodium_aluminate', 'sodium_metasilicate')
         .iconSet(GTMaterialIconSet.BRIGHT)
         .dust()
+    
+    event.create('sodium_hydroxide_solution')
+        .components('sodium_hydroxide', 'water')
+        .iconSet(GTMaterialIconSet.FLUID)
+        ['fluid(com.gregtechceu.gtceu.api.fluids.store.FluidStorageKey,com.gregtechceu.gtceu.api.fluids.FluidBuilder)'](GTFluidStorageKeys.LIQUID, new GTFluidBuilder()
+          .temperature(25+273)
+          .color(0x66b3ff)
+          )
+    
+      event.create('hot_bayer_solution_with_impurities')
+        .color(0x9c2802)
+        .components('sodium_hydroxide', 'sodium_aluminate', 'sodium_metasilicate', 'water')
+        .iconSet(GTMaterialIconSet.FLUID)
+        ['fluid(com.gregtechceu.gtceu.api.fluids.store.FluidStorageKey,com.gregtechceu.gtceu.api.fluids.FluidBuilder)'](GTFluidStorageKeys.LIQUID, new GTFluidBuilder()
+          .temperature(175+273)
+          .color(0x9c2802)
+          )
+      
+      event.create('hot_bayer_solution')
+        .color(0x66b3ff)
+        .components('sodium_hydroxide', 'sodium_aluminate', 'sodium_metasilicate', 'water')
+        .iconSet(GTMaterialIconSet.FLUID)
+        ['fluid(com.gregtechceu.gtceu.api.fluids.store.FluidStorageKey,com.gregtechceu.gtceu.api.fluids.FluidBuilder)'](GTFluidStorageKeys.LIQUID, new GTFluidBuilder()
+          .temperature(175+273)
+          .color(0x66b3ff)
+          )
 })
