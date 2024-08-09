@@ -13,6 +13,8 @@ ServerEvents.recipes(event => {
 	event.remove({id: 'create:shaped/andesite_alloy' })
 	event.remove({id: 'create/splashing/magma_block'})
     event.remove({id: 'create:crafting/kinetics/super_glue'})
+	event.remove({id: 'create:crafting/materials/sand_paper'})
+	event.remove({id: 'create:crafting/materials/red_sand_paper'})
 
 	event.replaceInput({id: 'create:shaped/wrench'}, 'gtceu:gold_plate', 'gtceu:wrought_iron_plate')
 	event.replaceInput({id: 'create:crafting/kinetics/goggles'}, 'gtceu:gold_plate', 'gtceu:wrought_iron_plate')

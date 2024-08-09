@@ -5,5 +5,9 @@
     "tagprefix.mars_stone": "Mars %s Ore",
     "tagprefix.mercury_stone": "Mercury %s Ore",
     "tagprefix.venus_stone": "Venus %s Ore",
-    "tagprefix.glacio_stone": "Glacio %s Ore"
+    "tagprefix.glacio_stone": "Glacio %s Ore",
+
+    "material.gtceu.cryolite": "Cryolite",
+    "material.gtceu.alpha_alumina": "α-Alumina",
+    "material.gtceu.gamma_alumina": "γ-Alumina"
 }
