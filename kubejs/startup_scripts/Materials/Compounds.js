@@ -27,7 +27,7 @@ GTCEuStartupEvents.registry("gtceu:material", (event) => {
         .components('1x phosphorus', '4x oxygen')
 
     // Compounds
-    event.create('hematite')
+    event.create('ferric_oxide')
         .components('2x iron', '3x oxygen')
         .color(0xC80815)
         .iconSet(GTMaterialIconSet.BRIGHT)
@@ -62,7 +62,7 @@ GTCEuStartupEvents.registry("gtceu:material", (event) => {
         .iconSet(GTMaterialIconSet.BRIGHT)
         .dust()
 
-    event.create('potassium_flouride')
+    event.create('potassium_fluoride')
         .components('1x potassium', '1x fluorine')
         .iconSet(GTMaterialIconSet.BRIGHT)
         .dust()
@@ -73,7 +73,7 @@ GTCEuStartupEvents.registry("gtceu:material", (event) => {
         .dust()
 
     event.create('sodium_metasilicate')
-        .components('2x sodium', '1x silicate')
+        .components('2x sodium', '1x metasilicate')
         .iconSet(GTMaterialIconSet.BRIGHT)
         .dust()
 
@@ -94,14 +94,14 @@ GTCEuStartupEvents.registry("gtceu:material", (event) => {
         .dust()
 
     //Relatively complex compounds
-    // event.create('tricalcium_aluminate')
-    //     .components('3x quicklime', '1x aluminium_oxide', '6x water')
-    //     .color(0xFFF9D7)
-    //     .iconSet(GTMaterialIconSet.BRIGHT)
-    //     .dust()
+    event.create('tricalcium_aluminate')
+        .components('3x quicklime', '1x aluminium_oxide', '6x water')
+        .color(0xFFF9D7)
+        .iconSet(GTMaterialIconSet.BRIGHT)
+        .dust()
 
     event.create('muscovite')
-        .components('2x potassium_flouride', '3x aluminium_oxide', '6x silica', '1x water')
+        .components('2x potassium_fluoride', '3x aluminium_oxide', '6x silica', '1x water')
         .iconSet(GTMaterialIconSet.BRIGHT)
         .gem()
             

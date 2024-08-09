@@ -1,3 +1,4 @@
+//ignored: true
 GTCEuStartupEvents.registry('gtceu:machine', event => {
     event.create('vacuum_filter', 'simple', GTValues.LV, GTValues.MV, GTValues.HV) 
         .rotationState(RotationState.NON_Y_AXIS)

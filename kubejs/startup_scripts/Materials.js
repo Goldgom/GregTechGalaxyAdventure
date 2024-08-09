@@ -1,4 +1,4 @@
-//priority: 1
+//priority: 10
 const $BloomProperty = Java.loadClass("com.gbth.gbthcore.gtceu.material.BloomProperty");
 
 GTCEuStartupEvents.registry("gtceu:material", (event) => {
@@ -40,17 +40,5 @@ GTCEuStartupEvents.registry("gtceu:material", (event) => {
   GTMaterials.Stone.setProperty(PropertyKey.TOOL, ToolProperty.Builder.of(0, 3, 64, 1)
       .addTypes([GTToolType.HARD_HAMMER,GTToolType.FILE])
       .build())
-
-  function newSolution(name, components, variants) {
-    variants.array.forEach(variant => {
-      event.create(variant.name + '_' + name)
-      .components(components)
-      .iconSet(GTMaterialIconSet.FLUID)
-      ['fluid(com.gregtechceu.gtceu.api.fluids.store.FluidStorageKey,com.gregtechceu.gtceu.api.fluids.FluidBuilder)'](GTFluidStorageKeys.LIQUID, new GTFluidBuilder()
-        .temperature(variant.temperature)
-        .color(variant.color)
-        )
-    });
     
-  }
 })
