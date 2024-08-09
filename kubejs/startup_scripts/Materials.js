@@ -5,31 +5,31 @@ GTCEuStartupEvents.registry("gtceu:material", (event) => {
   const PropertyKey = Java.loadClass('com.gregtechceu.gtceu.api.data.chemical.material.properties.PropertyKey')
   const OreProperty = Java.loadClass('com.gregtechceu.gtceu.api.data.chemical.material.properties.OreProperty')
 
-  //Solution Object
-  var Solution = {
-    name, 
-    components, 
-    temperature: 25+273, 
-    color, 
-    density: 1.0, 
-    viscosity: 0.00894, 
-    luminosity: -1,
-    iconSet: GTMaterialIconSet.FLUID, 
-    flags: [GTMaterialFlags.DISABLE_DECOMPOSITION],
-    register: function() {
-      event.create(this.name)
-      .components(this.components)
-      .iconSet(this.iconSet)
-      ['fluid(com.gregtechceu.gtceu.api.fluids.store.FluidStorageKey,com.gregtechceu.gtceu.api.fluids.FluidBuilder)'](GTFluidStorageKeys.LIQUID, new GTFluidBuilder()
-        .temperature(this.temperature)
-        .color(this.color)
-        .density(this.density)
-        .viscosity(this.viscosity)
-        .luminosity(this.luminosity)
-        )
-        .flags(this.flags)
-    }
-  }
+  // //Solution Object
+  // var Solution = {
+  //   name, 
+  //   components, 
+  //   temperature: 25+273, 
+  //   color, 
+  //   density: 1.0, 
+  //   viscosity: 0.00894, 
+  //   luminosity: -1,
+  //   iconSet: GTMaterialIconSet.FLUID, 
+  //   flags: [GTMaterialFlags.DISABLE_DECOMPOSITION],
+  //   register: function() {
+  //     event.create(this.name)
+  //     .components(this.components)
+  //     .iconSet(this.iconSet)
+  //     ['fluid(com.gregtechceu.gtceu.api.fluids.store.FluidStorageKey,com.gregtechceu.gtceu.api.fluids.FluidBuilder)'](GTFluidStorageKeys.LIQUID, new GTFluidBuilder()
+  //       .temperature(this.temperature)
+  //       .color(this.color)
+  //       .density(this.density)
+  //       .viscosity(this.viscosity)
+  //       .luminosity(this.luminosity)
+  //       )
+  //       .flags(this.flags)
+  //   }
+  // }
 
 
   //Add materials

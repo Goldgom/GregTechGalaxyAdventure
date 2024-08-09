@@ -1,4 +1,4 @@
-[01:11:12] [WARN] [FabricLoader/Resolution]: Mod resolution failed
-[01:11:12] [INFO] [FabricLoader/Resolution]: Immediate reason: [HARD_DEP_NO_CANDIDATE natures_spirit 1.6.0-1.20.1 {depends terrablender @ [*]}, ROOT_FORCELOAD_SINGLE natures_spirit 1.6.0-1.20.1]
-[01:11:12] [INFO] [FabricLoader/Resolution]: Reason: [HARD_DEP natures_spirit 1.6.0-1.20.1 {depends terrablender @ [*]}]
-[01:11:12] [INFO] [FabricLoader/Resolution]: Fix: add [add:terrablender 1 ([(-∞,∞)])], remove [], replace []
+[15:19:38] [WARN] [FabricLoader/Resolution]: Mod resolution failed
+[15:19:38] [INFO] [FabricLoader/Resolution]: Immediate reason: [HARD_DEP_NO_CANDIDATE lambdabettergrass 1.5.2+1.20.1 {depends cloth-config @ [*]}, ROOT_FORCELOAD_SINGLE lambdabettergrass 1.5.2+1.20.1]
+[15:19:38] [INFO] [FabricLoader/Resolution]: Reason: [HARD_DEP lambdabettergrass 1.5.2+1.20.1 {depends cloth-config @ [*]}, HARD_DEP natures_melody 1.0.0 {depends fabric @ [*]}, HARD_DEP natures_spirit 1.6.0-1.20.1 {depends fabric @ [*]}, HARD_DEP natures_spirit 1.6.0-1.20.1 {depends terrablender @ [*]}]
+[15:19:38] [INFO] [FabricLoader/Resolution]: Fix: add [add:cloth-config 1 ([(-∞,∞)]), add:fabric 1 ([(-∞,∞)]), add:terrablender 1 ([(-∞,∞)])], remove [], replace []

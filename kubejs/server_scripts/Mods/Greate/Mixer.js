@@ -10,5 +10,5 @@ ServerEvents.recipes(event => {
 	event.recipes.greate.mixing(Fluid.of('gtceu:hot_bayer_solution', 1000), [
 		'2x gtceu:bauxite_dust',
 		Fluid.of('gtceu:sodium_hydroxide_solution', 1000)
-	]).heated().duration(2000)
+	]).heated()
 })
