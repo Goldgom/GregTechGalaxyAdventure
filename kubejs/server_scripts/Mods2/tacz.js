@@ -101,7 +101,7 @@ ServerEvents.recipes(event => {
         { id: 'model_tacz_ammo_tacz:762x25', displayName: ' TACZ:762X25 Ammo Model' },
         { id: 'model_tacz_ammo_tacz:556x45', displayName: ' TACZ:556X45 Ammo Model' },
         { id: 'model_tacz_ammo_tacz:58x42', displayName: ' TACZ:58X42 Ammo Model' },
-        { id: 'model_tacz_ammo_lradd:flintlock_bullet', displayName: ' LRADD:FLINTLOCK_BULLET Ammo Model' },
+        { id: 'model_tacz_ammo_lradd:', displayName: ' LRADD:FLINTLOCK_BULLET Ammo Model' },
         { id: 'model_tacz_ammo_lradd:m993', displayName: ' LRADD:M993 Ammo Model' },
         { id: 'model_tacz_ammo_tacz:762x39', displayName: ' TACZ:762X39 Ammo Model' },
         { id: 'model_tacz_ammo_tacz:762x54', displayName: ' TACZ:762X54 Ammo Model' }
@@ -112,91 +112,91 @@ event.recipes.gtceu.forming_press(AmmoModel[0].id + "_builder")
     .duration(40)
     .EUt(16)
     .itemOutputs('8x '+ProcessedAmmo[0].id)
-    .itemInputs(['#forge:plates/brass'])
+    .itemInputs(['gtceu:brass_plate'])
     .notConsumable(AmmoModel[0].id);
 
 event.recipes.gtceu.forming_press(AmmoModel[1].id + "_builder")
     .duration(200)
     .EUt(24)
     .itemOutputs('4x '+ProcessedAmmo[1].id)
-    .itemInputs(['#forge:plates/iron'])
+    .itemInputs(['gtceu:iron_plate'])
     .notConsumable(AmmoModel[1].id);
 
 event.recipes.gtceu.forming_press(AmmoModel[2].id + "_builder")
     .duration(100)
     .EUt(64)
     .itemOutputs('4x '+ProcessedAmmo[2].id)
-    .itemInputs(['#forge:plates/brass'])
+    .itemInputs(['gtceu:brass_plate'])
     .notConsumable(AmmoModel[2].id);
 
 event.recipes.gtceu.forming_press(AmmoModel[3].id + "_builder")
     .duration(40)
     .EUt(16)
     .itemOutputs('10x '+ProcessedAmmo[3].id)
-    .itemInputs(['#forge:plates/brass'])
+    .itemInputs(['gtceu:brass_plate'])
     .notConsumable(AmmoModel[3].id);
 
 event.recipes.gtceu.forming_press(AmmoModel[4].id + "_builder")
     .duration(160)
     .EUt(24)
     .itemOutputs('4x '+ProcessedAmmo[4].id)
-    .itemInputs(['#forge:plates/steel'])
+    .itemInputs(['gtceu:steel_plate'])
     .notConsumable(AmmoModel[4].id);
 
 event.recipes.gtceu.forming_press(AmmoModel[5].id + "_builder")
     .duration(400)
     .EUt(512)
     .itemOutputs(ProcessedAmmo[5].id)
-    .itemInputs(['#forge:plates/brass'])
+    .itemInputs(['gtceu:brass_plate'])
     .notConsumable(AmmoModel[5].id);
 
 event.recipes.gtceu.forming_press(AmmoModel[6].id + "_builder")
     .duration(100)
     .EUt(32)
     .itemOutputs('4x '+ProcessedAmmo[6].id)
-    .itemInputs(['#forge:plates/brass'])
+    .itemInputs(['gtceu:brass_plate'])
     .notConsumable(AmmoModel[6].id);
 
 event.recipes.gtceu.forming_press(AmmoModel[7].id + "_builder")
     .duration(60)
     .EUt(20)
     .itemOutputs('8x '+ProcessedAmmo[7].id)
-    .itemInputs(['#forge:plates/brass'])
+    .itemInputs(['gtceu:brass_plate'])
     .notConsumable(AmmoModel[7].id);
 
 event.recipes.gtceu.forming_press(AmmoModel[8].id + "_builder")
     .duration(40)
     .EUt(26)
     .itemOutputs('8x '+ProcessedAmmo[8].id)
-    .itemInputs(['#forge:plates/brass'])
+    .itemInputs(['gtceu:brass_plate'])
     .notConsumable(AmmoModel[8].id);
 
 event.recipes.gtceu.forming_press(AmmoModel[9].id + "_builder")
     .duration(40)
     .EUt(42)
     .itemOutputs('3x '+ProcessedAmmo[9].id)
-    .itemInputs(['#forge:plates/brass'])
+    .itemInputs(['gtceu:brass_plate'])
     .notConsumable(AmmoModel[9].id);
 
 event.recipes.gtceu.forming_press(AmmoModel[10].id + "_builder")
     .duration(20)
     .EUt(16)
     .itemOutputs('4x '+ProcessedAmmo[10].id)
-    .itemInputs(['#forge:plates/brass'])
+    .itemInputs(['gtceu:brass_plate'])
     .notConsumable(AmmoModel[10].id);
 
 event.recipes.gtceu.forming_press(AmmoModel[11].id + "_builder")
     .duration(200)
     .EUt(32)
     .itemOutputs('6x '+ProcessedAmmo[11].id)
-    .itemInputs(['#forge:plates/brass'])
+    .itemInputs(['gtceu:brass_plate'])
     .notConsumable(AmmoModel[11].id);
 
 event.recipes.gtceu.forming_press(AmmoModel[12].id + "_builder")
     .duration(160)
     .EUt(64)
     .itemOutputs('2x '+ProcessedAmmo[12].id)
-    .itemInputs(['#forge:plates/brass'])
+    .itemInputs(['gtceu:brass_plate'])
     .notConsumable(AmmoModel[12].id);
 
 event.recipes.gtceu.forming_press(AmmoModel[13].id + "_builder")
@@ -210,14 +210,14 @@ event.recipes.gtceu.forming_press(AmmoModel[14].id + "_builder")
     .duration(180)
     .EUt(42)
     .itemOutputs('3x '+ProcessedAmmo[14].id)
-    .itemInputs(['#forge:plates/brass'])
+    .itemInputs(['gtceu:brass_plate'])
     .notConsumable(AmmoModel[14].id);
 
 event.recipes.gtceu.forming_press(AmmoModel[15].id + "_builder")
     .duration(300)
     .EUt(128)
     .itemOutputs(ProcessedAmmo[15].id)
-    .itemInputs(['#forge:plates/steel','#forge:plates/steel'])
+    .itemInputs(['gtceu:steel_plate','gtceu:steel_plate'])
     .notConsumable(AmmoModel[15].id);
 
 event.recipes.gtceu.forming_press(AmmoModel[16].id + "_builder")
@@ -231,42 +231,42 @@ event.recipes.gtceu.forming_press(AmmoModel[17].id + "_builder")
     .duration(100)
     .EUt(32)
     .itemOutputs('4x '+ProcessedAmmo[17].id)
-    .itemInputs(['#forge:plates/brass'])
+    .itemInputs(['gtceu:brass_plate'])
     .notConsumable(AmmoModel[17].id);
 
 event.recipes.gtceu.forming_press(AmmoModel[18].id + "_builder")
     .duration(140)
     .EUt(32)
     .itemOutputs('6x '+ProcessedAmmo[18].id)
-    .itemInputs(['#forge:plates/brass'])
+    .itemInputs(['gtceu:brass_plate'])
     .notConsumable(AmmoModel[18].id);
 
 event.recipes.gtceu.forming_press(AmmoModel[19].id + "_builder")
     .duration(160)
     .EUt(32)
     .itemOutputs('5x '+ProcessedAmmo[19].id)
-    .itemInputs(['#forge:plates/brass'])
+    .itemInputs(['gtceu:brass_plate'])
     .notConsumable(AmmoModel[19].id);
 
 event.recipes.gtceu.forming_press(AmmoModel[20].id + "_builder")
     .duration(60)
     .EUt(8)
     .itemOutputs('16x '+ProcessedAmmo[20].id)
-    .itemInputs(['#forge:plates/lead'])
+    .itemInputs(['gtceu:lead_plate'])
     .notConsumable(AmmoModel[20].id);
 
 event.recipes.gtceu.forming_press(AmmoModel[21].id + "_builder")
     .duration(400)
     .EUt(80)
     .itemOutputs('2x '+ProcessedAmmo[21].id)
-    .itemInputs(['#forge:plates/brass'])
+    .itemInputs(['gtceu:brass_plate'])
     .notConsumable(AmmoModel[21].id);
 
 event.recipes.gtceu.forming_press(AmmoModel[22].id + "_builder")
     .duration(220)
     .EUt(32)
     .itemOutputs('4x '+ProcessedAmmo[22].id)
-    .itemInputs(['#forge:plates/brass'])
+    .itemInputs(['gtceu:brass_plate'])
     .notConsumable(AmmoModel[22].id);
 
 event.recipes.gtceu.forming_press(AmmoModel[23].id + "_builder")
@@ -276,39 +276,824 @@ event.recipes.gtceu.forming_press(AmmoModel[23].id + "_builder")
     .itemInputs(['#forge:plates/copper'])
     .notConsumable(AmmoModel[23].id);
 
-    event.recipes.createSequencedAssembly(
-        // 输出物品及概率
-        [
-            Item.of('tacz:ammo', 4, '{AmmoId:"tacz:45acp"}').withChance(1.0),
-            Item.of('#forge:nuggets/brass').withChance(0.25)
-        ],
-        // 输入物品
-        '#forge:rods/brass',
-        // 参与机器--按顺序加工
-        [  
-            // 参与机器--切石机
-            event.recipes.greate.cutting(incompletedAmmo[0].id,incompletedAmmo[0].id),
-            // 参与机器--鼓风机
+
+
+
+event.recipes.createSequencedAssembly(
+    // 输出物品及概率
+    [
+        ammoTypes[0]
+    ],
+    // 输入物品
+    ProcessedAmmo[0].id,
+    // 参与机器--按顺序加工
+    [  
+        // 参与机器--注液（蒸汽清洗）
+        event.recipes.create.filling(incompletedAmmo[0].id, [incompletedAmmo[0].id,Fluid.of('gtceu:steam', 100)]),
+        // 参与机器--机械手
+        event.recipes.createDeploying(incompletedAmmo[0].id, [incompletedAmmo[0].id, '#forge:tiny_dusts/gunpowder']),
+        // 参与机器--压片
+        event.recipes.greate.pressing(incompletedAmmo[0].id,incompletedAmmo[0].id)
+        .recipeTier(1)
+        .circuitNumber(1),
+        // 参与机器--机械手
+        event.recipes.createDeploying(incompletedAmmo[0].id, [incompletedAmmo[0].id, '#forge:nuggets/brass']),
+        // 参与机器--切石机
+        event.recipes.create.cutting(incompletedAmmo[0].id,incompletedAmmo[0].id),
+        // 参与机器--压片
+        event.recipes.greate.pressing(incompletedAmmo[0].id,incompletedAmmo[0].id)
+        .recipeTier(0)
+        .circuitNumber(2),
+    ]
+)
+.transitionalItem(incompletedAmmo[0].id)
+.loops(1);
+
+event.recipes.createSequencedAssembly(
+    // 输出物品及概率
+    [
+        ammoTypes[1]
+    ],
+    // 输入物品
+    ProcessedAmmo[1].id,
+    // 参与机器--按顺序加工
+    [  
+        // 参与机器--注液（蒸汽清洗）
+        event.recipes.create.filling(incompletedAmmo[0].id, [incompletedAmmo[0].id,Fluid.of('gtceu:steam', 100)]),
+        // 参与机器--注液（盐水）
+        event.recipes.create.filling(incompletedAmmo[0].id, [incompletedAmmo[0].id,Fluid.of('gtceu:salt_water', 50)]),
+        // 参与机器--注液（生物质）
+        event.recipes.create.filling(incompletedAmmo[0].id, [incompletedAmmo[0].id,Fluid.of('gtceu:fermented_biomass', 50)]),
+        // 参与机器--机械手
+        event.recipes.createDeploying(incompletedAmmo[0].id, [incompletedAmmo[0].id, '#forge:feathers']),
+        // 参与机器--机械手
+        event.recipes.createDeploying(incompletedAmmo[0].id, [incompletedAmmo[0].id, '#forge:feathers']),
+        // 参与机器--机械手
+        event.recipes.createDeploying(incompletedAmmo[0].id, [incompletedAmmo[0].id, '#forge:feathers']),
+        // 参与机器--机械手
+        event.recipes.createDeploying(incompletedAmmo[0].id, [incompletedAmmo[0].id, '#forge:feathers']),
+        // 参与机器--压片
+        event.recipes.greate.pressing(incompletedAmmo[0].id,incompletedAmmo[0].id)
+        .recipeTier(1)
+        .circuitNumber(0),
+    ]
+)
+.transitionalItem(incompletedAmmo[1].id)
+.loops(1);
+
+event.recipes.createSequencedAssembly(
+    // 输出物品及概率
+    [
+        ammoTypes[2]
+    ],
+    // 输入物品
+    ProcessedAmmo[2].id,
+    // 参与机器--按顺序加工
+    [  
+        // 参与机器--注液（蒸汽清洗）
+        event.recipes.create.filling(incompletedAmmo[0].id, [incompletedAmmo[0].id,Fluid.of('gtceu:steam', 100)]),
+        // 参与机器--机械手
+        event.recipes.createDeploying(incompletedAmmo[0].id, [incompletedAmmo[0].id, '#forge:small_dusts/gunpowder']),
+        // 参与机器--压片
+        event.recipes.greate.pressing(incompletedAmmo[0].id,incompletedAmmo[0].id)
+        .recipeTier(1)
+        .circuitNumber(1),
+        // 参与机器--机械手
+        event.recipes.createDeploying(incompletedAmmo[0].id, [incompletedAmmo[0].id, '#forge:tiny_dusts/gunpowder']),
+        // 参与机器--压片
+        event.recipes.greate.pressing(incompletedAmmo[0].id,incompletedAmmo[0].id)
+        .recipeTier(1)
+        .circuitNumber(1),
+        // 参与机器--机械手
+        event.recipes.createDeploying(incompletedAmmo[0].id, [incompletedAmmo[0].id, '#forge:nuggets/brass']),
+        // 参与机器--切石机
+        event.recipes.create.cutting(incompletedAmmo[0].id,incompletedAmmo[0].id),
+        // 参与机器--压片
+        event.recipes.greate.pressing(incompletedAmmo[0].id,incompletedAmmo[0].id)
+        .recipeTier(1)
+        .circuitNumber(0),
+    ]
+)
+.transitionalItem(incompletedAmmo[2].id)
+.loops(1);
+
+event.recipes.createSequencedAssembly(
+    // 输出物品及概率
+    [
+        ammoTypes[3]
+    ],
+    // 输入物品
+    ProcessedAmmo[3].id,
+    // 参与机器--按顺序加工
+    [  
+        // 参与机器--注液（蒸汽清洗）
+        event.recipes.create.filling(incompletedAmmo[0].id, [incompletedAmmo[0].id,Fluid.of('gtceu:steam', 100)]),
+        // 参与机器--机械手
+        event.recipes.createDeploying(incompletedAmmo[0].id, [incompletedAmmo[0].id, '#forge:tiny_dusts/gunpowder']),
+        // 参与机器--压片
+        event.recipes.greate.pressing(incompletedAmmo[0].id,incompletedAmmo[0].id)
+        .recipeTier(1)
+        .circuitNumber(1),
+        // 参与机器--机械手
+        event.recipes.createDeploying(incompletedAmmo[0].id, [incompletedAmmo[0].id, '#forge:nuggets/brass']),
+        // 参与机器--切石机
+        event.recipes.create.cutting(incompletedAmmo[0].id,incompletedAmmo[0].id),
+        // 参与机器--压片
+        event.recipes.greate.pressing(incompletedAmmo[0].id,incompletedAmmo[0].id)
+        .recipeTier(1)
+        .circuitNumber(0),
+    ]
+)
+.transitionalItem(incompletedAmmo[3].id)
+.loops(1);
+
+event.recipes.createSequencedAssembly(
+    // 输出物品及概率
+    [
+        ammoTypes[4]
+    ],
+    // 输入物品
+    ProcessedAmmo[4].id,
+    // 参与机器--按顺序加工
+    [  
+        // 参与机器--注液（蒸汽清洗）
+        event.recipes.create.filling(incompletedAmmo[0].id, [incompletedAmmo[0].id,Fluid.of('gtceu:steam', 100)]),
+        // 参与机器--切石机
+        event.recipes.create.cutting(incompletedAmmo[0].id,incompletedAmmo[0].id),
+        // 参与机器--机械手
+        event.recipes.createDeploying(incompletedAmmo[0].id, [incompletedAmmo[0].id, '#forge:tiny_dusts/gunpowder']),
+        // 参与机器--机械手
+        event.recipes.createDeploying(incompletedAmmo[0].id, [incompletedAmmo[0].id, '#forge:feathers']),
+        // 参与机器--机械手
+        event.recipes.createDeploying(incompletedAmmo[0].id, [incompletedAmmo[0].id, '#forge:feathers']),
+        // 参与机器--机械手
+        event.recipes.createDeploying(incompletedAmmo[0].id, [incompletedAmmo[0].id, '#forge:feathers']),
+        // 参与机器--机械手
+        event.recipes.createDeploying(incompletedAmmo[0].id, [incompletedAmmo[0].id, '#forge:feathers']),
+        // 参与机器--压片
+        event.recipes.greate.pressing(incompletedAmmo[0].id,incompletedAmmo[0].id)
+        .recipeTier(1)
+        .circuitNumber(0),
+    ]
+)
+.transitionalItem(incompletedAmmo[4].id)
+.loops(1);
+
+event.recipes.createSequencedAssembly(
+    // 输出物品及概率
+    [
+        ammoTypes[5]
+    ],
+    // 输入物品
+    ProcessedAmmo[5].id,
+    // 参与机器--按顺序加工
+    [  
+        // 参与机器--注液（蒸汽清洗）
+        event.recipes.create.filling(incompletedAmmo[0].id, [incompletedAmmo[0].id,Fluid.of('gtceu:steam', 100)]),
+        // 参与机器--机械手
+        event.recipes.createDeploying(incompletedAmmo[0].id, [incompletedAmmo[0].id, '#forge:gunpowder']),
+        // 参与机器--压片
+        event.recipes.greate.pressing(incompletedAmmo[0].id,incompletedAmmo[0].id)
+        .recipeTier(3)
+        .circuitNumber(1),
+        // 参与机器--机械手
+        event.recipes.createDeploying(incompletedAmmo[0].id, [incompletedAmmo[0].id,'gtceu:small_gunpowder_dust']),
+        // 参与机器--压片
+        event.recipes.greate.pressing(incompletedAmmo[0].id,incompletedAmmo[0].id)
+        .recipeTier(1)
+        .circuitNumber(1),
+        // 参与机器--机械手
+        event.recipes.createDeploying(incompletedAmmo[0].id, [incompletedAmmo[0].id, '#forge:nuggets/brass']),
+        // 参与机器--切石机
+        event.recipes.create.cutting(incompletedAmmo[0].id,incompletedAmmo[0].id),
+        // 参与机器--压片
+        event.recipes.greate.pressing(incompletedAmmo[0].id,incompletedAmmo[0].id)
+        .recipeTier(2)
+        .circuitNumber(0),
+    ]
+)
+.transitionalItem(incompletedAmmo[5].id)
+.loops(1);
+
+event.recipes.createSequencedAssembly(
+    // 输出物品及概率
+    [
+        ammoTypes[6]
+    ],
+    // 输入物品
+    ProcessedAmmo[6].id,
+    // 参与机器--按顺序加工
+    [  
+        // 参与机器--注液（蒸汽清洗）
+        event.recipes.create.filling(incompletedAmmo[0].id, [incompletedAmmo[0].id,Fluid.of('gtceu:steam', 100)]),
+        // 参与机器--机械手
+        event.recipes.createDeploying(incompletedAmmo[0].id, [incompletedAmmo[0].id, '#forge:small_dusts/gunpowder']),
+        // 参与机器--压片
+        event.recipes.greate.pressing(incompletedAmmo[0].id,incompletedAmmo[0].id)
+        .recipeTier(1)
+        .circuitNumber(1),
+        // 参与机器--机械手
+        event.recipes.createDeploying(incompletedAmmo[0].id, [incompletedAmmo[0].id, '#forge:tiny_dusts/gunpowder']),
+        // 参与机器--压片
+        event.recipes.greate.pressing(incompletedAmmo[0].id,incompletedAmmo[0].id)
+        .recipeTier(1)
+        .circuitNumber(1),
+        // 参与机器--机械手
+        event.recipes.createDeploying(incompletedAmmo[0].id, [incompletedAmmo[0].id, '#forge:nuggets/brass']),
+        // 参与机器--切石机
+        event.recipes.create.cutting(incompletedAmmo[0].id,incompletedAmmo[0].id),
+        // 参与机器--压片
+        event.recipes.greate.pressing(incompletedAmmo[0].id,incompletedAmmo[0].id)
+        .recipeTier(1)
+        .circuitNumber(0),
+    ]
+)
+.transitionalItem(incompletedAmmo[6].id)
+.loops(1);
+
+
+event.recipes.createSequencedAssembly(
+    // 输出物品及概率
+    [
+        ammoTypes[7]
+    ],
+    // 输入物品
+    ProcessedAmmo[7].id,
+    // 参与机器--按顺序加工
+    [  
+        // 参与机器--注液（蒸汽清洗）
+        event.recipes.create.filling(incompletedAmmo[0].id, [incompletedAmmo[0].id,Fluid.of('gtceu:steam', 100)]),
+        // 参与机器--机械手
+        event.recipes.createDeploying(incompletedAmmo[0].id, [incompletedAmmo[0].id, '#forge:tiny_dusts/gunpowder']),
+        // 参与机器--压片
+        event.recipes.greate.pressing(incompletedAmmo[0].id,incompletedAmmo[0].id)
+        .recipeTier(1)
+        .circuitNumber(1),
+        // 参与机器--机械手
+        event.recipes.createDeploying(incompletedAmmo[0].id, [incompletedAmmo[0].id, '#forge:tiny_dusts/gunpowder']),
+        // 参与机器--压片
+        event.recipes.greate.pressing(incompletedAmmo[0].id,incompletedAmmo[0].id)
+        .recipeTier(1)
+        .circuitNumber(1),
+        // 参与机器--机械手
+        event.recipes.createDeploying(incompletedAmmo[0].id, [incompletedAmmo[0].id, '#forge:nuggets/brass']),
+        // 参与机器--切石机
+        event.recipes.create.cutting(incompletedAmmo[0].id,incompletedAmmo[0].id),
+        // 参与机器--压片
+        event.recipes.greate.pressing(incompletedAmmo[0].id,incompletedAmmo[0].id)
+        .recipeTier(1)
+        .circuitNumber(0),
+    ]
+)
+.transitionalItem(incompletedAmmo[7].id)
+.loops(1);
+
+event.recipes.createSequencedAssembly(
+    // 输出物品及概率
+    [
+        ammoTypes[8]
+    ],
+    // 输入物品
+    ProcessedAmmo[8].id,
+    // 参与机器--按顺序加工
+    [  
+        // 参与机器--注液（蒸汽清洗）
+        event.recipes.create.filling(incompletedAmmo[0].id, [incompletedAmmo[0].id,Fluid.of('gtceu:steam', 100)]),
+        // 参与机器--机械手
+        event.recipes.createDeploying(incompletedAmmo[0].id, [incompletedAmmo[0].id, '#forge:tiny_dusts/gunpowder']),
+        // 参与机器--压片
+        event.recipes.greate.pressing(incompletedAmmo[0].id,incompletedAmmo[0].id)
+        .recipeTier(1)
+        .circuitNumber(1),
+        // 参与机器--机械手
+        event.recipes.createDeploying(incompletedAmmo[0].id, [incompletedAmmo[0].id, '#forge:tiny_dusts/gunpowder']),
+        // 参与机器--压片
+        event.recipes.greate.pressing(incompletedAmmo[0].id,incompletedAmmo[0].id)
+        .recipeTier(1)
+        .circuitNumber(1),
+        // 参与机器--机械手
+        event.recipes.createDeploying(incompletedAmmo[0].id, [incompletedAmmo[0].id, '#forge:nuggets/brass']),
+        // 参与机器--切石机
+        event.recipes.create.cutting(incompletedAmmo[0].id,incompletedAmmo[0].id),
+        // 参与机器--压片
+        event.recipes.greate.pressing(incompletedAmmo[0].id,incompletedAmmo[0].id)
+        .recipeTier(1)
+        .circuitNumber(0),
+    ]
+)
+.transitionalItem(incompletedAmmo[8].id)
+.loops(1);
+
+event.recipes.createSequencedAssembly(
+    // 输出物品及概率
+    [
+        ammoTypes[9]
+    ],
+    // 输入物品
+    ProcessedAmmo[9].id,
+    // 参与机器--按顺序加工
+    [  
+        // 参与机器--注液（蒸汽清洗）
+        event.recipes.create.filling(incompletedAmmo[0].id, [incompletedAmmo[0].id,Fluid.of('gtceu:steam', 100)]),
+        // 参与机器--机械手
+        event.recipes.createDeploying(incompletedAmmo[0].id, [incompletedAmmo[0].id, '#forge:small_dusts/gunpowder']),
+        // 参与机器--压片
+        event.recipes.greate.pressing(incompletedAmmo[0].id,incompletedAmmo[0].id)
+        .recipeTier(1)
+        .circuitNumber(1),
+        // 参与机器--机械手
+        event.recipes.createDeploying(incompletedAmmo[0].id, [incompletedAmmo[0].id, '#forge:small_dusts/gunpowder']),
+        // 参与机器--压片
+        event.recipes.greate.pressing(incompletedAmmo[0].id,incompletedAmmo[0].id)
+        .recipeTier(2)
+        .circuitNumber(1),
+        // 参与机器--机械手
+        event.recipes.createDeploying(incompletedAmmo[0].id, [incompletedAmmo[0].id, '#forge:nuggets/brass']),
+        // 参与机器--切石机
+        event.recipes.create.cutting(incompletedAmmo[0].id,incompletedAmmo[0].id),
+        // 参与机器--压片
+        event.recipes.greate.pressing(incompletedAmmo[0].id,incompletedAmmo[0].id)
+        .recipeTier(1)
+        .circuitNumber(0),
+    ]
+)
+.transitionalItem(incompletedAmmo[9].id)
+.loops(1);
+
+event.recipes.createSequencedAssembly(
+    // 输出物品及概率
+    [
+        ammoTypes[10]
+    ],
+    // 输入物品
+    ProcessedAmmo[10].id,
+    // 参与机器--按顺序加工
+    [  
+        // 参与机器--注液（蒸汽清洗）
+        event.recipes.create.filling(incompletedAmmo[0].id, [incompletedAmmo[0].id,Fluid.of('gtceu:steam', 100)]),
+        // 参与机器--机械手
+        event.recipes.createDeploying(incompletedAmmo[0].id, [incompletedAmmo[0].id, '#forge:small_dusts/gunpowder']),
+        // 参与机器--压片
+        event.recipes.greate.pressing(incompletedAmmo[0].id,incompletedAmmo[0].id)
+        .recipeTier(1)
+        .circuitNumber(1),
+        // 参与机器--机械手
+        event.recipes.createDeploying(incompletedAmmo[0].id, [incompletedAmmo[0].id, '#forge:nuggets/steel']),
+        // 参与机器--机械手
+        event.recipes.createDeploying(incompletedAmmo[0].id, [incompletedAmmo[0].id, '#forge:nuggets/steel']),
+        // 参与机器--机械手
+        event.recipes.createDeploying(incompletedAmmo[0].id, [incompletedAmmo[0].id, '#forge:nuggets/steel']),
+        // 参与机器--机械手
+        event.recipes.createDeploying(incompletedAmmo[0].id, [incompletedAmmo[0].id, '#forge:nuggets/steel']),
+        // 参与机器--机械手
+        event.recipes.createDeploying(incompletedAmmo[0].id, [incompletedAmmo[0].id, '#forge:nuggets/steel']),
+        // 参与机器--机械手
+        event.recipes.createDeploying(incompletedAmmo[0].id, [incompletedAmmo[0].id, '#forge:nuggets/steel']),
+        // 参与机器--机械手
+        event.recipes.createDeploying(incompletedAmmo[0].id, [incompletedAmmo[0].id, '#forge:nuggets/steel']),
+        // 参与机器--机械手
+        event.recipes.createDeploying(incompletedAmmo[0].id, [incompletedAmmo[0].id, '#forge:nuggets/steel']),
+        // 参与机器--压片
+        event.recipes.greate.pressing(incompletedAmmo[0].id,incompletedAmmo[0].id)
+        .recipeTier(2)
+        .circuitNumber(1),
+        // 参与机器--机械手
+        event.recipes.createDeploying(incompletedAmmo[0].id, [incompletedAmmo[0].id, '#forge:nuggets/steel']),
+        // 参与机器--切石机
+        event.recipes.create.cutting(incompletedAmmo[0].id,incompletedAmmo[0].id),
+        // 参与机器--压片
+        event.recipes.greate.pressing(incompletedAmmo[0].id,incompletedAmmo[0].id)
+        .recipeTier(1)
+        .circuitNumber(0),
+    ]
+)
+.transitionalItem(incompletedAmmo[10].id)
+.loops(1);
+
+event.recipes.createSequencedAssembly(
+    // 输出物品及概率
+    [
+        ammoTypes[11]
+    ],
+    // 输入物品
+    ProcessedAmmo[11].id,
+    // 参与机器--按顺序加工
+    [  
+        // 参与机器--注液（蒸汽清洗）
+        event.recipes.create.filling(incompletedAmmo[0].id, [incompletedAmmo[0].id,Fluid.of('gtceu:steam', 100)]),
+        // 参与机器--机械手
+        event.recipes.createDeploying(incompletedAmmo[0].id, [incompletedAmmo[0].id, '#forge:tiny_dusts/gunpowder']),
+        // 参与机器--压片
+        event.recipes.greate.pressing(incompletedAmmo[0].id,incompletedAmmo[0].id)
+        .recipeTier(1)
+        .circuitNumber(1),
+        // 参与机器--机械手
+        event.recipes.createDeploying(incompletedAmmo[0].id, [incompletedAmmo[0].id, '#forge:tiny_dusts/gunpowder']),
+        // 参与机器--压片
+        event.recipes.greate.pressing(incompletedAmmo[0].id,incompletedAmmo[0].id)
+        .recipeTier(1)
+        .circuitNumber(1),
+        // 参与机器--机械手
+        event.recipes.createDeploying(incompletedAmmo[0].id, [incompletedAmmo[0].id, '#forge:nuggets/brass']),
+        // 参与机器--切石机
+        event.recipes.create.cutting(incompletedAmmo[0].id,incompletedAmmo[0].id),
+        // 参与机器--压片
+        event.recipes.greate.pressing(incompletedAmmo[0].id,incompletedAmmo[0].id)
+        .recipeTier(1)
+        .circuitNumber(0),
+    ]
+)
+.transitionalItem(incompletedAmmo[11].id)
+.loops(1);
+
+event.recipes.createSequencedAssembly(
+    // 输出物品及概率
+    [
+        ammoTypes[12]
+    ],
+    // 输入物品
+    ProcessedAmmo[12].id,
+    // 参与机器--按顺序加工
+    [  
+        // 参与机器--注液（蒸汽清洗）
+        event.recipes.create.filling(incompletedAmmo[0].id, [incompletedAmmo[0].id,Fluid.of('gtceu:steam', 100)]),
+        // 参与机器--机械手
+        event.recipes.createDeploying(incompletedAmmo[0].id, [incompletedAmmo[0].id,'#forge:gunpowder']),
+        // 参与机器--压片
+        event.recipes.greate.pressing(incompletedAmmo[0].id,incompletedAmmo[0].id)
+        .recipeTier(3)
+        .circuitNumber(1),
+        // 参与机器--机械手
+        event.recipes.createDeploying(incompletedAmmo[0].id, [incompletedAmmo[0].id, '#forge:tiny_dusts/gunpowder']),
+        // 参与机器--压片
+        event.recipes.greate.pressing(incompletedAmmo[0].id,incompletedAmmo[0].id)
+        .recipeTier(1)
+        .circuitNumber(1),
+        // 参与机器--机械手
+        event.recipes.createDeploying(incompletedAmmo[0].id, [incompletedAmmo[0].id, '#forge:nuggets/brass']),
+        // 参与机器--切石机
+        event.recipes.create.cutting(incompletedAmmo[0].id,incompletedAmmo[0].id),
+        // 参与机器--压片
+        event.recipes.greate.pressing(incompletedAmmo[0].id,incompletedAmmo[0].id)
+        .recipeTier(2)
+        .circuitNumber(0),
+    ]
+)
+.transitionalItem(incompletedAmmo[12].id)
+.loops(1);
+
+event.recipes.createSequencedAssembly(
+    // 输出物品及概率
+    [
+        ammoTypes[13]
+    ],
+    // 输入物品
+    ProcessedAmmo[13].id,
+    // 参与机器--按顺序加工
+    [  
+        // 参与机器--注液（蒸汽清洗）
+        event.recipes.create.filling(incompletedAmmo[0].id, [incompletedAmmo[0].id,Fluid.of('gtceu:steam', 100)]),
+        // 参与机器--切石机
+        event.recipes.create.cutting(incompletedAmmo[0].id,incompletedAmmo[0].id),
+        // 参与机器--压片
+        event.recipes.greate.pressing(incompletedAmmo[0].id,incompletedAmmo[0].id)
+        .recipeTier(2)
+        .circuitNumber(0),
+    ]
+)
+.transitionalItem(incompletedAmmo[13].id)
+.loops(1);
+
+event.recipes.createSequencedAssembly(
+    // 输出物品及概率
+    [
+        ammoTypes[14]
+    ],
+    // 输入物品
+    ProcessedAmmo[14].id,
+    // 参与机器--按顺序加工
+    [  
+        // 参与机器--注液（蒸汽清洗）
+        event.recipes.create.filling(incompletedAmmo[0].id, [incompletedAmmo[0].id,Fluid.of('gtceu:steam', 100)]),
+        // 参与机器--机械手
+        event.recipes.createDeploying(incompletedAmmo[0].id, [incompletedAmmo[0].id, '#forge:small_dusts/gunpowder']),
+        // 参与机器--压片
+        event.recipes.greate.pressing(incompletedAmmo[0].id,incompletedAmmo[0].id)
+        .recipeTier(1)
+        .circuitNumber(1),
+        // 参与机器--机械手
+        event.recipes.createDeploying(incompletedAmmo[0].id, [incompletedAmmo[0].id, '#forge:small_dusts/gunpowder']),
+        // 参与机器--压片
+        event.recipes.greate.pressing(incompletedAmmo[0].id,incompletedAmmo[0].id)
+        .recipeTier(2)
+        .circuitNumber(1),
+        // 参与机器--机械手
+        event.recipes.createDeploying(incompletedAmmo[0].id, [incompletedAmmo[0].id, '#forge:nuggets/brass']),
+        // 参与机器--切石机
+        event.recipes.create.cutting(incompletedAmmo[0].id,incompletedAmmo[0].id),
+        // 参与机器--压片
+        event.recipes.greate.pressing(incompletedAmmo[0].id,incompletedAmmo[0].id)
+        .recipeTier(1)
+        .circuitNumber(0),
+    ]
+)
+.transitionalItem(incompletedAmmo[14].id)
+.loops(1);
+
+event.recipes.createSequencedAssembly(
+    // 输出物品及概率
+    [
+        ammoTypes[15]
+    ],
+    // 输入物品
+    ProcessedAmmo[15].id,
+    // 参与机器--按顺序加工
+    [  
+        // 参与机器--注液（蒸汽清洗）
+        event.recipes.create.filling(incompletedAmmo[0].id, [incompletedAmmo[0].id,Fluid.of('gtceu:steam', 100)]),
+        // 参与机器--机械手
+        event.recipes.createDeploying(incompletedAmmo[0].id, [incompletedAmmo[0].id,'ad_astra:steel_engine']),
+        // 参与机器--机械手
+        event.recipes.createDeploying(incompletedAmmo[0].id, [incompletedAmmo[0].id,'ad_astra:steel_tank']),
+        // 参与机器--注液
+        event.recipes.create.filling(incompletedAmmo[0].id, [incompletedAmmo[0].id,Fluid.of('gtceu:ethanol', 200)]),
+        // 参与机器--机械手
+        event.recipes.createDeploying(incompletedAmmo[0].id, [incompletedAmmo[0].id,'createbigcannons:packed_gunpowder']),
+        // 参与机器--压片
+        event.recipes.greate.pressing(incompletedAmmo[0].id,incompletedAmmo[0].id)
+        .recipeTier(4)
+        .circuitNumber(1),
+        // 参与机器--机械手
+        event.recipes.createDeploying(incompletedAmmo[0].id, [incompletedAmmo[0].id,'gtceu:steel_plate']),
+        // 参与机器--切石机
+        event.recipes.create.cutting(incompletedAmmo[0].id,incompletedAmmo[0].id),
+        // 参与机器--压片
+        event.recipes.greate.pressing(incompletedAmmo[0].id,incompletedAmmo[0].id)
+        .recipeTier(3)
+        .circuitNumber(0),
+    ]
+)
+.transitionalItem(incompletedAmmo[15].id)
+.loops(1);
+
+event.recipes.createSequencedAssembly(
+    // 输出物品及概率
+    [
+        ammoTypes[16]
+    ],
+    // 输入物品
+    ProcessedAmmo[16].id,
+    // 参与机器--按顺序加工
+    [  
+        // 参与机器--注液（蒸汽清洗）
+        event.recipes.create.filling(incompletedAmmo[0].id, [incompletedAmmo[0].id,Fluid.of('gtceu:steam', 100)]),
+        // 参与机器--注液
+        event.recipes.create.filling(incompletedAmmo[0].id, [incompletedAmmo[0].id,Fluid.of('gtceu:hydrogen', 5000)]),
+        // 参与机器--压片
+        event.recipes.greate.pressing(incompletedAmmo[0].id,incompletedAmmo[0].id)
+        .recipeTier(3)
+        .circuitNumber(0),
+    ]
+)
+.transitionalItem(incompletedAmmo[16].id)
+.loops(1);
+
+event.recipes.createSequencedAssembly(
+    // 输出物品及概率
+    [
+        ammoTypes[17]
+    ],
+    // 输入物品
+    ProcessedAmmo[17].id,
+    // 参与机器--按顺序加工
+    [  
+        // 参与机器--注液（蒸汽清洗）
+        event.recipes.create.filling(incompletedAmmo[0].id, [incompletedAmmo[0].id,Fluid.of('gtceu:steam', 100)]),
+        // 参与机器--机械手
+        event.recipes.createDeploying(incompletedAmmo[0].id, [incompletedAmmo[0].id, '#forge:small_dusts/gunpowder']),
+        // 参与机器--压片
+        event.recipes.greate.pressing(incompletedAmmo[0].id,incompletedAmmo[0].id)
+        .recipeTier(1)
+        .circuitNumber(1),
+        // 参与机器--机械手
+        event.recipes.createDeploying(incompletedAmmo[0].id, [incompletedAmmo[0].id, '#forge:tiny_dusts/gunpowder']),
+        // 参与机器--压片
+        event.recipes.greate.pressing(incompletedAmmo[0].id,incompletedAmmo[0].id)
+        .recipeTier(1)
+        .circuitNumber(1),
+        // 参与机器--机械手
+        event.recipes.createDeploying(incompletedAmmo[0].id, [incompletedAmmo[0].id, '#forge:nuggets/brass']),
+        // 参与机器--切石机
+        event.recipes.create.cutting(incompletedAmmo[0].id,incompletedAmmo[0].id),
+        // 参与机器--压片
+        event.recipes.greate.pressing(incompletedAmmo[0].id,incompletedAmmo[0].id)
+        .recipeTier(1)
+        .circuitNumber(0),
+    ]
+)
+.transitionalItem(incompletedAmmo[17].id)
+.loops(1);
+
+event.recipes.createSequencedAssembly(
+    // 输出物品及概率
+    [
+        ammoTypes[18]
+    ],
+    // 输入物品
+    ProcessedAmmo[18].id,
+    // 参与机器--按顺序加工
+    [  
+        // 参与机器--注液（蒸汽清洗）
+        event.recipes.create.filling(incompletedAmmo[0].id, [incompletedAmmo[0].id,Fluid.of('gtceu:steam', 100)]),
+        // 参与机器--机械手
+        event.recipes.createDeploying(incompletedAmmo[0].id, [incompletedAmmo[0].id, '#forge:tiny_dusts/gunpowder']),
+        // 参与机器--压片
+        event.recipes.greate.pressing(incompletedAmmo[0].id,incompletedAmmo[0].id)
+        .recipeTier(1)
+        .circuitNumber(1),
+        // 参与机器--机械手
+        event.recipes.createDeploying(incompletedAmmo[0].id, [incompletedAmmo[0].id, '#forge:tiny_dusts/gunpowder']),
+        // 参与机器--压片
+        event.recipes.greate.pressing(incompletedAmmo[0].id,incompletedAmmo[0].id)
+        .recipeTier(1)
+        .circuitNumber(1),
+        // 参与机器--机械手
+        event.recipes.createDeploying(incompletedAmmo[0].id, [incompletedAmmo[0].id, '#forge:nuggets/brass']),
+        // 参与机器--切石机
+        event.recipes.create.cutting(incompletedAmmo[0].id,incompletedAmmo[0].id),
+        // 参与机器--压片
+        event.recipes.greate.pressing(incompletedAmmo[0].id,incompletedAmmo[0].id)
+        .recipeTier(1)
+        .circuitNumber(0),
+    ]
+)
+.transitionalItem(incompletedAmmo[18].id)
+.loops(1);
+
+event.recipes.createSequencedAssembly(
+    // 输出物品及概率
+    [
+        ammoTypes[19]
+    ],
+    // 输入物品
+    ProcessedAmmo[19].id,
+    // 参与机器--按顺序加工
+    [  
+        // 参与机器--注液（蒸汽清洗）
+        event.recipes.create.filling(incompletedAmmo[0].id, [incompletedAmmo[0].id,Fluid.of('gtceu:steam', 100)]),
+        // 参与机器--机械手
+        event.recipes.createDeploying(incompletedAmmo[0].id, [incompletedAmmo[0].id, '#forge:small_dusts/gunpowder']),
+        // 参与机器--压片
+        event.recipes.greate.pressing(incompletedAmmo[0].id,incompletedAmmo[0].id)
+        .recipeTier(1)
+        .circuitNumber(1),
+        // 参与机器--机械手
+        event.recipes.createDeploying(incompletedAmmo[0].id, [incompletedAmmo[0].id, '#forge:tiny_dusts/gunpowder']),
+        // 参与机器--压片
+        event.recipes.greate.pressing(incompletedAmmo[0].id,incompletedAmmo[0].id)
+        .recipeTier(1)
+        .circuitNumber(1),
+        // 参与机器--机械手
+        event.recipes.createDeploying(incompletedAmmo[0].id, [incompletedAmmo[0].id, '#forge:nuggets/brass']),
+        // 参与机器--切石机
+        event.recipes.create.cutting(incompletedAmmo[0].id,incompletedAmmo[0].id),
+        // 参与机器--压片
+        event.recipes.greate.pressing(incompletedAmmo[0].id,incompletedAmmo[0].id)
+        .recipeTier(1)
+        .circuitNumber(0),
+    ]
+)
+.transitionalItem(incompletedAmmo[19].id)
+.loops(1);
+
+event.recipes.createSequencedAssembly(
+    // 输出物品及概率
+    [
+        ammoTypes[20]
+    ],
+    // 输入物品
+    ProcessedAmmo[20].id,
+    // 参与机器--按顺序加工
+    [  
+        // 参与机器--注液（蒸汽清洗）
+        event.recipes.create.filling(incompletedAmmo[0].id, [incompletedAmmo[0].id,Fluid.of('gtceu:steam', 100)]),
+        // 参与机器--切石机
+        event.recipes.create.cutting(incompletedAmmo[0].id,incompletedAmmo[0].id),
+        // 参与机器--压片
+        event.recipes.greate.pressing(incompletedAmmo[0].id,incompletedAmmo[0].id)
+        .recipeTier(1)
+        .circuitNumber(0),
+    ]
+)
+.transitionalItem(incompletedAmmo[20].id)
+.loops(1);
+
+event.recipes.createSequencedAssembly(
+    // 输出物品及概率
+    [
+        ammoTypes[21]
+    ],
+    // 输入物品
+    ProcessedAmmo[21].id,
+    // 参与机器--按顺序加工
+    [  
+        // 参与机器--注液（蒸汽清洗）
+        event.recipes.create.filling(incompletedAmmo[0].id, [incompletedAmmo[0].id,Fluid.of('gtceu:steam', 100)]),
+        // 参与机器--机械手
+        event.recipes.createDeploying(incompletedAmmo[0].id, [incompletedAmmo[0].id,'#forge:gunpowder']),
+        // 参与机器--压片
+        event.recipes.greate.pressing(incompletedAmmo[0].id,incompletedAmmo[0].id)
+        .recipeTier(3)
+        .circuitNumber(1),
+        // 参与机器--机械手
+        event.recipes.createDeploying(incompletedAmmo[0].id, [incompletedAmmo[0].id, '#forge:tiny_dusts/gunpowder']),
+        // 参与机器--压片
+        event.recipes.greate.pressing(incompletedAmmo[0].id,incompletedAmmo[0].id)
+        .recipeTier(1)
+        .circuitNumber(1),
+        // 参与机器--机械手
+        event.recipes.createDeploying(incompletedAmmo[0].id, [incompletedAmmo[0].id, '#forge:nuggets/brass']),
+        // 参与机器--切石机
+        event.recipes.create.cutting(incompletedAmmo[0].id,incompletedAmmo[0].id),
+        // 参与机器--压片
+        event.recipes.greate.pressing(incompletedAmmo[0].id,incompletedAmmo[0].id)
+        .recipeTier(2)
+        .circuitNumber(0),
+    ]
+)
+.transitionalItem(incompletedAmmo[21].id)
+.loops(1);
+
+event.recipes.createSequencedAssembly(
+    // 输出物品及概率
+    [
+        ammoTypes[22]
+    ],
+    // 输入物品
+    ProcessedAmmo[22].id,
+    // 参与机器--按顺序加工
+    [  
+        // 参与机器--注液（蒸汽清洗）
+        event.recipes.create.filling(incompletedAmmo[0].id, [incompletedAmmo[0].id,Fluid.of('gtceu:steam', 100)]),
+        // 参与机器--机械手
+        event.recipes.createDeploying(incompletedAmmo[0].id, [incompletedAmmo[0].id, '#forge:small_dusts/gunpowder']),
+        // 参与机器--压片
+        event.recipes.greate.pressing(incompletedAmmo[0].id,incompletedAmmo[0].id)
+        .recipeTier(1)
+        .circuitNumber(1),
+        // 参与机器--机械手
+        event.recipes.createDeploying(incompletedAmmo[0].id, [incompletedAmmo[0].id, '#forge:tiny_dusts/gunpowder']),
+        // 参与机器--压片
+        event.recipes.greate.pressing(incompletedAmmo[0].id,incompletedAmmo[0].id)
+        .recipeTier(1)
+        .circuitNumber(1),
+        // 参与机器--机械手
+        event.recipes.createDeploying(incompletedAmmo[0].id, [incompletedAmmo[0].id, '#forge:nuggets/brass']),
+        // 参与机器--切石机
+        event.recipes.create.cutting(incompletedAmmo[0].id,incompletedAmmo[0].id),
+        // 参与机器--压片
+        event.recipes.greate.pressing(incompletedAmmo[0].id,incompletedAmmo[0].id)
+        .recipeTier(1)
+        .circuitNumber(0),
+    ]
+)
+.transitionalItem(incompletedAmmo[22].id)
+.loops(1);
+
+event.recipes.createSequencedAssembly(
+    // 输出物品及概率
+    [
+        ammoTypes[23]
+    ],
+    // 输入物品
+    ProcessedAmmo[23].id,
+    // 参与机器--按顺序加工
+    [  
+            // 参与机器--注液（蒸汽清洗）
             event.recipes.create.filling(incompletedAmmo[0].id, [incompletedAmmo[0].id,Fluid.of('gtceu:steam', 100)]),
+            // 参与机器--机械手
+            event.recipes.createDeploying(incompletedAmmo[0].id, [incompletedAmmo[0].id, '#forge:small_dusts/gunpowder']),
             // 参与机器--压片
-            event.recipes.create.pressing(incompletedAmmo[0].id,incompletedAmmo[0].id),
+            event.recipes.greate.pressing(incompletedAmmo[0].id,incompletedAmmo[0].id)
+            .recipeTier(1)
+            .circuitNumber(1),
             // 参与机器--机械手
             event.recipes.createDeploying(incompletedAmmo[0].id, [incompletedAmmo[0].id, '#forge:tiny_dusts/gunpowder']),
             // 参与机器--压片
-            event.recipes.create.pressing(incompletedAmmo[0].id,incompletedAmmo[0].id),
+            event.recipes.greate.pressing(incompletedAmmo[0].id,incompletedAmmo[0].id)
+            .recipeTier(1)
+            .circuitNumber(1),
             // 参与机器--机械手
-            event.recipes.createDeploying(incompletedAmmo[0].id, [incompletedAmmo[0].id, '#forge:tiny_dusts/gunpowder']),
-            // 参与机器--压片
-            event.recipes.create.pressing(incompletedAmmo[0].id,incompletedAmmo[0].id),
-            // 参与机器--机械手
-            event.recipes.createDeploying(incompletedAmmo[0].id, [incompletedAmmo[0].id, '#forge:nuggets/brass']),
+            event.recipes.createDeploying(incompletedAmmo[0].id, [incompletedAmmo[0].id, '#forge:nuggets/copper']),
             // 参与机器--切石机
             event.recipes.create.cutting(incompletedAmmo[0].id,incompletedAmmo[0].id),
             // 参与机器--压片
-            event.recipes.create.pressing(incompletedAmmo[0].id,incompletedAmmo[0].id)
-        ]
-    )
-    .transitionalItem(incompletedAmmo[0].id)
-    .loops(4);
+            event.recipes.greate.pressing(incompletedAmmo[0].id,incompletedAmmo[0].id)
+            .recipeTier(1)
+            .circuitNumber(0),
+    ]
+)
+.transitionalItem(incompletedAmmo[23].id)
+.loops(1);
 
-});
+    });
