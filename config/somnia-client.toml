@@ -1,0 +1,22 @@
+
+[fatigue]
+	#The fatigue counter's position
+	#Allowed Values: NONE, TOP_CENTER, TOP_LEFT, TOP_RIGHT, BOTTOM_CENTER, BOTTOM_LEFT, BOTTOM_RIGHT
+	fatigueDisplayPos = "BOTTOM_RIGHT"
+	#Simplifies the numerical fatigue counter to words
+	simpleFatigueDisplay = false
+	#The ETA and multiplier display position in Somnia's sleep gui.
+	#Allowed Values: RIGHT, LEFT, CENTER, NONE
+	displayETASleep = "LEFT"
+
+[options]
+	#Provides an enhanced sleeping gui
+	somniaGui = true
+	#The display position of the clock in somnia's enhanced sleeping gui.
+	#Allowed Values: RIGHT, LEFT, CENTER, NONE
+	somniaGuiClockPosition = "RIGHT"
+
+[performance]
+	#Disable rendering while you're asleep
+	disableRendering = false
+

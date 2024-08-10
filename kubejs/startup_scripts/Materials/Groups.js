@@ -5,7 +5,7 @@ GTCEuStartupEvents.registry("gtceu:material", (event) => {
 
     // Groups
     event.create('hydroxide')
-        .components('1x hydrogen', '1x oxygen')
+        .components('1x oxygen', '1x hydrogen')
         .plasma()
 
     event.create('aluminate')

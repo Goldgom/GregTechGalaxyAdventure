@@ -55,6 +55,17 @@
         "value": 1024
       }
     },
+    "doggytalents:generic.crit_bonus": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 1,
+        "value": 1
+      }
+    },
     "epicfight:offhand_armor_negation": {
       "enabled": false,
       "min": {
@@ -297,6 +308,17 @@
         "value": 1000000
       }
     },
+    "doggytalents:generic.crit_chance": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 1,
+        "value": 1
+      }
+    },
     "reach-entity-attributes:attack_range": {
       "enabled": false,
       "min": {
@@ -438,6 +460,17 @@
       "max": {
         "default": 30,
         "value": 1000000
+      }
+    },
+    "doggytalents:generic.jump_power": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 1,
+        "value": 1
       }
     },
     "health_and_disease:dietaryfiber": {

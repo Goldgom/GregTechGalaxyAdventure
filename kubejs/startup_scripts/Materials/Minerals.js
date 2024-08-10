@@ -30,7 +30,7 @@ GTCEuStartupEvents.registry("gtceu:material", (event) => {
     .iconSet(GTMaterialIconSet.BRIGHT)
     .ore()
 
-    event.create('sodalite')
+    event.create('ssodalite')
         .components('3x sodium_oxide', '3x aluminium_oxide', '6x silicon_dioxide', '1x sodium_sulfate')
         .color(0x1E2F4F)
         .secondaryColor(0xEDE9D0)

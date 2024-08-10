@@ -12,4 +12,8 @@ GTCEuStartupEvents.registry('gtceu:machine', event => {
         .rotationState(RotationState.NON_Y_AXIS)
         .recipeType('fluid_bubbler')
         .tankScalingFunction(tier => tier * 3200)
+    event.create('lime_slaker', 'simple', GTValues.LV, GTValues.MV, GTValues.HV) 
+        .rotationState(RotationState.NON_Y_AXIS)
+        .recipeType('lime_slaker')
+        .tankScalingFunction(tier => tier * 3200)
 })

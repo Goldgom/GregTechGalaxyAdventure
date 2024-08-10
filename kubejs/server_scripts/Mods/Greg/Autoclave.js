@@ -1,3 +1,4 @@
+//ignored: true
 ServerEvents.recipes(event => {
     event.recipes.gtceu.chemical_reactor('bayer_process_seeding')
         

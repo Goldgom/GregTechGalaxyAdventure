@@ -400,7 +400,7 @@ GTCEuServerEvents.oreVeins(event => {
 			.layer(l => l.weight(2).mat(GTMaterials.Pyrite).size(1, 1))
 			.layer(l => l.weight(2).mat(GTMaterials.Copper).size(1, 1))
 	})
-	addVein('diamond_vein', GTWorldGenLayers.DEEPSLATE, 25, 40, -65, 30, GTMaterials.Diamond, 'above', passiveLayers.tuff, pattern => {
+	addVein('diamond_vein', GTWorldGenLayers.DEEPSLATE, 10, 40, -65, 30, GTMaterials.Diamond, 'above', passiveLayers.tuff, pattern => {
 		pattern
 			.layer(l => l.weight(3).mat(GTMaterials.Graphite).size(2, 2))
 			.layer(l => l.weight(2).mat(GTMaterials.Diamond).size(1, 1))
@@ -409,7 +409,7 @@ GTCEuServerEvents.oreVeins(event => {
 	addVein('lapis_vein', GTWorldGenLayers.DEEPSLATE, 25, 40, -60, 10, GTMaterials.Lapis, 'above', passiveLayers.tuff, pattern => {
 		pattern
 			.layer(l => l.weight(3).mat(GTMaterials.Lazurite).size(2, 2))
-			.layer(l => l.weight(2).mat(GTMaterials.Sodalite).size(1, 1))
+			.layer(l => l.weight(2).mat(GTMaterials.get('ssodalite')).size(1, 1))
 			.layer(l => l.weight(2).mat(GTMaterials.Lapis).size(1, 1))
 			.layer(l => l.weight(1).mat(GTMaterials.Calcite).size(1, 1))
 	})
