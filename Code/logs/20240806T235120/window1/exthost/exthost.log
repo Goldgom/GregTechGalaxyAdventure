@@ -1,0 +1,68 @@
+2024-08-06 23:51:27.298 [info] Extension host with pid 17372 started
+2024-08-06 23:51:27.685 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2024-08-06 23:51:27.732 [info] ExtensionService#_doActivateExtension vscode.typescript-language-features, startup: false, activationEvent: 'onLanguage:javascript'
+2024-08-06 23:51:27.907 [info] ExtensionService#_doActivateExtension VisualStudioExptTeam.vscodeintellicode, startup: false, activationEvent: 'onLanguage:javascript'
+2024-08-06 23:51:28.793 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*'
+2024-08-06 23:51:28.808 [info] ExtensionService#_doActivateExtension christian-kohler.path-intellisense, startup: true, activationEvent: '*'
+2024-08-06 23:51:28.989 [info] ExtensionService#_doActivateExtension formulahendry.auto-close-tag, startup: true, activationEvent: '*'
+2024-08-06 23:51:29.001 [info] ExtensionService#_doActivateExtension formulahendry.auto-rename-tag, startup: true, activationEvent: '*'
+2024-08-06 23:51:29.100 [info] ExtensionService#_doActivateExtension Huawei.deveco-chip-config, startup: true, activationEvent: '*'
+2024-08-06 23:51:29.143 [info] ExtensionService#_doActivateExtension Huawei.deveco-device-tool, startup: true, activationEvent: '*'
+2024-08-06 23:51:29.357 [info] ExtensionService#_doActivateExtension Huawei.deveco-device-tool-remote, startup: true, activationEvent: '*'
+2024-08-06 23:51:31.043 [info] Extension host terminating: renderer closed the MessagePort
+2024-08-06 23:51:31.077 [error] Canceled: Canceled
+    at Object.u [as $5] (d:\Program Files\Microsoft VS Code\resources\app\out\vs\workbench\api\node\extensionHostProcess.js:10:1082)
+    at d:\Program Files\Microsoft VS Code\resources\app\out\vs\workbench\api\node\extensionHostProcess.js:151:2406
+    at Array.forEach (<anonymous>)
+    at E.dispose (d:\Program Files\Microsoft VS Code\resources\app\out\vs\workbench\api\node\extensionHostProcess.js:151:2344)
+    at m.terminate (d:\Program Files\Microsoft VS Code\resources\app\out\vs\workbench\api\node\extensionHostProcess.js:160:8163)
+    at $.terminate (d:\Program Files\Microsoft VS Code\resources\app\out\vs\workbench\api\node\extensionHostProcess.js:164:1513)
+    at o (d:\Program Files\Microsoft VS Code\resources\app\out\vs\workbench\api\node\extensionHostProcess.js:177:10633)
+    at MessagePortMain.<anonymous> (d:\Program Files\Microsoft VS Code\resources\app\out\vs\workbench\api\node\extensionHostProcess.js:177:6825)
+    at MessagePortMain.emit (node:events:519:28)
+    at Object.MessagePortMain._internalPort.emit (node:electron/js2c/utility_init:2:2285) setContext undefined
+2024-08-06 23:51:31.078 [error] Canceled: Canceled
+    at Object.u [as $5] (d:\Program Files\Microsoft VS Code\resources\app\out\vs\workbench\api\node\extensionHostProcess.js:10:1082)
+    at d:\Program Files\Microsoft VS Code\resources\app\out\vs\workbench\api\node\extensionHostProcess.js:151:2406
+    at Array.forEach (<anonymous>)
+    at E.dispose (d:\Program Files\Microsoft VS Code\resources\app\out\vs\workbench\api\node\extensionHostProcess.js:151:2344)
+    at m.terminate (d:\Program Files\Microsoft VS Code\resources\app\out\vs\workbench\api\node\extensionHostProcess.js:160:8163)
+    at $.terminate (d:\Program Files\Microsoft VS Code\resources\app\out\vs\workbench\api\node\extensionHostProcess.js:164:1513)
+    at o (d:\Program Files\Microsoft VS Code\resources\app\out\vs\workbench\api\node\extensionHostProcess.js:177:10633)
+    at MessagePortMain.<anonymous> (d:\Program Files\Microsoft VS Code\resources\app\out\vs\workbench\api\node\extensionHostProcess.js:177:6825)
+    at MessagePortMain.emit (node:events:519:28)
+    at Object.MessagePortMain._internalPort.emit (node:electron/js2c/utility_init:2:2285) setContext undefined
+2024-08-06 23:51:31.111 [error] Canceled: Canceled
+    at new C (d:\Program Files\Microsoft VS Code\resources\app\out\vs\workbench\api\node\extensionHostProcess.js:144:35204)
+    at E.U (d:\Program Files\Microsoft VS Code\resources\app\out\vs\workbench\api\node\extensionHostProcess.js:151:6017)
+    at Proxy.B.<computed>.j.charCodeAt.R.CharCode.DollarSign.B.<computed> (d:\Program Files\Microsoft VS Code\resources\app\out\vs\workbench\api\node\extensionHostProcess.js:151:3107)
+    at d.g (d:\Program Files\Microsoft VS Code\resources\app\out\vs\workbench\api\node\extensionHostProcess.js:154:205942)
+    at d.executeCommand (d:\Program Files\Microsoft VS Code\resources\app\out\vs\workbench\api\node\extensionHostProcess.js:154:205380)
+    at A.registerCommand.description (d:\Program Files\Microsoft VS Code\resources\app\out\vs\workbench\api\node\extensionHostProcess.js:154:204704)
+    at d.h (d:\Program Files\Microsoft VS Code\resources\app\out\vs\workbench\api\node\extensionHostProcess.js:154:206481)
+    at d.g (d:\Program Files\Microsoft VS Code\resources\app\out\vs\workbench\api\node\extensionHostProcess.js:154:205473)
+    at d.executeCommand (d:\Program Files\Microsoft VS Code\resources\app\out\vs\workbench\api\node\extensionHostProcess.js:154:205380)
+    at Object.subscriptions [as executeCommand] (d:\Program Files\Microsoft VS Code\resources\app\out\vs\workbench\api\node\extensionHostProcess.js:164:23060)
+    at Object.deactivate (c:\Users\qym20\.vscode\extensions\huawei.deveco-device-tool-remote-4.0.400\dist\webpack:\deveco-device-tool-remote\src\main.js:1029:17)
+    at Module.H (c:\Users\qym20\.vscode\extensions\huawei.deveco-device-tool-remote-4.0.400\dist\extension.js:1:32303)
+    at m.eb (d:\Program Files\Microsoft VS Code\resources\app\out\vs\workbench\api\node\extensionHostProcess.js:160:9856)
+    at d:\Program Files\Microsoft VS Code\resources\app\out\vs\workbench\api\node\extensionHostProcess.js:160:7927
+    at Array.map (<anonymous>)
+    at m.$ (d:\Program Files\Microsoft VS Code\resources\app\out\vs\workbench\api\node\extensionHostProcess.js:160:7914)
+    at m.terminate (d:\Program Files\Microsoft VS Code\resources\app\out\vs\workbench\api\node\extensionHostProcess.js:160:8187)
+    at $.terminate (d:\Program Files\Microsoft VS Code\resources\app\out\vs\workbench\api\node\extensionHostProcess.js:164:1513)
+    at o (d:\Program Files\Microsoft VS Code\resources\app\out\vs\workbench\api\node\extensionHostProcess.js:177:10633)
+    at MessagePortMain.<anonymous> (d:\Program Files\Microsoft VS Code\resources\app\out\vs\workbench\api\node\extensionHostProcess.js:177:6825)
+    at MessagePortMain.emit (node:events:519:28)
+    at Object.MessagePortMain._internalPort.emit (node:electron/js2c/utility_init:2:2285) setContext undefined
+2024-08-06 23:51:31.114 [error] ProxyResolver#resolveProxy PROXY 127.0.0.1:1080;DIRECT Canceled: Canceled
+    at new C (d:\Program Files\Microsoft VS Code\resources\app\out\vs\workbench\api\node\extensionHostProcess.js:144:35204)
+    at E.U (d:\Program Files\Microsoft VS Code\resources\app\out\vs\workbench\api\node\extensionHostProcess.js:151:6017)
+    at Proxy.B.<computed>.j.charCodeAt.R.CharCode.DollarSign.B.<computed> (d:\Program Files\Microsoft VS Code\resources\app\out\vs\workbench\api\node\extensionHostProcess.js:151:3107)
+    at F.resolveProxy (d:\Program Files\Microsoft VS Code\resources\app\out\vs\workbench\api\node\extensionHostProcess.js:157:44187)
+    at Object.resolveProxy (d:\Program Files\Microsoft VS Code\resources\app\out\vs\workbench\api\node\extensionHostProcess.js:139:32108)
+    at useProxySettings (d:\Program Files\Microsoft VS Code\resources\app\node_modules.asar\@vscode\proxy-agent\out\index.js:179:16)
+    at d:\Program Files\Microsoft VS Code\resources\app\node_modules.asar\@vscode\proxy-agent\out\index.js:114:13
+    at d:\Program Files\Microsoft VS Code\resources\app\node_modules.asar\@vscode\proxy-agent\out\index.js:483:13
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+2024-08-06 23:51:31.114 [info] Extension host with pid 17372 exiting with code 0

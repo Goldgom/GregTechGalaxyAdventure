@@ -1,2 +1,3 @@
-2024/07/31-00:56:14.318 4d10 Creating DB G:\Games\HMCL\Code\Local Storage\leveldb since it was missing.
-2024/07/31-00:56:14.358 4d10 Reusing MANIFEST G:\Games\HMCL\Code\Local Storage\leveldb/MANIFEST-000001
+2024/08/07-03:32:34.661 46f8 Reusing MANIFEST G:\Games\HMCL\Code\Local Storage\leveldb/MANIFEST-000001
+2024/08/07-03:32:34.663 46f8 Recovering log #3
+2024/08/07-03:32:34.664 46f8 Reusing old log G:\Games\HMCL\Code\Local Storage\leveldb/000003.log 

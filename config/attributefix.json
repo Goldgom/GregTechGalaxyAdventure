@@ -44,17 +44,6 @@
         "value": 100
       }
     },
-    "epicfight:weight": {
-      "enabled": false,
-      "min": {
-        "default": 0,
-        "value": 0
-      },
-      "max": {
-        "default": 1024,
-        "value": 1024
-      }
-    },
     "doggytalents:generic.crit_bonus": {
       "enabled": false,
       "min": {
@@ -64,6 +53,17 @@
       "max": {
         "default": 1,
         "value": 1
+      }
+    },
+    "epicfight:weight": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 1024,
+        "value": 1024
       }
     },
     "epicfight:offhand_armor_negation": {
@@ -154,17 +154,6 @@
         "value": 10
       }
     },
-    "forge:entity_reach": {
-      "enabled": false,
-      "min": {
-        "default": 0,
-        "value": 0
-      },
-      "max": {
-        "default": 1024,
-        "value": 1024
-      }
-    },
     "l2damagetracker:damage_absorption": {
       "enabled": false,
       "min": {
@@ -174,6 +163,17 @@
       "max": {
         "default": 10000,
         "value": 10000
+      }
+    },
+    "forge:entity_reach": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 1024,
+        "value": 1024
       }
     },
     "health_and_disease:inorganicsalt": {
