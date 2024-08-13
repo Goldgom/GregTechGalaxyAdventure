@@ -41,3 +41,6 @@
 /mods.zip
 /cloth_local
 /.physics_mod_cache
+/config/oculus.properties
+/config/fabric/indigo-renderer.properties
+/hs_err_pid*
