@@ -4,7 +4,11 @@
         "workspaces": {},
         "emptyWindows": {
             "1722358575277": "__default__profile__",
-            "1722358704343": "__default__profile__"
+            "1722358704343": "__default__profile__",
+            "1722959481632": "__default__profile__",
+            "1722959619129": "__default__profile__",
+            "1722972756464": "__default__profile__",
+            "1723018645867": "__default__profile__"
         }
     },
     "profileAssociationsMigration": true,
@@ -16,20 +20,20 @@
         "folders": [],
         "emptyWindows": [
             {
-                "backupFolder": "1722358704343"
+                "backupFolder": "1723018645867"
             }
         ]
     },
     "windowControlHeight": 35,
     "windowsState": {
         "lastActiveWindow": {
-            "backupPath": "G:\\Games\\HMCL\\Code\\Backups\\1722358704343",
+            "backupPath": "G:\\Games\\HMCL\\Code\\Backups\\1723018645867",
             "uiState": {
                 "mode": 1,
-                "x": 256,
-                "y": 48,
-                "width": 1024,
-                "height": 768
+                "x": 361,
+                "y": -12,
+                "width": 1030,
+                "height": 772
             }
         },
         "openedWindows": []
