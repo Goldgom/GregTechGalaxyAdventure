@@ -1,4 +1,5 @@
 ServerEvents.recipes(event => {
+    event.remove({id: 'minecraft:wooden_pickaxe'})
     event.remove({id: 'create:shaped/mechanical_crafter'})
 
     event.shaped('create:mechanical_crafter',
