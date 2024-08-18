@@ -53,6 +53,11 @@ GTCEuStartupEvents.registry("gtceu:material", (event) => {
         .iconSet(GTMaterialIconSet.BRIGHT)
         .dust()
 
+    event.create('calcium_sulfate')
+        .components('1x calcium', '1x sulfate')
+        .iconSet(GTMaterialIconSet.BRIGHT)
+        .dust()
+
     event.create('aluminium_oxide')
         .components('2x aluminium', '3x oxygen')
         .iconSet(GTMaterialIconSet.BRIGHT)

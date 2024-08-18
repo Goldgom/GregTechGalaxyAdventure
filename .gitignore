@@ -37,8 +37,10 @@
 /.mixin.out
 /config/paxi/datapacks/music-and-melody-1.20-v1.3.2
 /config/paxi/datapacks/music-and-melody-1.20-v1.3.2.zip
-/config/oculus.properties
 /fabricloader.log
 /mods.zip
 /cloth_local
 /.physics_mod_cache
+/config/oculus.properties
+/config/fabric/indigo-renderer.properties
+/hs_err_pid*
