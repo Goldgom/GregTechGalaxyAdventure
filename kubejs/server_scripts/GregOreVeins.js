@@ -178,6 +178,62 @@ GTCEuServerEvents.oreVeins(event => {
 		})
 	}
 
+	function addVeinInBiome(
+		name,
+		worldGenLayer,
+		size,
+		weight,
+		minHeightRange,
+		maxHeightRange,
+		indicatorMaterial,
+		indicatorPlacement,	// 'above', 'below', or 'surface'
+		passiveLayers,
+		layers,
+		biomes
+	) {
+		event.add('kubejs:' + name, vein => {
+			vein.clusterSize(size)
+			vein.weight(weight)
+			vein.density(1.0)
+			vein.discardChanceOnAirExposure(0)
+			vein.layer(worldGenLayer)
+			switch (worldGenLayer) {
+				case GTWorldGenLayers.STONE:
+				case GTWorldGenLayers.DEEPSLATE:
+					vein.dimensions('minecraft:overworld')
+					vein.biomes('#minecraft:is_overworld')
+					break
+				case GTWorldGenLayers.NETHERRACK:
+					vein.dimensions('minecraft:the_nether')
+					vein.biomes('#minecraft:is_nether')
+					break
+				case GTWorldGenLayers.ENDSTONE:
+					vein.dimensions('minecraft:the_end')
+					vein.biomes('#minecraft:is_end')
+					break
+				case 'moon':
+					vein.dimensions('ad_astra:moon')
+					vein.biomes('ad_astra:lunar_wastelands')
+					break
+				default:
+					console.error("Unknown layer type: '" + worldGenLayer + "'")
+			}
+			vein.heightRangeUniform(minHeightRange, maxHeightRange)
+			vein.layeredVeinGenerator(generator =>
+				generator.buildLayerPattern(pattern => {
+					passiveLayers(pattern)
+					layers(pattern)
+				})
+			)
+			vein.surfaceIndicatorGenerator(i =>
+				i
+					.surfaceRock(indicatorMaterial)
+					.placement(indicatorPlacement)
+			)
+			vein.biomes(biomes)
+		})
+	}
+
 	// Moon veins
 	addVein('bauxite_vein_moon', 'moon', 25, 40, 10, 80, GTMaterials.Bauxite, 'above', passiveLayers.moon, pattern => {
 		pattern
@@ -302,17 +358,18 @@ GTCEuServerEvents.oreVeins(event => {
 
 	// Overworld veins
 	// Stone
-	addVein('apatite_vein', GTWorldGenLayers.STONE, 25, 40, 10, 80, GTMaterials.Apatite, 'above', passiveLayers.calcite, pattern => {
+	addVeinInBiome('apatite_vein', GTWorldGenLayers.STONE, 25, 100, 10, 60, GTMaterials.Apatite, 'above', passiveLayers.calcite, pattern => {
 		pattern
 			.layer(l => l.weight(3).mat(GTMaterials.Apatite).size(2, 2))
 			.layer(l => l.weight(2).mat(GTMaterials.TricalciumPhosphate).size(1, 1))
 			.layer(l => l.weight(1).mat(GTMaterials.Pyrochlore).size(1, 1))
-	})
-	addVein('cassiterite_vein', GTWorldGenLayers.STONE, 25, 80, 10, 80, GTMaterials.Cassiterite, 'surface', passiveLayers.tuff, pattern => {
+	}, ['#forge:is_wet', '#forge:is_desert'])
+	addVeinInBiome('cassiterite_vein', GTWorldGenLayers.STONE, 25, 100, 10, 60, GTMaterials.Cassiterite, 'surface', passiveLayers.tuff, pattern => {
 		pattern
 			.layer(l => l.weight(4).mat(GTMaterials.Tin).size(1, 2))
 			.layer(l => l.weight(2).mat(GTMaterials.Cassiterite).size(1, 1))
-	})
+			.layer(l => l.weight(1).mat(GTMaterials.Tungstate).size(1, 1))
+	}, ['#forge:is_wet'])
 	addVein('coal_vein', GTWorldGenLayers.STONE, 30, 80, 10, 140, GTMaterials.Coal, 'surface', passiveLayers.calcite, pattern => {
 		pattern
 			.layer(l => l.weight(3).mat(GTMaterials.Coal).size(2, 3))
@@ -400,12 +457,12 @@ GTCEuServerEvents.oreVeins(event => {
 			.layer(l => l.weight(2).mat(GTMaterials.Pyrite).size(1, 1))
 			.layer(l => l.weight(2).mat(GTMaterials.Copper).size(1, 1))
 	})
-	addVein('diamond_vein', GTWorldGenLayers.DEEPSLATE, 10, 40, -65, 30, GTMaterials.Diamond, 'above', passiveLayers.tuff, pattern => {
+	addVeinInBiome('diamond_vein', GTWorldGenLayers.DEEPSLATE, 10, 40, -65, 30, GTMaterials.Diamond, 'above', passiveLayers.tuff, pattern => {
 		pattern
 			.layer(l => l.weight(3).mat(GTMaterials.Graphite).size(2, 2))
 			.layer(l => l.weight(2).mat(GTMaterials.Diamond).size(1, 1))
 			.layer(l => l.weight(1).mat(GTMaterials.Coal).size(1, 1))
-	})
+	}, ['#forge:is_peak'])
 	addVein('lapis_vein', GTWorldGenLayers.DEEPSLATE, 25, 40, -60, 10, GTMaterials.Lapis, 'above', passiveLayers.tuff, pattern => {
 		pattern
 			.layer(l => l.weight(3).mat(GTMaterials.Lazurite).size(2, 2))
