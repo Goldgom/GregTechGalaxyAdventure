@@ -1,0 +1,11 @@
+{
+  "type": "planetsplus:triton",
+  "generator": {
+    "type": "minecraft:noise",
+    "settings": "planetsplus:triton",
+    "biome_source": {
+      "type": "minecraft:fixed",
+      "biome": "planetsplus:triton_wastelands"
+    }
+  }
+}

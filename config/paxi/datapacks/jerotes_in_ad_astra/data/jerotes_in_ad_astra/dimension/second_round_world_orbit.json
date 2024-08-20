@@ -1,0 +1,11 @@
+{
+    "type": "jerotes_in_ad_astra:second_round_world_orbit",
+    "generator": {
+    "type": "minecraft:noise",
+    "settings": "ad_astra:orbit",
+        "biome_source": {
+            "type": "minecraft:fixed",
+            "biome": "ad_astra:orbit"
+        }
+    }
+}

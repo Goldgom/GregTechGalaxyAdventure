@@ -1,0 +1,48 @@
+{
+  "type": "planetsplus:europa",
+  "generator": {
+    "type": "minecraft:noise",
+    "settings": "planetsplus:europa",
+    "biome_source": {
+      "type": "minecraft:multi_noise",
+      "biomes": [
+        {
+          "biome": "planetsplus:europa_frozen_wasteland",
+          "parameters": {
+            "temperature": -0.5,
+            "humidity": 0,
+            "continentalness": 0,
+            "erosion": 0.50 ,
+            "weirdness": 0.25,
+            "depth": 0,
+            "offset": 0.175
+          }
+        },
+        {
+          "biome": "planetsplus:europa_frozen_ocean",
+          "parameters": {
+            "temperature": -0.5,
+            "humidity": 0,
+            "continentalness": 0,
+            "erosion": 0.25,
+            "weirdness": -0.5,
+            "depth": 0,
+            "offset": 0.05
+          }
+        },
+        {
+          "biome": "planetsplus:europa_scratched_icy_plains",
+          "parameters": {
+            "temperature": -0.5,
+            "humidity": 0,
+            "continentalness": 0,
+            "erosion": 0.15,
+            "weirdness": 0.25,
+            "depth": 0,
+            "offset": 0.1			
+          }
+        }
+      ]
+    }
+  }
+}

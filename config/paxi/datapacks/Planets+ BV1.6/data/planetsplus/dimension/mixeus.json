@@ -1,0 +1,36 @@
+{
+  "type": "planetsplus:mixeus",
+  "generator": {
+    "type": "minecraft:noise",
+    "settings": "planetsplus:mixeus",
+    "biome_source": {
+      "type": "minecraft:multi_noise",
+      "biomes": [
+        {
+          "biome": "planetsplus:mixeus_calcite_plains",
+          "parameters": {
+            "temperature": -0.75,
+            "humidity": 0,
+            "continentalness": 0,
+            "erosion": 0,
+            "weirdness": -0.25,
+            "depth": 0,
+            "offset": 0.4
+          }
+        },
+        {
+          "biome": "planetsplus:mixeus_dusty_canyon",
+          "parameters": {
+            "temperature": -0.5,
+            "humidity": 0,
+            "continentalness": 0,
+            "erosion": 0,
+            "weirdness": -0.2,
+            "depth": 0,
+            "offset": 0.4
+          }
+        }
+      ]
+    }
+  }
+}

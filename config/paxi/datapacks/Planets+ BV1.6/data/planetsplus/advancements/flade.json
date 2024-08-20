@@ -1,0 +1,29 @@
+{
+  "display": {
+    "icon": {
+      "item": "ad_astra:venus_globe"
+    },
+    "title": {
+      "translate": "Venus jr"
+    },
+    "description": {
+      "translate": "Go to flade"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "mars": {
+      "trigger": "minecraft:changed_dimension",
+      "conditions": {
+        "to": "planetsplus:flade"
+      }
+    }
+  },
+  "rewards": {
+    "experience": 200
+  },
+  "parent": "ad_astra:tier_4_rocket"
+}

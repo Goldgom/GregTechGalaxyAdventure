@@ -1,0 +1,51 @@
+{
+  "temperature": 0.75,
+  "downfall": 0,
+  "has_precipitation": false,
+  "effects": {
+    "sky_color": 2631716,
+    "fog_color": 3487020,
+    "water_color": 4159204,
+    "water_fog_color": 329011,
+    "grass_color": 9551193,
+    "foliage_color": 16777215
+  },
+  "creature_spawn_probability": 0.6,
+  "spawners": {
+    "monster": [
+      {
+        "type": "ad_astra:corrupted_lunarian",
+        "weight": 100,
+        "minCount": 2,
+        "maxCount": 5
+      }
+    ]
+  },
+  "spawn_costs": {
+    "ad_astra:corrupted_lunarian": {
+      "energy_budget": 0.02,
+      "charge": 0.2
+    }
+  },
+  "carvers": {
+    "air": [
+      "minecraft:cave",
+      "minecraft:cave_extra_underground",
+      "minecraft:canyon"
+    ]
+  },
+  "features": [
+    [
+      "minecraft:glow_lichen",
+      "planetsplus:dread_iron_ore",
+	  "planetsplus:dread_redstone_ore",
+	  "planetsplus:dread_lapis_ore",
+      "planetsplus:dread_gold_ore",
+      "planetsplus:dread_diamond_ore",
+      "planetsplus:dread_desh_ore",
+	  "planetsplus:dread_stone_chasm",
+	  "planetsplus:dread_mars_cobblestone_blobs",
+	  "planetsplus:dread_sulfulric_rock"
+    ]
+  ]
+}

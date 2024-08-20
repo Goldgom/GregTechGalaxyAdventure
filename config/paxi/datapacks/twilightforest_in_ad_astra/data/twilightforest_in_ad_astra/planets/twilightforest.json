@@ -1,7 +1,7 @@
 {
   "translation": "planet.twilightforest.twilight_forest",
   "dimension": "twilightforest:twilight_forest",
-  "gravity": 8.3234,
+  "gravity": 9,
   "orbit": "twilightforest_in_ad_astra:twilightforest_orbit",
   "oxygen": true,
   "solar_power": 14,

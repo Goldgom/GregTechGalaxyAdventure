@@ -1,0 +1,10 @@
+{
+  "dimension": "planetsplus:unity",
+  "gravity": 7.700,
+  "orbit": "planetsplus:unity_orbit",
+  "oxygen": false,
+  "solar_power": 16,
+  "solar_system": "planetsplus:kepler_10352",
+  "temperature": 20,
+  "tier": 48
+}

@@ -1,0 +1,49 @@
+{
+  "temperature": 1.0,
+  "downfall": 0,
+  "precipitation": "snow",
+  "category": "icy",
+  "has_precipitation": false,
+  "effects": {
+    "sky_color": 14717246,
+    "fog_color": 14462053,
+    "water_color": 4159204,
+    "water_fog_color": 329010,
+    "grass_color": 7042641,
+    "foliage_color": 7842607
+  },
+  "creature_spawn_probability": 0.6,
+  "spawners": {
+    "monster": [
+      {
+        "type": "ad_astra:corrupted_lunarian",
+        "weight": 100,
+        "minCount": 2,
+        "maxCount": 5
+      }
+    ]
+  },
+  "spawn_costs": {
+    "ad_astra:corrupted_lunarian": {
+      "energy_budget": 0.02,
+      "charge": 0.2
+    }
+  },
+  "carvers": {
+    "air": [
+      "minecraft:cave",
+      "minecraft:cave_extra_underground",
+      "minecraft:canyon"
+    ]
+  },
+  "features": [
+    [
+      "planetsplus:titan_iron_ore",
+	  "planetsplus:titan_emerald_ore",
+      "planetsplus:titan_gold_ore",
+	  "planetsplus:titan_ice_shard_ore",
+      "planetsplus:titan_ostrum_ore",
+	  "planetsplus:titan_geode"
+    ]
+  ]
+}

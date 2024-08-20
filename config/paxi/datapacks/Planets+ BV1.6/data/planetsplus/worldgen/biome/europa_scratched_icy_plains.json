@@ -1,0 +1,48 @@
+{
+  "temperature": -0.7,
+  "downfall": 1,
+  "precipitation": "snow",
+  "category": "icy",
+  "has_precipitation": false,
+  "effects": {
+    "sky_color": 3161926,
+    "fog_color": 3161926,
+    "water_color": 4159204,
+    "water_fog_color": 329010,
+    "grass_color": 7042641,
+    "foliage_color": 7842607
+  },
+  "creature_spawn_probability": 0.4,
+  "spawners": {
+    "monster": [
+      {
+        "type": "ad_astra:sulfur_creeper",
+        "weight": 100,
+        "minCount": 1,
+        "maxCount": 4
+      }
+    ]
+  },
+  "spawn_costs": {
+    "ad_astra:sulfur_creeper": {
+      "energy_budget": 0.02,
+      "charge": 0.2
+    }
+  },
+  "carvers": {
+    "air": [
+      "minecraft:cave",
+      "minecraft:cave_extra_underground",
+      "minecraft:canyon"
+    ]
+  },
+  "features": [
+    [
+	    "planetsplus:europa_lapis_ore",
+      "planetsplus:europa_iron_ore",
+      "planetsplus:europa_diamond_ore",
+	    "planetsplus:europa_ice_shard_ore",
+      "planetsplus:europa_desh_ore"
+    ]
+  ]
+}

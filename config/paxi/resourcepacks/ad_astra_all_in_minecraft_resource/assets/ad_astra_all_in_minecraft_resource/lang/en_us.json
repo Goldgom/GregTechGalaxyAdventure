@@ -4,5 +4,12 @@
     "planet.minecraft.the_nether": "The Nether",
     "planet.minecraft.the_nether_orbit": "The Nether Orbit",
     "planet.twilightforest.twilight_forest": "Twilight Forest",
-    "solar_system.twilightforest_in_ad_astra.canis_minor_binary_planetary_system": "Canis Minor Binary Planetary System"
+    "solar_system.twilightforest_in_ad_astra.canis_minor_binary_planetary_system": "Canis Minor Binary Planetary System",
+    "planet.jerotesvillage.second_round_world": "Second Round World",
+    "solar_system.jerotes_in_ad_astra.second_planetary_system": "Second Planetary System",
+    "planet.sgjourney.abydos": "Abydos",
+    "planet.sgjourney.cavum_tenebrae": "Cavum Tenebrae",
+    "planet.sgjourney.chulak": "Chulak",
+    "planet.sgjourney.lantea": "Lantea",
+    "solar_system.sgjourney_in_ad_astra.journry_planetary_system": "Journey Planetary System"
 }

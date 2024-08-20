@@ -1,0 +1,14 @@
+{
+  "structures": [
+    {
+      "structure": "planetsplus:galia_mineshaft",
+      "weight": 2
+    }
+  ],
+  "placement": {
+    "salt": 1361819893,
+    "spacing": 16,
+    "separation": 6,
+    "type": "minecraft:random_spread"
+  }
+}

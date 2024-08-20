@@ -1,0 +1,11 @@
+{
+    "translation": "planet.sgjourney.lantea",
+    "dimension": "sgjourney:lantea",
+    "gravity": 5.2,
+    "orbit": "sgjourney_in_ad_astra:lantea_orbit",
+    "oxygen": false,
+    "solar_power": 14,
+    "solar_system": "sgjourney_in_ad_astra:journry_planetary_system",
+    "temperature": 10,
+    "tier": 4
+  }

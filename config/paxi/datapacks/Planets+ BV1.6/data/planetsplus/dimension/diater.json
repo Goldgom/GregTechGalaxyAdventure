@@ -1,0 +1,36 @@
+{
+  "type": "planetsplus:diater",
+  "generator": {
+    "type": "minecraft:noise",
+    "settings": "planetsplus:diater",
+    "biome_source": {
+      "type": "minecraft:multi_noise",
+      "biomes": [
+        {
+          "biome": "planetsplus:diater_frozen_wasteland",
+          "parameters": {
+            "temperature": -0.5,
+            "humidity": 0,
+            "continentalness": 0,
+            "erosion": 0.50 ,
+            "weirdness": 0.25,
+            "depth": 0,
+            "offset": 0
+          }
+        },
+        {
+          "biome": "planetsplus:diater_frozen_ocean",
+          "parameters": {
+            "temperature": -0.5,
+            "humidity": 0,
+            "continentalness": 0,
+            "erosion": 0.25,
+            "weirdness": -0.5,
+            "depth": 0,
+            "offset": 0
+          }
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "replace": false,
+  "values": [
+    "planetsplus:jada_frozen_canyon",
+	  "planetsplus:jada_ice_desert",
+	  "planetsplus:europa_scratched_icy_plains",
+	  "planetsplus:europa_frozen_wasteland",
+    "planetsplus:callisto_icy_wasteland"
+  ]
+}

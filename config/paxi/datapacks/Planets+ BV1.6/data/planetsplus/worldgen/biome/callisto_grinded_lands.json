@@ -1,0 +1,57 @@
+{
+  "carvers": {
+    "air": [
+      "minecraft:cave",
+      "minecraft:cave_extra_underground",
+      "minecraft:canyon"
+    ]
+  },
+  "downfall": 0.5,
+  "effects": {
+    "fog_color": 3161926,
+    "sky_color": 3161926,
+    "water_color": 3750089,
+    "water_fog_color": 329011
+  },
+  "features": [
+    [],
+    [
+      "minecraft:amethyst_geode"
+    ],
+    [
+      "minecraft:blue_ice"
+    ],
+    [],
+    [
+      "planetsplus:callisto_copper_ore",
+      "planetsplus:callisto_iron_ore",
+      "planetsplus:callisto_gold_ore",
+	  "planetsplus:callisto_ice_shard_ore",
+      "planetsplus:callisto_desh_ore"
+    ],
+    [],
+    [
+      "minecraft:glow_lichen"
+    ]
+  ],
+  "has_precipitation": false,
+  "creature_spawn_probability": 0.6,
+  "spawners": {
+    "monster": [
+      {
+        "type": "ad_astra:corrupted_lunarian",
+        "weight": 100,
+        "minCount": 2,
+        "maxCount": 5
+      }
+    ]
+  },
+  "spawn_costs": {
+    "ad_astra:corrupted_lunarian": {
+      "energy_budget": 0.02,
+      "charge": 0.2
+    }
+  },
+  "temperature": 0.0,
+  "temperature_modifier": "frozen"
+}

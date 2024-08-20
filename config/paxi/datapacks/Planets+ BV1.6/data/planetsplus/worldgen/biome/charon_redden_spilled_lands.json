@@ -1,0 +1,48 @@
+{
+  "temperature": -0.7,
+  "downfall": 1,
+  "precipitation": "snow",
+  "category": "icy",
+  "has_precipitation": false,
+  "effects": {
+    "sky_color": 3161926,
+    "fog_color": 3161926,
+    "water_color": 4159204,
+    "water_fog_color": 329010,
+    "grass_color": 7042641,
+    "foliage_color": 7842607
+  },
+  "creature_spawn_probability": 0.6,
+  "spawners": {
+    "monster": [
+      {
+        "type": "ad_astra:corrupted_lunarian",
+        "weight": 100,
+        "minCount": 2,
+        "maxCount": 5
+      }
+    ]
+  },
+  "spawn_costs": {
+    "ad_astra:corrupted_lunarian": {
+      "energy_budget": 0.02,
+      "charge": 0.2
+    }
+  },
+  "carvers": {
+    "air": [
+      "minecraft:cave",
+      "minecraft:cave_extra_underground",
+      "minecraft:canyon"
+    ]
+  },
+  "features": [
+    [
+      "planetsplus:charon_copper_ore",
+      "planetsplus:charon_iron_ore",
+      "planetsplus:charon_coal_ore",
+	  "planetsplus:charon_ice_shard_ore",
+      "planetsplus:charon_desh_ore"
+    ]
+  ]
+}

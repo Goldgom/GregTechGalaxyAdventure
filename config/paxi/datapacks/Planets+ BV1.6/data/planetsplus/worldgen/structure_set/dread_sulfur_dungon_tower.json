@@ -1,0 +1,14 @@
+{
+  "structures": [
+    {
+      "structure": "planetsplus:dread_sulfur_dungon_tower",
+      "weight": 2
+    }
+  ],
+  "placement": {
+    "salt": 18984519,
+    "spacing": 32,
+    "separation": 23,
+    "type": "minecraft:random_spread"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "display": {
+    "icon": {
+      "item": "ad_astra:moon_globe"
+    },
+    "title": {
+      "translate": "This isnt on the maps!?"
+    },
+    "description": {
+      "translate": "Go to your first fake planet"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "mars": {
+      "trigger": "minecraft:changed_dimension",
+      "conditions": {
+        "to": "planetsplus:jada"
+      }
+    }
+  },
+  "rewards": {
+    "experience": 200
+  },
+  "parent": "ad_astra:tier_2_rocket"
+}

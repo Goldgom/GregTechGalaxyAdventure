@@ -1,0 +1,29 @@
+{
+  "display": {
+    "icon": {
+      "item": "ad_astra:mercury_globe"
+    },
+    "title": {
+      "translate": "The off brand"
+    },
+    "description": {
+      "translate": "Go to fierer"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "mars": {
+      "trigger": "minecraft:changed_dimension",
+      "conditions": {
+        "to": "planetsplus:fierer"
+      }
+    }
+  },
+  "rewards": {
+    "experience": 200
+  },
+  "parent": "ad_astra:tier_4_rocket"
+}

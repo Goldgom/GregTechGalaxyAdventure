@@ -1,0 +1,48 @@
+{
+  "type": "planetsplus:jada",
+  "generator": {
+    "type": "minecraft:noise",
+    "settings": "planetsplus:jada",
+    "biome_source": {
+      "type": "minecraft:multi_noise",
+      "biomes": [
+        {
+          "biome": "planetsplus:jada_wasteland",
+          "parameters": {
+            "temperature": -0.4,
+            "humidity": 0.1,
+            "continentalness": 0,
+            "erosion": 0,
+            "weirdness": -0.3,
+            "depth": 0,
+            "offset": 0.25
+          }
+        },
+        {
+          "biome": "planetsplus:jada_frozen_canyon",
+          "parameters": {
+            "temperature": -0.5,
+            "humidity": 0.05,
+            "continentalness": 0,
+            "erosion": 0.025,
+            "weirdness": -0.1,
+            "depth": 0,
+            "offset": 0.25
+          }
+        },
+        {
+          "biome": "planetsplus:jada_ice_desert",
+          "parameters": {
+            "temperature": -0.55,
+            "humidity": 0,
+            "continentalness": 0.7,
+            "erosion": 0.07,
+            "weirdness": -0.05,
+            "depth": 0,
+            "offset": 0.35
+          }
+        }
+      ]
+    }
+  }
+}

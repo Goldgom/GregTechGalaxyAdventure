@@ -1,0 +1,11 @@
+{
+    "translation": "planet.sgjourney.cavum_tenebrae",
+    "dimension": "sgjourney:cavum_tenebrae",
+    "gravity": 1,
+    "orbit": "sgjourney_in_ad_astra:cavum_tenebrae_orbit",
+    "oxygen": false,
+    "solar_power": 14,
+    "solar_system": "sgjourney_in_ad_astra:journry_planetary_system",
+    "temperature": 80,
+    "tier": 4
+  }

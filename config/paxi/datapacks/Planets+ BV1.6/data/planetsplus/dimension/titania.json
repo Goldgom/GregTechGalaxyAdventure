@@ -1,0 +1,11 @@
+{
+  "type": "planetsplus:titania",
+  "generator": {
+    "type": "minecraft:noise",
+    "settings": "planetsplus:titania",
+    "biome_source": {
+      "type": "minecraft:fixed",
+      "biome": "planetsplus:titania_wastelands"
+    }
+  }
+}

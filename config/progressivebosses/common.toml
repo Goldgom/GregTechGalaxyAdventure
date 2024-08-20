@@ -19,14 +19,30 @@
 	"Enable Larva" = true
 	#Handles the Damage Resistances and Vulnerabilities
 	"Enable Resistances & Vulnerabilities" = true
-	#Shulkers that will make you float around.
-	"Enable Minions" = true
 	#Bonus Experience and Dragon Egg per player
 	"Enable Rewards" = true
-	#Makes the dragon hit harder in various different ways
-	"Enable Attack" = true
 	#Bonus Health and Bonus regeneration.
 	"Enable Health" = true
+	#Shulkers that will make you float around.
+	"Enable Minions" = true
+	#Makes the dragon hit harder in various different ways
+	"Enable Attack" = true
+
+	#How difficulty is handled for the Dragon.
+	["Ender Dragon"."Difficulty Settings"]
+		#The Maximum difficulty (times killed) reachable by Ender Dragon. By default is set to 24 because it's the last spawning end gate.
+		#Range: > 1
+		"Max Difficulty" = 8
+		#How much difficulty will players start with when joining a world? Note that this will apply when the player joins the world if the current player difficulty is below this value.
+		#Range: > 0
+		"Starting Difficulty" = 0
+		#If false and there's more than 1 player around the Dragon, difficulty will be the average of all the players' difficulty instead of summing them.
+		"Sum Killed Dragons Difficulty" = false
+		#Percentage bonus difficulty added to the Dragon when more than one player is present. Each player past the first one will add this percentage to the difficulty.
+		#Range: 0.0 ~ 1.7976931348623157E308
+		"Bonus Difficulty per Player" = 0.25
+		#Set to false to disable the first Dragon killed message.
+		"Show First Killed Dragon Message" = true
 
 	#Makes more Crystal spawn and with more cages.
 	["Ender Dragon".Crystals]
@@ -53,6 +69,7 @@
 		#Crystals can no longer be destroyed by other explosions.
 		"Explosion Immune" = true
 
+<<<<<<< HEAD
 	#How difficulty is handled for the Dragon.
 	["Ender Dragon"."Difficulty Settings"]
 		#The Maximum difficulty (times killed) reachable by Ender Dragon. By default is set to 24 because it's the last spawning end gate.
@@ -69,6 +86,8 @@
 		#Set to false to disable the first Dragon killed message.
 		"Show First Killed Dragon Message" = true
 
+=======
+>>>>>>> 8b45b5ad627e9a0f0a46630ef33608e21e9584de
 	#Mini things that are just annoying.
 	["Ender Dragon".Larva]
 		#At which difficulty the Ender Dragon starts spawning Larvae
@@ -101,6 +120,37 @@
 		#Range: 0.0 ~ 1.0
 		"Explosion Damage reduction" = 0.667
 
+<<<<<<< HEAD
+=======
+	#Bonus Experience and Dragon Egg per player
+	["Ender Dragon".Rewards]
+		#How much more experience (percentage, 36 means +3600%) will Dragon drop at max Difficulty.
+		#Range: 0.0 ~ 1.7976931348623157E308
+		"Bonus Experience" = 36.0
+		#If true whenever a player, that has never killed the dragon, kills the dragon a Dragon Egg will drop. E.g. If 2 players kill the Dragon for the first time, she will drop 2 Dragon Eggs
+		"Dragon Egg per Player" = true
+
+	#Bonus Health and Bonus regeneration.
+	["Ender Dragon".Health]
+		#Ender Dragon health will be increased by this value at max difficulty (scaling accordingly at lower difficulties)
+		#Range: 0.0 ~ 1.7976931348623157E308
+		"Health Bonus at Max Difficulty" = 200.0
+		#How much health will the Ender Dragon regen at max difficulty (scaling accordingly at lower difficulties). This doesn't affect the health regen given by crystals.
+		#Range: 0.0 ~ 1.7976931348623157E308
+		"Bonus Regeneration" = 1.0
+		#Maximum bonus regeneration per second given by "Bonus Regeneration". Set to 0 to disable bonus health regeneration. Can be lower than "Bonus Regeneration". This doesn't affect the health regen given by crystals.
+		#Range: 0.0 ~ 1.7976931348623157E308
+		"Maximum Bonus Regeneration" = 1.0
+		#How much health (when missing 100% health) will the Ender Dragon regen at max difficulty each second whenever she's attached to a Crystal. So if she's missing 30% health, this will be 30% effective. This is added to the normal Crystal regen.
+		#Range: 0.0 ~ 1.7976931348623157E308
+		"Bonus Crystal Regeneration" = 0.0
+		#Bonus regeneration (also bonus crystal regen) will be multiplied by this ratio when the Dragon has been hit in the last 'Bonus Regeneration When Hit Duration' ticks.
+		#Range: 0.0 ~ 4.0
+		"Bonus Regeneration Ratio When Hit" = 0.4
+		#Range: > 0
+		"Bonus Regeneration When Hit Duration" = 85
+
+>>>>>>> 8b45b5ad627e9a0f0a46630ef33608e21e9584de
 	#Shulkers that will make you float around.
 	["Ender Dragon".Minions]
 		#At which difficulty the Ender Dragon starts spawning Minions
@@ -124,6 +174,7 @@
 		#If true, Dragon Minions will take only 10% damage from the Ender Dragon.
 		"Reduced Dragon Damage" = true
 
+<<<<<<< HEAD
 	#Bonus Experience and Dragon Egg per player
 	["Ender Dragon".Rewards]
 		#How much more experience (percentage, 36 means +3600%) will Dragon drop at max Difficulty.
@@ -132,6 +183,8 @@
 		#If true whenever a player, that has never killed the dragon, kills the dragon a Dragon Egg will drop. E.g. If 2 players kill the Dragon for the first time, she will drop 2 Dragon Eggs
 		"Dragon Egg per Player" = true
 
+=======
+>>>>>>> 8b45b5ad627e9a0f0a46630ef33608e21e9584de
 	#Makes the dragon hit harder in various different ways
 	["Ender Dragon".Attack]
 		#How much more damage at max difficulty (percentage) does the Ender Dragon deal per difficulty?
@@ -163,6 +216,7 @@
 		#Range: 0.0 ~ 1.7976931348623157E308
 		"Bonus Fireballs" = 15.0
 
+<<<<<<< HEAD
 	#Bonus Health and Bonus regeneration.
 	["Ender Dragon".Health]
 		#Ender Dragon health will be increased by this value at max difficulty (scaling accordingly at lower difficulties)
@@ -183,3 +237,5 @@
 		#Range: > 0
 		"Bonus Regeneration When Hit Duration" = 85
 
+=======
+>>>>>>> 8b45b5ad627e9a0f0a46630ef33608e21e9584de

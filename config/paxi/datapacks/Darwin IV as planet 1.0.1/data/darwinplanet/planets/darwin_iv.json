@@ -1,0 +1,10 @@
+{
+  "dimension": "darwiniv:darwin_iv",
+  "gravity": 5.884,
+  "orbit": "darwinplanet:darwin_iv_orbit",
+  "oxygen": true,
+  "solar_power": 48,
+  "solar_system": "darwinplanet:darwin",
+  "temperature": 60,
+  "tier": 4
+}
