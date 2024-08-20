@@ -358,51 +358,48 @@ GTCEuServerEvents.oreVeins(event => {
 
 	// Overworld veins
 	// Stone
-	addVeinInBiome('apatite_vein', GTWorldGenLayers.STONE, 25, 100, 10, 60, GTMaterials.Apatite, 'above', passiveLayers.calcite, pattern => {
+	addVeinInBiome('scheelite_vein_ow', GTWorldGenLayers.STONE, 50, 20, 10, 40, GTMaterials.Scheelite, 'above', passiveLayers.endstone, pattern => {
+		pattern
+			.layer(l => l.weight(3).mat(GTMaterials.Scheelite).size(1, 2))
+			.layer(l => l.weight(2).mat(GTMaterials.Tungstate).size(1, 2))
+			.layer(l => l.weight(1).mat(GTMaterials.Lithium).size(1, 2))
+	}, '#minecraft:is_mountain')
+	addVeinInBiome('bauxite_vein', GTWorldGenLayers.STONE, 30, 80, 10, 80, GTMaterials.Bauxite, 'above', passiveLayers.calcite, pattern => {
+		pattern
+			.layer(l => l.weight(5).mat(GTMaterials.Bauxite).size(1, 4))
+			.layer(l => l.weight(1).mat(GTMaterials.Ilmenite).size(1, 2))
+	}, '#forge:is_hot')
+	addVeinInBiome('apatite_vein', GTWorldGenLayers.STONE, 25, 80, 10, 60, GTMaterials.Apatite, 'above', passiveLayers.calcite, pattern => {
 		pattern
 			.layer(l => l.weight(3).mat(GTMaterials.Apatite).size(2, 2))
 			.layer(l => l.weight(2).mat(GTMaterials.TricalciumPhosphate).size(1, 1))
 			.layer(l => l.weight(1).mat(GTMaterials.Pyrochlore).size(1, 1))
-	}, ['#forge:is_wet', '#forge:is_desert'])
+	}, '#forge:is_hot')
 	addVeinInBiome('cassiterite_vein', GTWorldGenLayers.STONE, 25, 100, 10, 60, GTMaterials.Cassiterite, 'surface', passiveLayers.tuff, pattern => {
 		pattern
 			.layer(l => l.weight(4).mat(GTMaterials.Tin).size(1, 2))
 			.layer(l => l.weight(2).mat(GTMaterials.Cassiterite).size(1, 1))
-			.layer(l => l.weight(1).mat(GTMaterials.Tungstate).size(1, 1))
-	}, ['#forge:is_wet'])
-	addVein('coal_vein', GTWorldGenLayers.STONE, 30, 80, 10, 140, GTMaterials.Coal, 'surface', passiveLayers.calcite, pattern => {
+			.layer(l => l.weight(1).mat(GTMaterials.Scheelite).size(1, 1))
+	}, '#forge:is_hot')
+	addVeinInBiome('coal_vein', GTWorldGenLayers.STONE, 30, 80, 10, 60, GTMaterials.Coal, 'surface', passiveLayers.calcite, pattern => {
 		pattern
 			.layer(l => l.weight(3).mat(GTMaterials.Coal).size(2, 3))
-	})
-	addVein('copper_tin_vein', GTWorldGenLayers.STONE, 30, 50, -10, 160, GTMaterials.Chalcopyrite, 'surface', passiveLayers.tuff, pattern => {
+	}, '#minecraft:is_forest')
+	addVeinInBiome('copper_tin_vein', GTWorldGenLayers.STONE, 30, 50, -10, 60, GTMaterials.Chalcopyrite, 'surface', passiveLayers.tuff, pattern => {
 		pattern
 			.layer(l => l.weight(5).mat(GTMaterials.Chalcopyrite).size(2, 2))
 			.layer(l => l.weight(2).mat(GTMaterials.Zeolite).size(1, 2))
 			.layer(l => l.weight(2).mat(GTMaterials.Cassiterite).size(1, 2))
 			.layer(l => l.weight(1).mat(GTMaterials.Realgar).size(1, 2))
-	})
-	addVein('galena_vein', GTWorldGenLayers.STONE, 25, 40, -15, 45, GTMaterials.Galena, 'surface', passiveLayers.dripstone, pattern => {
+	}, '#forge:is_mountain')
+	addVeinInBiome('lead_zinc_vein', GTWorldGenLayers.STONE, 25, 80, -15, 45, GTMaterials.Galena, 'surface', passiveLayers.dripstone, pattern => {
 		pattern
-			.layer(l => l.weight(3).mat(GTMaterials.Galena).size(2, 2))
+			.layer(l => l.weight(5).mat(GTMaterials.Galena).size(2, 2))
+			.layer(l => l.weight(5).mat(GTMaterials.Sphalerite).size(1, 2))
 			.layer(l => l.weight(2).mat(GTMaterials.Silver).size(1, 1))
 			.layer(l => l.weight(1).mat(GTMaterials.Lead).size(1, 1))
-	})
-	addVein('garnet_tin_vein', GTWorldGenLayers.STONE, 25, 80, 30, 60, GTMaterials.GarnetSand, 'surface', passiveLayers.dripstone, pattern => {
-		pattern
-			.layer(l => l.weight(2).state(() => Block.getBlock('minecraft:sand').defaultBlockState()).size(1, 1))
-			.layer(l => l.weight(3).mat(GTMaterials.CassiteriteSand).size(2, 3))
-			.layer(l => l.weight(2).mat(GTMaterials.GarnetSand).size(1, 1))
-			.layer(l => l.weight(2).mat(GTMaterials.Asbestos).size(1, 1))
-			.layer(l => l.weight(1).mat(GTMaterials.Diatomite).size(1, 1))
-	})
-	addVein('garnet_vein', GTWorldGenLayers.STONE, 25, 40, -10, 50, GTMaterials.GarnetRed, 'above', passiveLayers.dripstone, pattern => {
-		pattern
-			.layer(l => l.weight(3).mat(GTMaterials.GarnetRed).size(2, 2))
-			.layer(l => l.weight(2).mat(GTMaterials.GarnetYellow).size(1, 1))
-			.layer(l => l.weight(2).mat(GTMaterials.Amethyst).size(1, 1))
-			.layer(l => l.weight(1).mat(GTMaterials.Opal).size(1, 1))
-	})
-	addVein('iron_vein', GTWorldGenLayers.STONE, 30, 120, -10, 60, GTMaterials.Goethite, 'surface', passiveLayers.deepslate, pattern => {
+	}, '#forge:is_mountain')
+	addVein('iron_vein', GTWorldGenLayers.STONE, 50, 120, -10, 60, GTMaterials.Goethite, 'surface', passiveLayers.deepslate, pattern => {
 		pattern
 			.layer(l => l.weight(5).mat(GTMaterials.Goethite).size(1, 2))
 			.layer(l => l.weight(2).mat(GTMaterials.YellowLimonite).size(1, 1))
@@ -416,12 +413,12 @@ GTCEuServerEvents.oreVeins(event => {
 			.layer(l => l.weight(2).mat(GTMaterials.GlauconiteSand).size(1, 1))
 			.layer(l => l.weight(1).mat(GTMaterials.Pentlandite).size(1, 1))
 	})
-	addVein('magnetite_vein_ow', GTWorldGenLayers.STONE, 25, 80, 10, 60, GTMaterials.Magnetite, 'surface', passiveLayers.tuff, pattern => {
+	addVeinInBiome('magnetite_vein_ow', GTWorldGenLayers.STONE, 25, 80, 10, 60, GTMaterials.Magnetite, 'surface', passiveLayers.tuff, pattern => {
 		pattern
 			.layer(l => l.weight(3).mat(GTMaterials.Magnetite).size(2, 3))
 			.layer(l => l.weight(2).mat(GTMaterials.VanadiumMagnetite).size(1, 1))
 			.layer(l => l.weight(1).mat(GTMaterials.Gold).size(1, 1))
-	})
+	}, '#minecraft:is_mountain')
 	addVein('mineral_sand_vein', GTWorldGenLayers.STONE, 25, 80, 15, 60, GTMaterials.BasalticMineralSand, 'surface', passiveLayers.tuff, pattern => {
 		pattern
 			.layer(l => l.weight(2).state(() => Block.getBlock('minecraft:sand').defaultBlockState()).size(1, 1))
@@ -437,32 +434,47 @@ GTCEuServerEvents.oreVeins(event => {
 			.layer(l => l.weight(2).mat(GTMaterials.Cobaltite).size(1, 1))
 			.layer(l => l.weight(1).mat(GTMaterials.Pentlandite).size(1, 1))
 	})
-	addVein('salts_vein', GTWorldGenLayers.STONE, 25, 50, 30, 70, GTMaterials.Salt, 'surface', passiveLayers.calcite, pattern => {
+	addVeinInBiome('salts_vein', GTWorldGenLayers.STONE, 25, 100, 30, 60, GTMaterials.Salt, 'surface', passiveLayers.calcite, pattern => {
 		pattern
 			.layer(l => l.weight(3).mat(GTMaterials.RockSalt).size(2, 3))
 			.layer(l => l.weight(2).mat(GTMaterials.Salt).size(1, 1))
 			.layer(l => l.weight(2).mat(GTMaterials.Lepidolite).size(1, 1))
 			.layer(l => l.weight(1).mat(GTMaterials.Spodumene).size(1, 1))
-	})
-	addVein('oilsands_vein', GTWorldGenLayers.STONE, 20, 40, 30, 80, GTMaterials.Oilsands, 'surface', passiveLayers.deepslate, pattern => {
+	}, '#forge:is_wet')
+	addVeinInBiome('oilsands_vein', GTWorldGenLayers.STONE, 20, 100, 30, 60, GTMaterials.Oilsands, 'surface', passiveLayers.deepslate, pattern => {
 		pattern
 			.layer(l => l.weight(3).mat(GTMaterials.Oilsands).size(2, 3))
 			.layer(l => l.weight(4).mat(GTMaterials.Oilsands).size(1, 1))
-	})
+	}, '#forge:is_dry')
 	// Deepslate
-	addVein('copper_vein', GTWorldGenLayers.DEEPSLATE, 25, 80, -40, 10, GTMaterials.Copper, 'surface', passiveLayers.dripstone, pattern => {
+	addVein('garnet_tin_vein', GTWorldGenLayers.DEEPSLATE, 25, 80, -20, 30, GTMaterials.GarnetSand, 'surface', passiveLayers.dripstone, pattern => {
+		pattern
+			.layer(l => l.weight(2).state(() => Block.getBlock('minecraft:sand').defaultBlockState()).size(1, 1))
+			.layer(l => l.weight(3).mat(GTMaterials.CassiteriteSand).size(2, 3))
+			.layer(l => l.weight(2).mat(GTMaterials.GarnetSand).size(1, 1))
+			.layer(l => l.weight(2).mat(GTMaterials.Asbestos).size(1, 1))
+			.layer(l => l.weight(1).mat(GTMaterials.Diatomite).size(1, 1))
+	})
+	addVein('garnet_vein', GTWorldGenLayers.DEEPSLATE, 25, 40, -40, 10, GTMaterials.GarnetRed, 'above', passiveLayers.dripstone, pattern => {
+		pattern
+			.layer(l => l.weight(3).mat(GTMaterials.GarnetRed).size(2, 2))
+			.layer(l => l.weight(2).mat(GTMaterials.GarnetYellow).size(1, 1))
+			.layer(l => l.weight(2).mat(GTMaterials.Amethyst).size(1, 1))
+			.layer(l => l.weight(1).mat(GTMaterials.Opal).size(1, 1))
+	})
+	addVeinInBiome('copper_vein', GTWorldGenLayers.DEEPSLATE, 40, 80, -40, 10, GTMaterials.Copper, 'surface', passiveLayers.dripstone, pattern => {
 		pattern
 			.layer(l => l.weight(5).mat(GTMaterials.Chalcopyrite).size(2, 2))
 			.layer(l => l.weight(2).mat(GTMaterials.Iron).size(1, 1))
 			.layer(l => l.weight(2).mat(GTMaterials.Pyrite).size(1, 1))
 			.layer(l => l.weight(2).mat(GTMaterials.Copper).size(1, 1))
-	})
-	addVeinInBiome('diamond_vein', GTWorldGenLayers.DEEPSLATE, 10, 40, -65, 30, GTMaterials.Diamond, 'above', passiveLayers.tuff, pattern => {
+	}, '#forge:is_mountain')
+	addVeinInBiome('diamond_vein', GTWorldGenLayers.DEEPSLATE, 10, 150, -65, 30, GTMaterials.Diamond, 'above', passiveLayers.tuff, pattern => {
 		pattern
 			.layer(l => l.weight(3).mat(GTMaterials.Graphite).size(2, 2))
 			.layer(l => l.weight(2).mat(GTMaterials.Diamond).size(1, 1))
 			.layer(l => l.weight(1).mat(GTMaterials.Coal).size(1, 1))
-	}, ['#forge:is_peak'])
+	}, '#forge:is_peak')
 	addVein('lapis_vein', GTWorldGenLayers.DEEPSLATE, 25, 40, -60, 10, GTMaterials.Lapis, 'above', passiveLayers.tuff, pattern => {
 		pattern
 			.layer(l => l.weight(3).mat(GTMaterials.Lazurite).size(2, 2))
@@ -491,12 +503,12 @@ GTCEuServerEvents.oreVeins(event => {
 			.layer(l => l.weight(2).mat(GTMaterials.Olivine).size(1, 1))
 			.layer(l => l.weight(1).mat(GTMaterials.GlauconiteSand).size(1, 1))
 	})
-	addVein('redstone_vein_ow', GTWorldGenLayers.DEEPSLATE, 25, 60, -65, -10, GTMaterials.Redstone, 'surface', passiveLayers.tuff, pattern => {
+	addVeinInBiome('redstone_vein_ow', GTWorldGenLayers.DEEPSLATE, 25, 60, -65, -10, GTMaterials.Redstone, 'surface', passiveLayers.tuff, pattern => {
 		pattern
 			.layer(l => l.weight(3).mat(GTMaterials.Redstone).size(2, 2))
 			.layer(l => l.weight(2).mat(GTMaterials.Ruby).size(1, 1))
 			.layer(l => l.weight(1).mat(GTMaterials.Cinnabar).size(1, 1))
-	})
+	}, '#forge:is_mountain')
 	addVein('sapphire_vein', GTWorldGenLayers.DEEPSLATE, 20, 60, -40, 0, GTMaterials.Sapphire, 'above', passiveLayers.calcite, pattern => {
 		pattern
 			.layer(l => l.weight(3).mat(GTMaterials.Almandine).size(2, 2))
