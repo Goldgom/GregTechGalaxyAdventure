@@ -69,25 +69,6 @@
 		#Crystals can no longer be destroyed by other explosions.
 		"Explosion Immune" = true
 
-<<<<<<< HEAD
-	#How difficulty is handled for the Dragon.
-	["Ender Dragon"."Difficulty Settings"]
-		#The Maximum difficulty (times killed) reachable by Ender Dragon. By default is set to 24 because it's the last spawning end gate.
-		#Range: > 1
-		"Max Difficulty" = 8
-		#How much difficulty will players start with when joining a world? Note that this will apply when the player joins the world if the current player difficulty is below this value.
-		#Range: > 0
-		"Starting Difficulty" = 0
-		#If false and there's more than 1 player around the Dragon, difficulty will be the average of all the players' difficulty instead of summing them.
-		"Sum Killed Dragons Difficulty" = false
-		#Percentage bonus difficulty added to the Dragon when more than one player is present. Each player past the first one will add this percentage to the difficulty.
-		#Range: 0.0 ~ 1.7976931348623157E308
-		"Bonus Difficulty per Player" = 0.25
-		#Set to false to disable the first Dragon killed message.
-		"Show First Killed Dragon Message" = true
-
-=======
->>>>>>> 8b45b5ad627e9a0f0a46630ef33608e21e9584de
 	#Mini things that are just annoying.
 	["Ender Dragon".Larva]
 		#At which difficulty the Ender Dragon starts spawning Larvae
