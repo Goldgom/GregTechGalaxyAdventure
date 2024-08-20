@@ -1,0 +1,11 @@
+{
+  "type": "planetsplus:neptune",
+  "generator": {
+    "type": "minecraft:noise",
+    "settings": "planetsplus:neptune",
+    "biome_source": {
+      "type": "minecraft:fixed",
+      "biome": "planetsplus:neptunes_windy_clouds"
+    }
+  }
+}

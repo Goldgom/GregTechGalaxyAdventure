@@ -1,0 +1,272 @@
+
+["Carved Faction"]
+	#Carved Obligation
+	"铜刻佣兵团是否主动攻击僵尸类[Zombies]、袭击类生物[Raiders]以外[other than]的敌对生物" = true
+	#Carved Active Attack Creeper
+	"铜刻佣兵团主动攻击苦力怕[Creeper]" = false
+	#Carved Gonna Active Attack List
+	"铜刻佣兵团 会主动攻击生物" = ["minecraft:zombie"]
+	#Carved Never Gonna Active Attack List
+	"铜刻佣兵团 不会主动攻击生物" = ["minecraft:villager", "minecraft:iron_golem", "minecraft:wandering_trader"]
+	#Carved Hound Retire
+	"驯服后的铜刻猎犬不再主动协助村民、铜刻生物、信任玩家" = true
+
+["Tame Mob"]
+	#Tame Mob Hurt By Owner Has Reduce
+	"驯服生物是否对主人对自身造成的伤害拥有减伤" = true
+	#Tame Mob Attack Creeper And Ghast
+	"模组添加的驯服生物是否攻击苦力怕和恶魂" = false
+
+[Attributes]
+
+	[Attributes.Boss]
+
+		[Attributes.Boss."Sediment Lord"]
+			#[Boss] Max Health : 170.0
+			#Range: 0.0 ~ 1.7976931348623157E308
+			SedimentLordMaxHealth = 170.0
+			#[Boss] Melee Damage : 6.0
+			#Range: 0.0 ~ 1.7976931348623157E308
+			SedimentLordMeleeDamage = 6.0
+			#[Boss] Armor : 3.0
+			#Range: 0.0 ~ 1.7976931348623157E308
+			SedimentLordArmor = 3.0
+			#[Boss] Movement Speed : 0.20
+			#Range: 0.0 ~ 1.7976931348623157E308
+			SedimentLordMovementSpeed = 0.2
+			#[Boss] Attack Knockback : 0.4
+			#Range: 0.0 ~ 1.7976931348623157E308
+			SedimentLordAttackKnockback = 0.4
+			#[Boss] Knockback Resistance : 0.5
+			#Range: 0.0 ~ 1.7976931348623157E308
+			SedimentLordKnockbackResistance = 0.5
+			#[Boss] Drop Equipment Chance : 0.0
+			#Range: 0.0 ~ 1.7976931348623157E308
+			SedimentLordLeadCooldown = 0.0
+
+		[Attributes.Boss.Corrosiver]
+			#[Boss] Max Health : 185.0
+			#Range: 0.0 ~ 1.7976931348623157E308
+			CorrosiverMaxHealth = 185.0
+			#[Boss] Melee Damage : 12.0
+			#Range: 0.0 ~ 1.7976931348623157E308
+			CorrosiverMeleeDamage = 12.0
+			#[Boss] Armor : 5.0
+			#Range: 0.0 ~ 1.7976931348623157E308
+			CorrosiverArmor = 5.0
+			#[Boss] Movement Speed : 0.32
+			#Range: 0.0 ~ 1.7976931348623157E308
+			CorrosiverMovementSpeed = 0.32
+			#[Boss] Attack Knockback : 0.6
+			#Range: 0.0 ~ 1.7976931348623157E308
+			CorrosiverAttackKnockback = 0.6
+			#[Boss] Knockback Resistance : 1.0
+			#Range: 0.0 ~ 1.7976931348623157E308
+			CorrosiverKnockbackResistance = 1.0
+			#[Boss] Hurt Cooldown : 2.0
+			#Range: 0.0 ~ 1.7976931348623157E308
+			CorrosiverHurtCooldown = 2.0
+			#[Boss] Break Hurt Cooldown Multiple : 3
+			#Range: 0.0 ~ 1.7976931348623157E308
+			CorrosiverBreakHurtCooldownMultiple = 3.0
+			#[Boss] Breath Normal Level : 3
+			#Range: > 0
+			CorrosiverBreathNormalLevel = 3
+			#[Boss] Breath Cooldown : 12.0
+			#Range: 0.0 ~ 1.7976931348623157E308
+			CorrosiverBreathCooldown = 12.0
+			#[Boss] Breath Count : 3
+			#Range: > 0
+			CorrosiverBreathCount = 3
+			#[Boss] Breath Count Wind : 5
+			#Range: > 0
+			CorrosiverBreathCountWind = 5
+
+		[Attributes.Boss."Purple Sand Hag"]
+			#[Boss] Max Health : 165.0
+			#Range: 0.0 ~ 1.7976931348623157E308
+			PurpleSandHagMaxHealth = 165.0
+			#[Boss] Melee Damage : 13.0
+			#Range: 0.0 ~ 1.7976931348623157E308
+			PurpleSandHagMeleeDamage = 13.0
+			#[Boss] Armor : 15.0
+			#Range: 0.0 ~ 1.7976931348623157E308
+			PurpleSandHagArmor = 15.0
+			#[Boss] Movement Speed : 0.4
+			#Range: 0.0 ~ 1.7976931348623157E308
+			PurpleSandHagMovementSpeed = 0.4
+			#[Boss] Attack Knockback : 0.0
+			#Range: 0.0 ~ 1.7976931348623157E308
+			PurpleSandHagAttackKnockback = 0.0
+			#[Boss] Knockback Resistance : 0.0
+			#Range: 0.0 ~ 1.7976931348623157E308
+			PurpleSandHagKnockbackResistance = 0.0
+			#[Boss] Main Spell Cooldown : 6.0
+			#Range: 0.0 ~ 1.7976931348623157E308
+			PurpleSandHagMainSpellCooldown = 6.0
+			#[Boss] Other Spell Cooldown : 6.0
+			#Range: 0.0 ~ 1.7976931348623157E308
+			PurpleSandHagOtherSpellCooldown = 6.0
+			#[Boss] Spell Normal Level : 3
+			#Range: > 0
+			PurpleSandHagSpellNormalLevel = 3
+
+		[Attributes.Boss."Gemstone Malignasaur"]
+			#[Boss] Max Health : 348.0
+			#Range: 0.0 ~ 1.7976931348623157E308
+			GemstoneMalignasaurMaxHealth = 348.0
+			#[Boss] Melee Damage : 14.0
+			#Range: 0.0 ~ 1.7976931348623157E308
+			GemstoneMalignasaurDamageCap = 14.0
+			#[Boss] Armor : 4.0
+			#Range: 0.0 ~ 1.7976931348623157E308
+			GemstoneMalignasaurArmor = 4.0
+			#[Boss] Armor Gemstone Armor : 20.0
+			#Range: 0.0 ~ 1.7976931348623157E308
+			GemstoneMalignasaurArmorGemstoneArmor = 20.0
+			#[Boss] Movement Speed : 1.3
+			#Range: 0.0 ~ 1.7976931348623157E308
+			GemstoneMalignasaurMovementSpeed = 1.3
+			#[Boss] Movement Speed Gemstone Armor : 1.4
+			#Range: 0.0 ~ 1.7976931348623157E308
+			GemstoneMalignasaurMovementSpeedGemstoneArmor = 1.4
+			#[Boss] Attack Knockback : 2.8
+			#Range: 0.0 ~ 1.7976931348623157E308
+			GemstoneMalignasaurAttackKnockback = 2.8
+			#[Boss] Knockback Resistance : 1.0
+			#Range: 0.0 ~ 1.7976931348623157E308
+			GemstoneMalignasaurKnockbackResistance = 1.0
+			#[Boss] Hurt Cooldown : 1.0
+			#Range: 0.0 ~ 1.7976931348623157E308
+			GemstoneMalignasaurHurtCooldown = 1.0
+			#[Boss] Break Hurt Cooldown Multiple : 3
+			#Range: 0.0 ~ 1.7976931348623157E308
+			GemstoneMalignasaurBreakHurtCooldownMultiple = 3.0
+			#[Boss] Jump Attack Level : 3
+			#Range: > 0
+			GemstoneMalignasaurJumpAttackLevel = 3
+			#[Boss] Jump Attack Cooldown : 18
+			#Range: 0.0 ~ 1.7976931348623157E308
+			GemstoneMalignasaurJumpAttackCooldown = 18.0
+			#[Boss] Breath Normal Level : 3
+			#Range: > 0
+			GemstoneMalignasaurBreathNormalLevel = 3
+			#[Boss] Breath Cooldown : 30.0
+			#Range: 0.0 ~ 1.7976931348623157E308
+			GemstoneMalignasaurBreathCooldown = 30.0
+			#[Boss] Control Normal Level : 3
+			#Range: > 0
+			GemstoneMalignasaurControlNormalLevel = 3
+			#[Boss] Control Cooldown : 60.0
+			#Range: 0.0 ~ 1.7976931348623157E308
+			GemstoneMalignasaurControlCooldown = 60.0
+			#[Boss] Deter Cooldown : 120.0
+			#Range: 0.0 ~ 1.7976931348623157E308
+			GemstoneMalignasaurDeterCooldown = 120.0
+			#[Boss] Damage Suffered Value : 30.0
+			#Range: 0.0 ~ 1.7976931348623157E308
+			GemstoneMalignasaurDamageSufferedValue = 30.0
+			#[Boss] Break Damage Suffered Value : 105.0
+			#Range: 0.0 ~ 1.7976931348623157E308
+			GemstoneMalignasaurBreakDamageSufferedValue = 105.0
+			#[Boss] Break Block Cooldown : 1.5
+			#Range: 0.0 ~ 1.7976931348623157E308
+			GemstoneMalignasaurBreakBlockCooldown = 1.5
+
+		[Attributes.Boss."Bright Land Beast"]
+			#[Boss] Max Health : 650.0
+			#Range: 0.0 ~ 1.7976931348623157E308
+			BrightLandBeastMaxHealth = 650.0
+			#[Boss] Melee Damage : 40.0
+			#Range: 0.0 ~ 1.7976931348623157E308
+			BrightLandBeastMeleeDamage = 40.0
+			#[Boss] Armor : 4.0
+			#Range: 0.0 ~ 1.7976931348623157E308
+			BrightLandBeastArmor = 4.0
+			#[Boss] Movement Speed : 0.28
+			#Range: 0.0 ~ 1.7976931348623157E308
+			BrightLandBeastMovementSpeed = 0.28
+			#[Boss] Attack Knockback : 4.0
+			#Range: 0.0 ~ 1.7976931348623157E308
+			BrightLandBeastAttackKnockback = 4.0
+			#[Boss] Knockback Resistance : 1.0
+			#Range: 0.0 ~ 1.7976931348623157E308
+			BrightLandBeastKnockbackResistance = 1.0
+			#[Boss] Hurt Cooldown : 1.0
+			#Range: 0.0 ~ 1.7976931348623157E308
+			BrightLandBeastHurtCooldown = 1.0
+			#[Boss] Break Breath Cooldown Multiple : 3
+			#Range: 0.0 ~ 1.7976931348623157E308
+			BrightLandBeastBreakHurtCooldownMultiple = 3.0
+			#[Boss] Melee Attack Cooldown : 3.0
+			#Range: 0.0 ~ 1.7976931348623157E308
+			BrightLandBeastMeleeAttackCooldown = 3.0
+			#[Boss] Trample Cooldown : 2.0
+			#Range: 0.0 ~ 1.7976931348623157E308
+			BrightLandBeastTrampleCooldown = 2.0
+			#[Boss] Quake Cooldown : 20.0
+			#Range: 0.0 ~ 1.7976931348623157E308
+			BrightLandBeastQuakeCooldown = 20.0
+			#[Boss] Break Block Cooldown : 1
+			#Range: 0.0 ~ 1.7976931348623157E308
+			BrightLandBeastBreakBlockCooldown = 1.0
+
+		[Attributes.Boss."Second Rounder Golem"]
+			#[Boss] Max Health : 436.0
+			#Range: 0.0 ~ 1.7976931348623157E308
+			SecondRounderGolemMaxHealth = 436.0
+			#[Boss] Melee Damage : 36.0
+			#Range: 0.0 ~ 1.7976931348623157E308
+			SecondRounderGolemMeleeDamage = 36.0
+			#[Boss] Melee Damage Use Sword : 48.0
+			#Range: 0.0 ~ 1.7976931348623157E308
+			SecondRounderGolemMeleeDamageUseSword = 48.0
+			#[Boss] Armor : 20.0
+			#Range: 0.0 ~ 1.7976931348623157E308
+			SecondRounderGolemArmor = 20.0
+			#[Boss] Movement Speed : 0.30
+			#Range: 0.0 ~ 1.7976931348623157E308
+			SecondRounderGolemMovementSpeed = 0.28
+			#[Boss] Movement Speed Use Sword : 0.30
+			#Range: 0.0 ~ 1.7976931348623157E308
+			SecondRounderGolemMovementSpeedUseSword = 0.28
+			#[Boss] Attack Knockback : 3.0
+			#Range: 0.0 ~ 1.7976931348623157E308
+			SecondRounderGolemAttackKnockback = 3.0
+			#[Boss] Knockback Resistance : 1.0
+			#Range: 0.0 ~ 1.7976931348623157E308
+			SecondRounderGolemKnockbackResistance = 1.0
+			#[Boss] Armor Use Sword : 26.0
+			#Range: 0.0 ~ 1.7976931348623157E308
+			SecondRounderGolemArmorUseSword = 26.0
+			#[Boss] Breath Normal Level : 12
+			#Range: > 0
+			SecondRounderGolemBreathNormalLevel = 12
+			#[Boss] Breath Cooldown : 24.0
+			#Range: 0.0 ~ 1.7976931348623157E308
+			SecondRounderGolemBreathCooldown = 24.0
+			#[Boss] Breath Count : 6
+			#Range: > 0
+			SecondRounderGolemBreathCount = 6
+			#[Boss] Intense Bombing Normal Level : 3
+			#Range: > 0
+			SecondRounderGolemIntenseBombingNormalLevel = 3
+			#[Boss] Intense Bombing Cooldown : 60.0
+			#Range: 0.0 ~ 1.7976931348623157E308
+			SecondRounderGolemIntenseBombingCooldown = 60.0
+			#[Boss] Fire Absorption Percentage : 100.0
+			#Range: 0.0 ~ 1.7976931348623157E308
+			SecondRounderGolemFireAbsorptionPercentage = 100.0
+			#[Boss] Not Attacked Start Heal Cooldown : 20.0
+			#Range: 0.0 ~ 1.7976931348623157E308
+			SecondRounderGolemNotAttackedStartHealCooldown = 20.0
+			#[Boss] Normal Meror Toughness Non Magical : 4.0
+			#Range: 0.0 ~ 1.7976931348623157E308
+			SecondRounderGolemNormalMerorToughnessNonMagical = 4.0
+			#[Boss] Normal Meror Toughness Magical : 6.0
+			#Range: 0.0 ~ 1.7976931348623157E308
+			SecondRounderGolemNormalMerorToughnessMagical = 6.0
+			#[Boss] Break Block Cooldown : 2
+			#Range: 0.0 ~ 1.7976931348623157E308
+			SecondRounderGolemBreakBlockCooldown = 2.0
+

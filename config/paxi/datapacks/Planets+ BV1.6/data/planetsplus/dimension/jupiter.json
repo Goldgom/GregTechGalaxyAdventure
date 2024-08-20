@@ -1,0 +1,11 @@
+{
+  "type": "planetsplus:jupiter",
+  "generator": {
+    "type": "minecraft:noise",
+    "settings": "planetsplus:jupiter",
+    "biome_source": {
+      "type": "minecraft:fixed",
+      "biome": "planetsplus:jupiters_clouds"
+    }
+  }
+}

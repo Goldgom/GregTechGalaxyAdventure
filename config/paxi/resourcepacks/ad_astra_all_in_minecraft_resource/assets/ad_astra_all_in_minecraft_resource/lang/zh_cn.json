@@ -29,5 +29,13 @@
     "planet.ad_astra.moon_orbit": "月球轨道",
     "planet.ad_astra.venus": "金星",
     "planet.ad_astra.venus_orbit": "金星轨道",
-    "planet.minecraft.overworld": "地球"
+    "planet.minecraft.overworld": "地球",
+    "planet.jerotesvillage.second_round_world": "第二轮世界",
+    "solar_system.jerotes_in_ad_astra.second_planetary_system": "第二行星系统",
+    "planet.sgjourney.abydos": "阿比多斯",
+    "planet.sgjourney.cavum_tenebrae": "黑暗洞穴",
+    "planet.sgjourney.chulak": "楚拉克",
+    "planet.sgjourney.lantea": "兰提亚",
+    "solar_system.sgjourney_in_ad_astra.journry_planetary_system": "旅程行星系统"
+
 }

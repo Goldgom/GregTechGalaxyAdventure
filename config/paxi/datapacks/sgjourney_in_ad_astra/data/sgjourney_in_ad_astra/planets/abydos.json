@@ -1,0 +1,11 @@
+{
+    "translation": "planet.sgjourney.abydos",
+    "dimension": "sgjourney:abydos",
+    "gravity": 6.2,
+    "orbit": "sgjourney_in_ad_astra:abydos_orbit",
+    "oxygen": true,
+    "solar_power": 14,
+    "solar_system": "sgjourney_in_ad_astra:journry_planetary_system",
+    "temperature": 50,
+    "tier": 4
+  }

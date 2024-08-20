@@ -1,0 +1,11 @@
+{
+  "translation": "planet.jerotesvillage.second_round_world",
+  "dimension": "jerotesvillage:second_round_world",
+  "gravity": 8.3234,
+  "orbit": "jerotes_in_ad_astra:second_round_world_orbit",
+  "oxygen": true,
+  "solar_power": 14,
+  "solar_system": "jerotes_in_ad_astra:second_planetary_system",
+  "temperature": 30,
+  "tier": 4
+}

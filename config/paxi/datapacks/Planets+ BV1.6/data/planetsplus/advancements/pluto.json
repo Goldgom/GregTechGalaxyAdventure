@@ -1,0 +1,29 @@
+{
+  "display": {
+    "icon": {
+      "item": "ad_astra:moon_globe"
+    },
+    "title": {
+      "translate": "Almost 0"
+    },
+    "description": {
+      "translate": "Ice at this point is just rock!"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "mars": {
+      "trigger": "minecraft:changed_dimension",
+      "conditions": {
+        "to": "planetsplus:pluto"
+      }
+    }
+  },
+  "rewards": {
+    "experience": 500
+  },
+  "parent": "ad_astra:tier_3_rocket"
+}

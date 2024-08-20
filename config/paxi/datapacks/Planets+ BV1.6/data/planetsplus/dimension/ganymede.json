@@ -1,0 +1,11 @@
+{
+  "type": "planetsplus:ganymede",
+  "generator": {
+    "type": "minecraft:noise",
+    "settings": "planetsplus:ganymede",
+    "biome_source": {
+      "type": "minecraft:fixed",
+      "biome": "planetsplus:ganymede_smooth_plains"
+    }
+  }
+}

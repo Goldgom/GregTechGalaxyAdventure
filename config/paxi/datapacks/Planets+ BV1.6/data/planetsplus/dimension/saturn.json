@@ -1,0 +1,11 @@
+{
+  "type": "planetsplus:saturn",
+  "generator": {
+    "type": "minecraft:noise",
+    "settings": "planetsplus:saturn",
+    "biome_source": {
+      "type": "minecraft:fixed",
+      "biome": "planetsplus:saturns_clouds"
+    }
+  }
+}

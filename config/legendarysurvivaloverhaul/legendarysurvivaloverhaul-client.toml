@@ -22,6 +22,7 @@
 		"Temperature Display Y Offset" = 0
 		# If enabled, the food saturation will be rendered on the Food Bar while the player suffers Cold Hunger Effect (secondary temperature effect).
 		"Show Food Saturation Bar" = true
+		" If enabled, breathing sound can be heard while player faces harsh temperatures" = true
 
 		[hud.temperature.wetness]
 			# The X and Y offset of the wetness indicator. Set both to 0 for no offset.
@@ -68,4 +69,6 @@
 	"Merge Hydration And Saturation Tooltip" = true
 	# Whether the Thirst Saturation is displayed or not.
 	"Render the thirst saturation" = true
+	# If enabled, player's vision will become blurry when running low on hydration.
+	"Low Thirst Effect" = true
 

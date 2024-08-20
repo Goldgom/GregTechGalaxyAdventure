@@ -1,0 +1,15 @@
+{
+  "name": "planetsplus:tower/jada/start",
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "weight": 100,
+      "element": {
+        "location": "planetsplus:tower/jada/jada_dungon_tower_main",
+        "processors": "minecraft:empty",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    }
+  ]
+}

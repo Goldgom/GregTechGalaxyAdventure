@@ -1,0 +1,48 @@
+{
+  "type": "planetsplus:flade",
+  "generator": {
+    "type": "minecraft:noise",
+    "settings": "planetsplus:flade",
+    "biome_source": {
+      "type": "minecraft:multi_noise",
+      "biomes": [
+        {
+          "biome": "planetsplus:flade_wasteland",
+          "parameters": {
+            "temperature": 2,
+            "humidity": 0,
+            "continentalness": 0,
+            "erosion": 0,
+            "weirdness": 0.05,
+            "depth": 0,
+            "offset": 0.175
+          }
+        },
+        {
+          "biome": "planetsplus:flade_heated_canyon",
+          "parameters": {
+            "temperature": 2,
+            "humidity": 0,
+            "continentalness": 0,
+            "erosion": 0,
+            "weirdness": -0.25,
+            "depth": 0,
+            "offset": 0.0
+          }
+        },
+        {
+          "biome": "planetsplus:flade_hot_deltas",
+          "parameters": {
+            "temperature": 2,
+            "humidity": 0,
+            "continentalness": 0,
+            "erosion": 0,
+            "weirdness": -0.4,
+            "depth": 0,
+            "offset": 0.0
+          }
+        }
+      ]
+    }
+  }
+}

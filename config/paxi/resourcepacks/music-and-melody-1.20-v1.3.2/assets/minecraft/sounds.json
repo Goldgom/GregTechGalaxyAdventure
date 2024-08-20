@@ -1,0 +1,1463 @@
+{
+  "block.end_portal.spawn": {
+    "replace": true,
+    "sounds": [
+      "legacy:music/other/threshold_end_portal"
+    ],
+    "subtitle": "subtitles.block.end_portal.spawn"
+  },
+  "music.creative": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "legacy:music/creative/miscible",
+        "stream": true,
+        "volume": 0.7
+      },
+      {
+        "name": "legacy:music/creative/stolen_grid",
+        "stream": true,
+        "volume": 0.7
+      },
+      {
+        "name": "music.game",
+        "type": "event",
+        "weight": 2
+      },
+      {
+        "name": "music/game/creative/creative1",
+        "stream": true
+      },
+      {
+        "name": "music/game/creative/creative2",
+        "stream": true
+      },
+      {
+        "name": "music/game/creative/creative3",
+        "stream": true
+      },
+      {
+        "name": "music/game/creative/creative4",
+        "stream": true
+      },
+      {
+        "name": "music/game/creative/creative5",
+        "stream": true
+      },
+      {
+        "name": "music/game/creative/creative6",
+        "stream": true
+      }
+    ]
+  },
+  "music.credits": {
+    "sounds": [
+      {
+        "name": "music/game/end/credits",
+        "stream": true
+      }
+    ]
+  },
+  "music.dragon": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "legacy:music/end/minecraft_end_remix",
+        "stream": true,
+        "volume": 0.5
+      },
+      {
+        "name": "legacy:music/end/sweden_end_remix",
+        "stream": true,
+        "volume": 0.5
+      },
+      {
+        "name": "music/game/end/boss",
+        "stream": true
+      }
+    ]
+  },
+  "music.end": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "legacy:music/end/only_the_beginning",
+        "stream": true,
+        "volume": 0.8,
+        "weight": 2
+      },
+      {
+        "name": "legacy:music/end/vacuum_decay",
+        "stream": true
+      },
+      {
+        "name": "music/game/end/end",
+        "stream": true,
+        "weight": 3
+      }
+    ]
+  },
+  "music.game": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "legacy:music/overworld/albeit",
+        "stream": true
+      },
+      {
+        "name": "legacy:music/overworld/alpha",
+        "stream": true
+      },
+      {
+        "name": "legacy:music/overworld/cliff_hanger",
+        "stream": true
+      },
+      {
+        "name": "music/game/a_familiar_room",
+        "stream": true,
+        "volume": 0.4
+      },
+      {
+        "name": "music/game/calm1",
+        "stream": true
+      },
+      {
+        "name": "music/game/calm2",
+        "stream": true
+      },
+      {
+        "name": "music/game/calm3",
+        "stream": true
+      },
+      {
+        "name": "music/game/comforting_memories",
+        "stream": true,
+        "volume": 0.4
+      },
+      {
+        "name": "music/game/floating_dream",
+        "stream": true,
+        "volume": 0.4
+      },
+      {
+        "name": "music/game/hal1",
+        "stream": true
+      },
+      {
+        "name": "music/game/hal2",
+        "stream": true
+      },
+      {
+        "name": "music/game/hal3",
+        "stream": true
+      },
+      {
+        "name": "music/game/hal4",
+        "stream": true
+      },
+      {
+        "name": "music/game/left_to_bloom",
+        "stream": true,
+        "volume": 0.4
+      },
+      {
+        "name": "music/game/nuance1",
+        "stream": true
+      },
+      {
+        "name": "music/game/nuance2",
+        "stream": true
+      },
+      {
+        "name": "music/game/one_more_day",
+        "stream": true,
+        "volume": 0.4
+      },
+      {
+        "name": "music/game/piano1",
+        "stream": true
+      },
+      {
+        "name": "music/game/piano2",
+        "stream": true
+      },
+      {
+        "name": "music/game/piano3",
+        "stream": true
+      }
+    ]
+  },
+  "music.menu": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "legacy:music/creative/stolen_grid",
+        "stream": true,
+        "volume": 0.7,
+        "weight": 3
+      },
+      {
+        "name": "legacy:music/menu/beginning",
+        "stream": true,
+        "weight": 2
+      },
+      {
+        "name": "legacy:music/menu/moog_city",
+        "stream": true,
+        "weight": 2
+      },
+      {
+        "name": "music/game/a_familiar_room",
+        "stream": true,
+        "volume": 0.4,
+        "weight": 2
+      },
+      {
+        "name": "music/game/bromeliad",
+        "stream": true,
+        "volume": 0.4,
+        "weight": 2
+      },
+      {
+        "name": "music/game/crescent_dunes",
+        "stream": true,
+        "volume": 0.4,
+        "weight": 2
+      },
+      {
+        "name": "music/game/echo_in_the_wind",
+        "stream": true,
+        "volume": 0.4,
+        "weight": 2
+      },
+      {
+        "name": "music/game/infinite_amethyst",
+        "stream": true,
+        "volume": 0.4,
+        "weight": 4
+      },
+      {
+        "name": "music/menu/menu1",
+        "stream": true,
+        "weight": 6
+      },
+      {
+        "name": "music/menu/menu2",
+        "stream": true,
+        "weight": 4
+      },
+      {
+        "name": "music/menu/menu3",
+        "stream": true,
+        "weight": 4
+      },
+      {
+        "name": "music/menu/menu4",
+        "stream": true,
+        "weight": 6
+      }
+    ]
+  },
+  "music.nether.basalt_deltas": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "legacy:music/nether/bubbles",
+        "stream": true
+      },
+      {
+        "name": "legacy:music/nether/jellyfish",
+        "stream": true
+      },
+      {
+        "name": "music/game/nether/nether1",
+        "stream": true
+      },
+      {
+        "name": "music/game/nether/nether2",
+        "stream": true
+      },
+      {
+        "name": "music/game/nether/nether3",
+        "stream": true
+      },
+      {
+        "name": "music/game/nether/nether4",
+        "stream": true
+      },
+      {
+        "name": "music/game/nether/soulsand_valley/so_below",
+        "stream": true,
+        "volume": 0.5,
+        "weight": 5
+      }
+    ]
+  },
+  "music.nether.crimson_forest": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "legacy:music/nether/bubbles",
+        "stream": true
+      },
+      {
+        "name": "legacy:music/nether/jellyfish",
+        "stream": true
+      },
+      {
+        "name": "music/game/nether/crimson_forest/chrysopoeia",
+        "stream": true,
+        "volume": 0.5,
+        "weight": 5
+      },
+      {
+        "name": "music/game/nether/nether1",
+        "stream": true
+      },
+      {
+        "name": "music/game/nether/nether2",
+        "stream": true
+      },
+      {
+        "name": "music/game/nether/nether3",
+        "stream": true
+      },
+      {
+        "name": "music/game/nether/nether4",
+        "stream": true
+      }
+    ]
+  },
+  "music.nether.nether_wastes": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "legacy:music/nether/bubbles",
+        "stream": true
+      },
+      {
+        "name": "legacy:music/nether/jellyfish",
+        "stream": true
+      },
+      {
+        "name": "music/game/nether/nether1",
+        "stream": true
+      },
+      {
+        "name": "music/game/nether/nether2",
+        "stream": true
+      },
+      {
+        "name": "music/game/nether/nether3",
+        "stream": true
+      },
+      {
+        "name": "music/game/nether/nether4",
+        "stream": true
+      },
+      {
+        "name": "music/game/nether/nether_wastes/rubedo",
+        "stream": true,
+        "volume": 0.5,
+        "weight": 5
+      }
+    ]
+  },
+  "music.nether.soul_sand_valley": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "legacy:music/nether/bubbles",
+        "stream": true
+      },
+      {
+        "name": "legacy:music/nether/jellyfish",
+        "stream": true
+      },
+      {
+        "name": "music/game/nether/nether1",
+        "stream": true
+      },
+      {
+        "name": "music/game/nether/nether2",
+        "stream": true
+      },
+      {
+        "name": "music/game/nether/nether3",
+        "stream": true
+      },
+      {
+        "name": "music/game/nether/nether4",
+        "stream": true
+      },
+      {
+        "name": "music/game/nether/soulsand_valley/so_below",
+        "stream": true,
+        "volume": 0.5,
+        "weight": 5
+      }
+    ]
+  },
+  "music.nether.warped_forest": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "legacy:music/nether/prophet",
+        "stream": true,
+        "weight": 5
+      },
+      {
+        "name": "legacy:music/other/placeholder_silence",
+        "stream": true,
+        "weight": 3
+      }
+    ]
+  },
+  "music.overworld.badlands": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "legacy:music/overworld/sunrise_on_the_mesa_2",
+        "stream": true,
+        "weight": 2
+      },
+      {
+        "name": "music/game/crescent_dunes",
+        "stream": true,
+        "volume": 0.4,
+        "weight": 2
+      },
+      {
+        "name": "music/game/echo_in_the_wind",
+        "stream": true,
+        "volume": 0.4
+      },
+      {
+        "name": "music/game/hal1",
+        "stream": true
+      },
+      {
+        "name": "music/game/hal2",
+        "stream": true
+      },
+      {
+        "name": "music/game/hal3",
+        "stream": true
+      },
+      {
+        "name": "music/game/hal4",
+        "stream": true
+      },
+      {
+        "name": "music/game/nuance1",
+        "stream": true
+      },
+      {
+        "name": "music/game/nuance2",
+        "stream": true
+      },
+      {
+        "name": "music/game/one_more_day",
+        "stream": true,
+        "volume": 0.4
+      },
+      {
+        "name": "music/game/piano1",
+        "stream": true
+      },
+      {
+        "name": "music/game/piano2",
+        "stream": true
+      },
+      {
+        "name": "music/game/piano3",
+        "stream": true
+      }
+    ]
+  },
+  "music.overworld.bamboo_jungle": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "legacy:music/overworld/castles",
+        "stream": true,
+        "weight": 2
+      },
+      {
+        "name": "music/game/bromeliad",
+        "stream": true,
+        "volume": 0.4,
+        "weight": 2
+      },
+      {
+        "name": "music/game/creative/creative4",
+        "stream": true
+      },
+      {
+        "name": "music/game/hal1",
+        "stream": true
+      },
+      {
+        "name": "music/game/hal2",
+        "stream": true
+      },
+      {
+        "name": "music/game/hal3",
+        "stream": true
+      },
+      {
+        "name": "music/game/hal4",
+        "stream": true
+      },
+      {
+        "name": "music/game/left_to_bloom",
+        "stream": true,
+        "volume": 0.4
+      },
+      {
+        "name": "music/game/nuance1",
+        "stream": true
+      },
+      {
+        "name": "music/game/nuance2",
+        "stream": true
+      },
+      {
+        "name": "music/game/piano1",
+        "stream": true
+      },
+      {
+        "name": "music/game/piano2",
+        "stream": true
+      },
+      {
+        "name": "music/game/piano3",
+        "stream": true
+      }
+    ]
+  },
+  "music.overworld.cherry_grove": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "legacy:music/overworld/burning_konkrete",
+        "stream": true
+      },
+      {
+        "name": "legacy:music/overworld/kyoto",
+        "stream": true,
+        "weight": 2
+      },
+      {
+        "name": "music/game/bromeliad",
+        "stream": true,
+        "volume": 0.4,
+        "weight": 2
+      },
+      {
+        "name": "music/game/calm1",
+        "stream": true
+      },
+      {
+        "name": "music/game/calm2",
+        "stream": true
+      },
+      {
+        "name": "music/game/calm3",
+        "stream": true
+      },
+      {
+        "name": "music/game/echo_in_the_wind",
+        "stream": true,
+        "volume": 0.4,
+        "weight": 2
+      },
+      {
+        "name": "music/game/left_to_bloom",
+        "stream": true,
+        "volume": 0.4
+      }
+    ]
+  },
+  "music.overworld.deep_dark": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "legacy:music/caves/abandoned_halls",
+        "stream": true
+      },
+      {
+        "name": "legacy:music/caves/echoes",
+        "stream": true
+      },
+      {
+        "name": "music/game/ancestry",
+        "stream": true,
+        "weight": 3
+      }
+    ]
+  },
+  "music.overworld.desert": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "legacy:music/overworld/sunrise_on_the_mesa_2",
+        "stream": true
+      },
+      {
+        "name": "music/game/crescent_dunes",
+        "stream": true,
+        "volume": 0.4,
+        "weight": 2
+      },
+      {
+        "name": "music/game/hal1",
+        "stream": true
+      },
+      {
+        "name": "music/game/hal2",
+        "stream": true
+      },
+      {
+        "name": "music/game/hal3",
+        "stream": true
+      },
+      {
+        "name": "music/game/hal4",
+        "stream": true
+      },
+      {
+        "name": "music/game/nuance1",
+        "stream": true
+      },
+      {
+        "name": "music/game/nuance2",
+        "stream": true
+      },
+      {
+        "name": "music/game/one_more_day",
+        "stream": true,
+        "volume": 0.4
+      }
+    ]
+  },
+  "music.overworld.dripstone_caves": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "legacy:music/caves/excuse",
+        "stream": true,
+        "weight": 2
+      },
+      {
+        "name": "music/game/an_ordinary_day",
+        "stream": true
+      },
+      {
+        "name": "music/game/hal1",
+        "stream": true
+      },
+      {
+        "name": "music/game/hal4",
+        "stream": true
+      },
+      {
+        "name": "music/game/infinite_amethyst",
+        "stream": true,
+        "volume": 0.4
+      },
+      {
+        "name": "music/game/nuance1",
+        "stream": true
+      },
+      {
+        "name": "music/game/nuance2",
+        "stream": true
+      },
+      {
+        "name": "music/game/wending",
+        "stream": true,
+        "volume": 0.4,
+        "weight": 2
+      }
+    ]
+  },
+  "music.overworld.flower_forest": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "legacy:music/overworld/burning_konkrete",
+        "stream": true
+      },
+      {
+        "name": "legacy:music/overworld/cliff_hanger",
+        "stream": true
+      },
+      {
+        "name": "legacy:music/overworld/kyoto",
+        "stream": true
+      },
+      {
+        "name": "music/game/bromeliad",
+        "stream": true,
+        "volume": 0.4
+      },
+      {
+        "name": "music/game/echo_in_the_wind",
+        "stream": true,
+        "volume": 0.4
+      },
+      {
+        "name": "music/game/hal1",
+        "stream": true
+      },
+      {
+        "name": "music/game/hal2",
+        "stream": true
+      },
+      {
+        "name": "music/game/hal3",
+        "stream": true
+      },
+      {
+        "name": "music/game/hal4",
+        "stream": true
+      },
+      {
+        "name": "music/game/left_to_bloom",
+        "stream": true,
+        "volume": 0.4
+      },
+      {
+        "name": "music/game/nuance1",
+        "stream": true
+      },
+      {
+        "name": "music/game/nuance2",
+        "stream": true
+      }
+    ]
+  },
+  "music.overworld.forest": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "legacy:music/overworld/814",
+        "stream": true
+      },
+      {
+        "name": "legacy:music/overworld/burning_konkrete",
+        "stream": true
+      },
+      {
+        "name": "legacy:music/overworld/cliff_hanger",
+        "stream": true
+      },
+      {
+        "name": "legacy:music/overworld/ravine",
+        "stream": true,
+        "volume": 0.7
+      },
+      {
+        "name": "music/game/bromeliad",
+        "stream": true,
+        "volume": 0.4
+      },
+      {
+        "name": "music/game/calm1",
+        "stream": true
+      },
+      {
+        "name": "music/game/calm2",
+        "stream": true
+      },
+      {
+        "name": "music/game/calm3",
+        "stream": true
+      },
+      {
+        "name": "music/game/comforting_memories",
+        "stream": true,
+        "volume": 0.4
+      },
+      {
+        "name": "music/game/floating_dream",
+        "stream": true,
+        "volume": 0.4
+      },
+      {
+        "name": "music/game/hal1",
+        "stream": true
+      },
+      {
+        "name": "music/game/hal2",
+        "stream": true
+      },
+      {
+        "name": "music/game/hal3",
+        "stream": true
+      },
+      {
+        "name": "music/game/hal4",
+        "stream": true
+      },
+      {
+        "name": "music/game/left_to_bloom",
+        "stream": true,
+        "volume": 0.4
+      },
+      {
+        "name": "music/game/nuance1",
+        "stream": true
+      },
+      {
+        "name": "music/game/nuance2",
+        "stream": true
+      },
+      {
+        "name": "music/game/one_more_day",
+        "stream": true,
+        "volume": 0.4
+      },
+      {
+        "name": "music/game/piano1",
+        "stream": true
+      },
+      {
+        "name": "music/game/piano2",
+        "stream": true
+      },
+      {
+        "name": "music/game/piano3",
+        "stream": true
+      },
+      {
+        "name": "music/game/swamp/aerie",
+        "stream": true,
+        "volume": 0.4
+      },
+      {
+        "name": "music/game/swamp/firebugs",
+        "stream": true,
+        "volume": 0.4
+      },
+      {
+        "name": "music/game/swamp/labyrinthine",
+        "stream": true,
+        "volume": 0.4
+      }
+    ]
+  },
+  "music.overworld.frozen_peaks": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "legacy:music/overworld/814",
+        "stream": true
+      },
+      {
+        "name": "legacy:music/overworld/tundra",
+        "stream": true,
+        "weight": 2
+      },
+      {
+        "name": "music/game/hal1",
+        "stream": true
+      },
+      {
+        "name": "music/game/hal2",
+        "stream": true
+      },
+      {
+        "name": "music/game/hal3",
+        "stream": true
+      },
+      {
+        "name": "music/game/hal4",
+        "stream": true
+      },
+      {
+        "name": "music/game/piano1",
+        "stream": true
+      },
+      {
+        "name": "music/game/piano2",
+        "stream": true
+      },
+      {
+        "name": "music/game/piano3",
+        "stream": true
+      },
+      {
+        "name": "music/game/stand_tall",
+        "stream": true,
+        "volume": 0.4,
+        "weight": 2
+      }
+    ]
+  },
+  "music.overworld.grove": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "legacy:music/overworld/kall",
+        "stream": true,
+        "volume": 0.8
+      },
+      {
+        "name": "music/game/calm1",
+        "stream": true
+      },
+      {
+        "name": "music/game/calm2",
+        "stream": true
+      },
+      {
+        "name": "music/game/calm3",
+        "stream": true
+      },
+      {
+        "name": "music/game/comforting_memories",
+        "stream": true,
+        "volume": 0.4
+      },
+      {
+        "name": "music/game/infinite_amethyst",
+        "stream": true,
+        "volume": 0.4
+      },
+      {
+        "name": "music/game/nuance1",
+        "stream": true
+      },
+      {
+        "name": "music/game/nuance2",
+        "stream": true
+      },
+      {
+        "name": "music/game/piano3",
+        "stream": true
+      },
+      {
+        "name": "music/game/wending",
+        "stream": true,
+        "volume": 0.4
+      }
+    ]
+  },
+  "music.overworld.jagged_peaks": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "legacy:music/overworld/814",
+        "stream": true
+      },
+      {
+        "name": "legacy:music/overworld/fall",
+        "stream": true
+      },
+      {
+        "name": "legacy:music/overworld/kall",
+        "stream": true,
+        "volume": 0.8
+      },
+      {
+        "name": "music/game/floating_dream",
+        "stream": true,
+        "volume": 0.4
+      },
+      {
+        "name": "music/game/hal1",
+        "stream": true
+      },
+      {
+        "name": "music/game/hal2",
+        "stream": true
+      },
+      {
+        "name": "music/game/nuance1",
+        "stream": true
+      },
+      {
+        "name": "music/game/nuance2",
+        "stream": true
+      },
+      {
+        "name": "music/game/piano1",
+        "stream": true
+      },
+      {
+        "name": "music/game/piano2",
+        "stream": true
+      },
+      {
+        "name": "music/game/piano3",
+        "stream": true
+      },
+      {
+        "name": "music/game/stand_tall",
+        "stream": true,
+        "volume": 0.4
+      },
+      {
+        "name": "music/game/wending",
+        "stream": true,
+        "volume": 0.4
+      }
+    ]
+  },
+  "music.overworld.jungle": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "legacy:music/overworld/burning_konkrete",
+        "stream": true
+      },
+      {
+        "name": "legacy:music/overworld/castles",
+        "stream": true,
+        "weight": 2
+      },
+      {
+        "name": "music/game/bromeliad",
+        "stream": true,
+        "volume": 0.4,
+        "weight": 2
+      },
+      {
+        "name": "music/game/creative/creative4",
+        "stream": true
+      },
+      {
+        "name": "music/game/hal1",
+        "stream": true
+      },
+      {
+        "name": "music/game/hal2",
+        "stream": true
+      },
+      {
+        "name": "music/game/hal3",
+        "stream": true
+      },
+      {
+        "name": "music/game/hal4",
+        "stream": true
+      },
+      {
+        "name": "music/game/left_to_bloom",
+        "volume": 0.4
+      },
+      {
+        "name": "music/game/nuance1",
+        "stream": true
+      },
+      {
+        "name": "music/game/nuance2",
+        "stream": true
+      },
+      {
+        "name": "music/game/piano1",
+        "stream": true
+      },
+      {
+        "name": "music/game/piano2",
+        "stream": true
+      },
+      {
+        "name": "music/game/piano3",
+        "stream": true
+      }
+    ]
+  },
+  "music.overworld.lush_caves": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "legacy:music/caves/lush",
+        "stream": true,
+        "volume": 0.7,
+        "weight": 4
+      },
+      {
+        "name": "music/game/an_ordinary_day",
+        "stream": true,
+        "weight": 2
+      },
+      {
+        "name": "music/game/calm1",
+        "stream": true,
+        "weight": 2
+      },
+      {
+        "name": "music/game/calm2",
+        "stream": true,
+        "weight": 2
+      },
+      {
+        "name": "music/game/calm3",
+        "stream": true,
+        "weight": 2
+      },
+      {
+        "name": "music/game/echo_in_the_wind",
+        "stream": true,
+        "volume": 0.4,
+        "weight": 2
+      },
+      {
+        "name": "music/game/floating_dream",
+        "stream": true,
+        "weight": 2
+      },
+      {
+        "name": "music/game/left_to_bloom",
+        "stream": true,
+        "volume": 0.4,
+        "weight": 4
+      },
+      {
+        "name": "music/game/one_more_day",
+        "stream": true,
+        "volume": 0.4,
+        "weight": 2
+      },
+      {
+        "name": "music/game/piano3",
+        "stream": true,
+        "weight": 2
+      },
+      {
+        "name": "music/game/swamp/aerie",
+        "stream": true,
+        "volume": 0.4
+      },
+      {
+        "name": "music/game/swamp/firebugs",
+        "stream": true,
+        "volume": 0.4
+      },
+      {
+        "name": "music/game/swamp/labyrinthine",
+        "stream": true,
+        "volume": 0.4
+      }
+    ]
+  },
+  "music.overworld.meadow": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "legacy:music/overworld/814",
+        "stream": true
+      },
+      {
+        "name": "legacy:music/overworld/burning_konkrete",
+        "stream": true
+      },
+      {
+        "name": "legacy:music/overworld/kyoto",
+        "stream": true
+      },
+      {
+        "name": "music/game/hal1",
+        "stream": true
+      },
+      {
+        "name": "music/game/hal2",
+        "stream": true
+      },
+      {
+        "name": "music/game/hal3",
+        "stream": true
+      },
+      {
+        "name": "music/game/hal4",
+        "stream": true
+      },
+      {
+        "name": "music/game/left_to_bloom",
+        "stream": true,
+        "volume": 0.4
+      },
+      {
+        "name": "music/game/one_more_day",
+        "stream": true,
+        "volume": 0.4,
+        "weight": 2
+      }
+    ]
+  },
+  "music.overworld.old_growth_taiga": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "legacy:music/overworld/cliff_hanger",
+        "stream": true,
+        "weight": 3
+      },
+      {
+        "name": "legacy:music/overworld/mosaic",
+        "stream": true,
+        "weight": 6
+      },
+      {
+        "name": "music/game/calm1",
+        "stream": true,
+        "weight": 3
+      },
+      {
+        "name": "music/game/calm2",
+        "stream": true,
+        "weight": 3
+      },
+      {
+        "name": "music/game/calm3",
+        "stream": true,
+        "weight": 3
+      },
+      {
+        "name": "music/game/comforting_memories",
+        "stream": true,
+        "volume": 0.4,
+        "weight": 3
+      },
+      {
+        "name": "music/game/floating_dream",
+        "stream": true,
+        "volume": 0.4,
+        "weight": 3
+      },
+      {
+        "name": "music/game/hal1",
+        "stream": true,
+        "weight": 3
+      },
+      {
+        "name": "music/game/hal2",
+        "stream": true,
+        "weight": 3
+      },
+      {
+        "name": "music/game/hal3",
+        "stream": true,
+        "weight": 3
+      },
+      {
+        "name": "music/game/hal4",
+        "stream": true,
+        "weight": 3
+      },
+      {
+        "name": "music/game/left_to_bloom",
+        "stream": true,
+        "volume": 0.4,
+        "weight": 3
+      },
+      {
+        "name": "music/game/nuance1",
+        "stream": true,
+        "weight": 3
+      },
+      {
+        "name": "music/game/nuance2",
+        "stream": true,
+        "weight": 3
+      },
+      {
+        "name": "music/game/one_more_day",
+        "stream": true,
+        "volume": 0.4,
+        "weight": 3
+      },
+      {
+        "name": "music/game/piano1",
+        "stream": true,
+        "weight": 3
+      },
+      {
+        "name": "music/game/piano2",
+        "stream": true,
+        "weight": 3
+      },
+      {
+        "name": "music/game/piano3",
+        "stream": true,
+        "weight": 3
+      },
+      {
+        "name": "music/game/swamp/aerie",
+        "stream": true,
+        "volume": 0.4
+      },
+      {
+        "name": "music/game/swamp/firebugs",
+        "stream": true,
+        "volume": 0.4
+      },
+      {
+        "name": "music/game/swamp/labyrinthine",
+        "stream": true,
+        "volume": 0.4
+      }
+    ]
+  },
+  "music.overworld.snowy_slopes": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "legacy:music/overworld/814",
+        "stream": true
+      },
+      {
+        "name": "legacy:music/overworld/fall",
+        "stream": true
+      },
+      {
+        "name": "music/game/an_ordinary_day",
+        "stream": true,
+        "volume": 0.4
+      },
+      {
+        "name": "music/game/hal1",
+        "stream": true
+      },
+      {
+        "name": "music/game/hal2",
+        "stream": true
+      },
+      {
+        "name": "music/game/hal3",
+        "stream": true
+      },
+      {
+        "name": "music/game/infinite_amethyst",
+        "stream": true,
+        "volume": 0.4
+      },
+      {
+        "name": "music/game/one_more_day",
+        "stream": true,
+        "volume": 0.4
+      },
+      {
+        "name": "music/game/stand_tall",
+        "stream": true,
+        "volume": 0.4
+      }
+    ]
+  },
+  "music.overworld.sparse_jungle": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "legacy:music/overworld/burning_konkrete",
+        "stream": true
+      },
+      {
+        "name": "legacy:music/overworld/castles",
+        "stream": true
+      },
+      {
+        "name": "music/game/bromeliad",
+        "stream": true,
+        "volume": 0.4,
+        "weight": 2
+      },
+      {
+        "name": "music/game/hal1",
+        "stream": true
+      },
+      {
+        "name": "music/game/hal2",
+        "stream": true
+      },
+      {
+        "name": "music/game/hal3",
+        "stream": true
+      },
+      {
+        "name": "music/game/hal4",
+        "stream": true
+      },
+      {
+        "name": "music/game/left_to_bloom",
+        "stream": true,
+        "volume": 0.4
+      },
+      {
+        "name": "music/game/nuance1",
+        "stream": true
+      },
+      {
+        "name": "music/game/nuance2",
+        "stream": true
+      },
+      {
+        "name": "music/game/piano1",
+        "stream": true
+      },
+      {
+        "name": "music/game/piano2",
+        "stream": true
+      },
+      {
+        "name": "music/game/piano3",
+        "stream": true
+      }
+    ]
+  },
+  "music.overworld.stony_peaks": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "legacy:music/overworld/814",
+        "stream": true
+      },
+      {
+        "name": "legacy:music/overworld/kall",
+        "stream": true,
+        "volume": 0.8
+      },
+      {
+        "name": "music/game/hal1",
+        "stream": true
+      },
+      {
+        "name": "music/game/hal2",
+        "stream": true
+      },
+      {
+        "name": "music/game/hal3",
+        "stream": true
+      },
+      {
+        "name": "music/game/hal4",
+        "stream": true
+      },
+      {
+        "name": "music/game/piano1",
+        "stream": true
+      },
+      {
+        "name": "music/game/piano2",
+        "stream": true
+      },
+      {
+        "name": "music/game/piano3",
+        "stream": true
+      },
+      {
+        "name": "music/game/stand_tall",
+        "stream": true,
+        "volume": 0.4,
+        "weight": 2
+      },
+      {
+        "name": "music/game/wending",
+        "stream": true,
+        "volume": 0.4
+      }
+    ]
+  }
+}

@@ -104,8 +104,11 @@
 		"Biome Temperature Multiplier" = 16.0
 		# Whether biomes will have an effect on a player's temperature.
 		"Biomes affect Temperature" = true
-		# Whether hot biome's dryness will make days really hot and nights really cold.
-		"Biome's dryness affects Temperature" = false
+		# How much hot biome's dryness will make nights really cold.
+		# Affects only dry (minecraft down fall <0.2) and hot biome.
+		# 0 means no dryness effect; 0.5 means the biome temp will be divided by 2 at the middle of the night.
+		#Range: 0.0 ~ 1.0
+		"Biome's Dryness Multiplier" = 0.8
 
 	[temperature.weather]
 		# How much of an effect rain has on temperature.
@@ -257,12 +260,18 @@
 					#Range: -1000.0 ~ 1000.0
 					"Late Dry Season Modifier" = 3.0
 
+		[temperature.integration.terrafirmacraft]
+			# If TerraFirmaCraft is installed, then biome, time, season (if serene seasons installed) and altitude modifiers will be disabled, and TerraFirmaCraft calculation used instead.
+			# All other modifiers remain to calculate Player temperature.
+			"TerraFirmaCraft Temperature Override Enabled" = true
+			# How much the temperature given from TerraFirmaCraft is multiplied, to adjust with the other temperature effects.
+			#Range: 0.0 ~ 1000.0
+			"TerraFirmaCraft Temperature Multiplier" = 1.0
+
 # Options related to thirst
 [thirst]
 	# If enabled, players will take damage from the complete dehydration.
 	"Dangerous Dehydration" = true
-	# If enabled, player's vision will become blurry when running low on hydration.
-	"Low Thirst Effect" = true
 	# Scaling of the damages dealt when completely dehydrated. Each tick damage will be increased by this value.
 	#Range: 0.0 ~ 1000.0
 	"Dehydration Damage Scaling" = 0.3
@@ -312,6 +321,9 @@
 		"Effect Chance" = 0.0
 		# Possible effect given while drinking from the rain.
 		Effect = ""
+		# Duration in ticks of the possible effect given while drinking from the rain.
+		#Range: 0 ~ 100000
+		"Effect Duration" = 0
 
 	[thirst.water]
 		# Whether players can drink from water (or flowing water) block or not.
@@ -327,6 +339,9 @@
 		"Effect Chance" = 0.75
 		# Possible effect given while drinking water.
 		Effect = "legendarysurvivaloverhaul:thirst"
+		# Duration in ticks of the possible effect given while drinking water.
+		#Range: 0 ~ 100000
+		"Effect Duration" = 600
 
 	# Amount recovered by potions with effects
 	[thirst.potion]
@@ -341,6 +356,9 @@
 		"Effect Chance" = 0.0
 		# Possible effect given while drinking a potion.
 		Effect = ""
+		# Duration in ticks of the possible effect given while drinking a potion.
+		#Range: 0 ~ 100000
+		"Effect Duration" = 0
 
 	# Default value for purified water
 	[thirst.purified-water]
@@ -355,10 +373,20 @@
 		"Effect Chance" = 0.0
 		# Possible effect given while drinking purified water.
 		Effect = ""
+		# Duration in ticks of the possible effect given while drinking purified water.
+		#Range: 0 ~ 100000
+		"Effect Duration" = 0
 
 	[thirst.juices]
 		# Whether the player retrieves a glass bottle after drinking a juice.
 		"Glass Bottle Loot After Drinking A Juice" = true
+
+	[thirst.integration]
+
+		[thirst.integration.vampirism]
+			# If Vampirism is installed and if thirst enabled while being a vampire, keep the thirst system in addition to the vampiric one.
+			# If disabled, the thirst system will be disabled for vampires.
+			"Thirst Enabled If Vampire" = false
 
 # Options related to heart fruits
 [heart-fruits]

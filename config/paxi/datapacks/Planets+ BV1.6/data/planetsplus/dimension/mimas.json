@@ -1,0 +1,11 @@
+{
+  "type": "planetsplus:mimas",
+  "generator": {
+    "type": "minecraft:noise",
+    "settings": "planetsplus:mimas",
+    "biome_source": {
+      "type": "minecraft:fixed",
+      "biome": "planetsplus:mimas_frozen_surface"
+    }
+  }
+}

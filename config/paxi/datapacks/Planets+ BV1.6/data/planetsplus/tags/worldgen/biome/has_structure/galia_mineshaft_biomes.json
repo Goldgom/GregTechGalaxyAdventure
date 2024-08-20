@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "planetsplus:galia_cold_desert",
+	"planetsplus:galia_lowered_convert",
+	"planetsplus:galia_rocky_plains",
+	"planetsplus:galia_snowed_over_caps"
+  ]
+}

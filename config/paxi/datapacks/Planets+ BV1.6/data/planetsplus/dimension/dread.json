@@ -1,0 +1,48 @@
+{
+  "type": "planetsplus:dread",
+  "generator": {
+    "type": "minecraft:noise",
+    "settings": "planetsplus:dread",
+    "biome_source": {
+      "type": "minecraft:multi_noise",
+      "biomes": [
+        {
+          "biome": "planetsplus:dread_sulfuric_wastelands",
+          "parameters": {
+            "temperature": 0.325,
+            "humidity": 0,
+            "continentalness": 0.025,
+            "erosion": 0.1,
+            "weirdness": 0.2,
+            "depth": 0,
+            "offset": 0.3
+          }
+        },
+        {
+          "biome": "planetsplus:dread_regolith_plains",
+          "parameters": {
+            "temperature": 0.3,
+            "humidity": 0,
+            "continentalness": 0.175,
+            "erosion": 0.175,
+            "weirdness": 0.15,
+            "depth": 0,
+            "offset": 0.2
+          }
+        },
+        {
+          "biome": "planetsplus:dread_volcanic_vally",
+          "parameters": {
+            "temperature": 0.35,
+            "humidity": 0,
+            "continentalness": 0,
+            "erosion": 0.3,
+            "weirdness": 0.1,
+            "depth": 0,
+            "offset": 0
+          }
+        }
+      ]
+    }
+  }
+}

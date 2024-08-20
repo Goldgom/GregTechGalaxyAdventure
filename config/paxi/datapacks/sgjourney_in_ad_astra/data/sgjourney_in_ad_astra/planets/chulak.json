@@ -1,0 +1,11 @@
+{
+    "translation": "planet.sgjourney.chulak",
+    "dimension": "sgjourney:chulak",
+    "gravity": 9,
+    "orbit": "sgjourney_in_ad_astra:chulak_orbit",
+    "oxygen": true,
+    "solar_power": 14,
+    "solar_system": "sgjourney_in_ad_astra:journry_planetary_system",
+    "temperature": 30,
+    "tier": 4
+  }

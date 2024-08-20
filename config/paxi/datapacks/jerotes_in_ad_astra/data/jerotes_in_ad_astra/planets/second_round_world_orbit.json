@@ -1,0 +1,9 @@
+{
+    "dimension": "jerotes_in_ad_astra:second_round_world_orbit",
+    "gravity": 0.0,
+    "oxygen": false,
+    "solar_power": 50,
+    "solar_system": "jerotes_in_ad_astra:second_planetary_system",
+    "temperature": -270,
+    "tier": 1
+  }

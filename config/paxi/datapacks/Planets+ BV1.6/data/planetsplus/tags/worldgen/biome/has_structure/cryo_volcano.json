@@ -1,0 +1,8 @@
+{
+  "replace": false,
+  "values": [
+    "planetplus:iapetus_icy_wasteland",
+	"planetplus:enceladus_frozen_surface",
+	"planetplus:mimas_frozen_surface"
+  ]
+}

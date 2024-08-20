@@ -1,0 +1,29 @@
+{
+  "display": {
+    "icon": {
+      "item": "ad_astra:mercury_globe"
+    },
+    "title": {
+      "translate": "Mercury v2"
+    },
+    "description": {
+      "translate": "Is this a planet or just a mass of liquid metal!?"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "mars": {
+      "trigger": "minecraft:changed_dimension",
+      "conditions": {
+        "to": "planetsplus:vulcan"
+      }
+    }
+  },
+  "rewards": {
+    "experience": 200
+  },
+  "parent": "ad_astra:tier_4_rocket"
+}

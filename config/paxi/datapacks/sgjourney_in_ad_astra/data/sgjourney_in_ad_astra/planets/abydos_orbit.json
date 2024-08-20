@@ -1,0 +1,9 @@
+{
+    "dimension": "sgjourney_in_ad_astra:abydos_orbit",
+    "gravity": 0.0,
+    "oxygen": false,
+    "solar_power": 50,
+    "solar_system": "sgjourney_in_ad_astra:journry_planetary_system",
+    "temperature": -270,
+    "tier": 1
+  }

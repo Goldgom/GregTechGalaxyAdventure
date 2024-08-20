@@ -1,0 +1,11 @@
+{
+  "type": "planetsplus:uranus",
+  "generator": {
+    "type": "minecraft:noise",
+    "settings": "planetsplus:uranus",
+    "biome_source": {
+      "type": "minecraft:fixed",
+      "biome": "planetsplus:uranus_surface_ocean"
+    }
+  }
+}
