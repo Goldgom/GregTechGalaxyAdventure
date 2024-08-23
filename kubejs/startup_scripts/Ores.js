@@ -15,7 +15,7 @@ WorldgenEvents.remove(event => {
  
     event.removeOres(props => {
         props.worldgenLayer = 'underground_ores'
-        props.blocks = [/create:(.*)/, /byg:(.*)/, /sgjourney:(.*)/].concat(minecraftOreVeins)
+        props.blocks = [/create:(.*)/, /byg:(.*)/, /sgjourney:(.*)/, /natures_spirit:(.*)/].concat(minecraftOreVeins)
     })
  })
 

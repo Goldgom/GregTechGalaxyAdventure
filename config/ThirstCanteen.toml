@@ -1,0 +1,5 @@
+
+[Settings]
+	ThirstRestoreEachSip = 6
+	QuenchedRestoreEachSip = 8
+

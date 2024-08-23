@@ -4,14 +4,14 @@
 	enableFatigue = true
 	#Fatigue is incremented by this number every tick
 	#Range: 0.0 ~ 1.0
-	fatigueRate = 0.00208
+	fatigueRate = 0.00104
 	#Fatigue is decreased by this number every tick while you sleep
 	#Range: 0.0 ~ 1.0
 	fatigueReplenishRate = 0.00833
 	#Enables fatigue side effects
 	fatigueSideEffects = true
 	#The required amount of fatigue to sleep
-	minimumFatigueToSleep = 20
+	minimumFatigueToSleep = 5
 	#Definitions of each side effect stage in order: min fatigue (int), max fatigue (int), effect name (resource location), duration (int), amplifier (int). For a permanent effect, set the duration to -1.
 	sideEffectStages = [[70, 80, "minecraft:nausea", 150, 0], [80, 90, "minecraft:slowness", 300, 2], [90, 95, "minecraft:poison", 200, 1], [95, 100, "minecraft:nausea", -1, 3]]
 	#Definitions of fatigue replenishing items. Each list consist of an item registry name, the amount of fatigue it replenishes, and optionally a fatigue rate modifier
@@ -34,7 +34,7 @@
 	#Let the player sleep even when there are monsters nearby
 	ignoreMonsters = false
 	#Deafens you while you're asleep. Mob sounds are confusing with the world sped up
-	muteSoundWhenSleeping = false
+	muteSoundWhenSleeping = true
 	#Allows you to sleep with armor equipped
 	sleepWithArmor = false
 	#The item used to select wake time. Use an empty string to disable, or an asterisk ('*') to enable at all times.

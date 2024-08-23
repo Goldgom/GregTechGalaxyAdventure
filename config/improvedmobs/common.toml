@@ -54,7 +54,7 @@
 	#<#minecraft:raiders|ATTRIBUTES> will add all entities in the raiders tag to everything except attributes
 	#<minecraft:sheep|ATTRIBUTES> will add sheep to everything except attributes
 	#<minecraft> disables everything for all minecraft mobs
-	"Entity Configs" = ["alexsmobs:emu", "alexsmobs:cockroach", "alexsmobs:froststalker", "aquaculture:minnow", "alexsmobs:centipede_tail", "ad_astra:glacian_ram", "aquaculture:tambaqui", "alexsmobs:snow_leopard", "alexsmobs:lobster", "alexsmobs:seagull", "aquaculture:pink_salmon", "aquaculture:atlantic_herring", "alexsmobs:moose", "alexsmobs:seal", "minecraft:glow_squid", "alexsmobs:shoebill", "alexsmobs:flutter", "aquaculture:catfish", "alexsmobs:roadrunner", "alexsmobs:laviathan", "minecraft:trader_llama", "youkaishomecoming:lamprey", "youkaishomecoming:rumia", "alexsmobs:terrapin", "alexsmobs:capuchin_monkey", "alexsmobs:endergrade", "minecraft:horse", "aquaculture:brown_shrooma", "alexsmobs:anaconda", "minecraft:polar_bear", "aquaculture:muskellunge", "aquaculture:bayad", "aquaculture:brown_trout", "minecraft:llama", "minecraft:pig", "aquaculture:bluegill", "minecraft:turtle", "aquaculture:red_shrooma", "alexsmobs:alligator_snapping_turtle", "alexsmobs:maned_wolf", "minecraft:sheep", "aquaculture:atlantic_halibut", "youkaishomecoming:shrine_maiden", "minecraft:tadpole", "minecraft:goat", "minecraft:dolphin", "alexsmobs:rattlesnake", "proxima_plus:kent_fish", "alexsmobs:gelada_monkey", "minecraft:cod", "aquaculture:gar", "aquaculture:red_grouper", "alexsmobs:mantis_shrimp", "alexsmobs:komodo_dragon", "alexsmobs:hammerhead_shark", "minecraft:donkey", "alexsmobs:tiger", "alexsmobs:raccoon", "endertrigon:baby_ender_dragon", "alexsmobs:grizzly_bear", "alexsmobs:platypus", "minecraft:squid", "minecraft:skeleton_horse", "alexsmobs:potoo", "minecraft:cow", "proxima_plus:toxic_squid", "youkaishomecoming:fairy", "aquaculture:rainbow_trout", "alexsmobs:fly", "minecraft:bee", "aquaculture:perch", "alexsmobs:devils_hole_pupfish", "alexsmobs:crocodile", "guardvillagers:guard", "alexsmobs:blue_jay", "alexsmobs:toucan", "minecraft:salmon", "alexsmobs:sea_bear", "youkaishomecoming:yukari", "aquaculture:jellyfish", "alexsmobs:triops", "minecraft:snow_golem", "alexsmobs:rhinoceros", "minecraft:mooshroom", "alexsmobs:frilled_shark", "alexsmobs:bison", "alexsmobs:anteater", "alexsmobs:mudskipper", "minecraft:villager", "youkaishomecoming:kochiya_sanae", "alexsmobs:rain_frog", "aquaculture:tuna", "alexsmobs:bald_eagle", "alexsmobs:sugar_glider", "supplementaries:red_merchant", "minecraft:rabbit", "minecraft:axolotl", "alexsmobs:blobfish", "aquaculture:piranha", "alexsmobs:gorilla", "aquaculture:box_turtle", "aquaculture:blackfish", "aquaculture:arapaima", "alexsmobs:orca", "alexsmobs:tusklin", "minecraft:strider", "minecraft:parrot", "alexsmobs:leafcutter_ant", "alexsmobs:cosmic_cod", "alexsmobs:underminer", "alexsmobs:mungus", "alexsmobs:jerboa", "minecraft:bat", "minecraft:wandering_trader", "alexsmobs:caiman", "aquaculture:carp", "alexsmobs:spectre", "alexsmobs:cosmaw", "aquaculture:pacific_halibut", "ad_astra:lunarian", "alexsmobs:catfish", "minecraft:frog", "minecraft:iron_golem", "aquaculture:pollock", "alexsmobs:kangaroo", "alexsmobs:comb_jelly", "youkaishomecoming:youkai", "youkaishomecoming:komeiji_koishi", "alexsmobs:banana_slug", "railways:conductor", "aquaculture:arrau_turtle", "epicfight:wither_ghost", "alexsmobs:mimic_octopus", "aquaculture:boulti", "alexsmobs:hummingbird", "alexsmobs:elephant", "alexsmobs:bunfungus", "aquaculture:capitaine", "alexsmobs:gazelle", "minecraft:mule", "minecraft:sniffer", "alexsmobs:skunk", "health_and_disease:chair", "alexsmobs:crow", "minecraft:zombie_horse", "alexsmobs:sunbird", "minecraft:camel", "alexsmobs:flying_fish", "aquaculture:atlantic_cod", "alexsmobs:tasmanian_devil", "alexsmobs:centipede_body", "aquaculture:synodontis", "minecraft:cat", "minecraft:pufferfish", "aquaculture:starshell_turtle", "alexsmobs:stradpole", "alexsmobs:tarantula_hawk", "minecraft:fox", "aquaculture:smallmouth_bass", "alexsmobs:cachalot_whale", "minecraft:allay", "minecraft:tropical_fish", "ad_astra:lunarian_wandering_trader", "minecraft:ocelot", "youkaishomecoming:cirno", "alexsmobs:warped_toad", "minecraft:chicken", "alexsmobs:giant_squid", "minecraft:wolf", "minecraft:panda"]
+	"Entity Configs" = ["minecraft:creeper|TARGETVILLAGER", "minecraft:enderman|NEUTRALAGGRO", "mca", "exotic_birds", "touhou_little_maid", "naturalist", "alexsmobs", "alexsmobs:emu", "alexsmobs:cockroach", "alexsmobs:froststalker", "aquaculture:minnow", "alexsmobs:centipede_tail", "ad_astra:glacian_ram", "aquaculture:tambaqui", "alexsmobs:snow_leopard", "alexsmobs:lobster", "alexsmobs:seagull", "aquaculture:pink_salmon", "aquaculture:atlantic_herring", "alexsmobs:moose", "alexsmobs:seal", "minecraft:glow_squid", "alexsmobs:shoebill", "alexsmobs:flutter", "aquaculture:catfish", "alexsmobs:roadrunner", "alexsmobs:laviathan", "minecraft:trader_llama", "youkaishomecoming:lamprey", "youkaishomecoming:rumia", "alexsmobs:terrapin", "alexsmobs:capuchin_monkey", "alexsmobs:endergrade", "minecraft:horse", "aquaculture:brown_shrooma", "alexsmobs:anaconda", "minecraft:polar_bear", "aquaculture:muskellunge", "aquaculture:bayad", "aquaculture:brown_trout", "minecraft:llama", "minecraft:pig", "aquaculture:bluegill", "minecraft:turtle", "aquaculture:red_shrooma", "alexsmobs:alligator_snapping_turtle", "alexsmobs:maned_wolf", "minecraft:sheep", "aquaculture:atlantic_halibut", "youkaishomecoming:shrine_maiden", "minecraft:tadpole", "minecraft:goat", "minecraft:dolphin", "alexsmobs:rattlesnake", "proxima_plus:kent_fish", "alexsmobs:gelada_monkey", "minecraft:cod", "aquaculture:gar", "aquaculture:red_grouper", "alexsmobs:mantis_shrimp", "alexsmobs:komodo_dragon", "alexsmobs:hammerhead_shark", "minecraft:donkey", "alexsmobs:tiger", "alexsmobs:raccoon", "endertrigon:baby_ender_dragon", "alexsmobs:grizzly_bear", "alexsmobs:platypus", "minecraft:squid", "minecraft:skeleton_horse", "alexsmobs:potoo", "minecraft:cow", "proxima_plus:toxic_squid", "youkaishomecoming:fairy", "aquaculture:rainbow_trout", "alexsmobs:fly", "minecraft:bee", "aquaculture:perch", "alexsmobs:devils_hole_pupfish", "alexsmobs:crocodile", "guardvillagers:guard", "alexsmobs:blue_jay", "alexsmobs:toucan", "minecraft:salmon", "alexsmobs:sea_bear", "youkaishomecoming:yukari", "aquaculture:jellyfish", "alexsmobs:triops", "minecraft:snow_golem", "alexsmobs:rhinoceros", "minecraft:mooshroom", "alexsmobs:frilled_shark", "alexsmobs:bison", "alexsmobs:anteater", "alexsmobs:mudskipper", "minecraft:villager", "youkaishomecoming:kochiya_sanae", "alexsmobs:rain_frog", "aquaculture:tuna", "alexsmobs:bald_eagle", "alexsmobs:sugar_glider", "supplementaries:red_merchant", "minecraft:rabbit", "minecraft:axolotl", "alexsmobs:blobfish", "aquaculture:piranha", "alexsmobs:gorilla", "aquaculture:box_turtle", "aquaculture:blackfish", "aquaculture:arapaima", "alexsmobs:orca", "alexsmobs:tusklin", "minecraft:strider", "minecraft:parrot", "alexsmobs:leafcutter_ant", "alexsmobs:cosmic_cod", "alexsmobs:underminer", "alexsmobs:mungus", "alexsmobs:jerboa", "minecraft:bat", "minecraft:wandering_trader", "alexsmobs:caiman", "aquaculture:carp", "alexsmobs:spectre", "alexsmobs:cosmaw", "aquaculture:pacific_halibut", "ad_astra:lunarian", "alexsmobs:catfish", "minecraft:frog", "minecraft:iron_golem", "aquaculture:pollock", "alexsmobs:kangaroo", "alexsmobs:comb_jelly", "youkaishomecoming:youkai", "youkaishomecoming:komeiji_koishi", "alexsmobs:banana_slug", "railways:conductor", "aquaculture:arrau_turtle", "epicfight:wither_ghost", "alexsmobs:mimic_octopus", "aquaculture:boulti", "alexsmobs:hummingbird", "alexsmobs:elephant", "alexsmobs:bunfungus", "aquaculture:capitaine", "alexsmobs:gazelle", "minecraft:mule", "minecraft:sniffer", "alexsmobs:skunk", "health_and_disease:chair", "alexsmobs:crow", "minecraft:zombie_horse", "alexsmobs:sunbird", "minecraft:camel", "alexsmobs:flying_fish", "aquaculture:atlantic_cod", "alexsmobs:tasmanian_devil", "alexsmobs:centipede_body", "aquaculture:synodontis", "minecraft:cat", "minecraft:pufferfish", "aquaculture:starshell_turtle", "alexsmobs:stradpole", "alexsmobs:tarantula_hawk", "minecraft:fox", "aquaculture:smallmouth_bass", "alexsmobs:cachalot_whale", "minecraft:allay", "minecraft:tropical_fish", "ad_astra:lunarian_wandering_trader", "minecraft:ocelot", "youkaishomecoming:cirno", "alexsmobs:warped_toad", "minecraft:chicken", "alexsmobs:giant_squid", "minecraft:wolf", "minecraft:panda"]
 	#Any of the following 
 	#[ATTRIBUTES, ARMOR, HELDITEMS, BLOCKBREAK, USEITEM, LADDER, STEAL, GUARDIAN, PARROT, TARGETVILLAGER, NEUTRALAGGRO]
 	#added here will disable that feature completely.
@@ -112,7 +112,7 @@
 	Sound = false
 	#Chance for a mob to be able to break blocks
 	#Range: 0.0 ~ 1.0
-	"Breaker Chance" = 0.1
+	"Breaker Chance" = 0.01
 	#Initial cooldown for block breaking mobs
 	#Range: > 0
 	"Breaker Initial Cooldown" = 300
@@ -129,7 +129,7 @@
 	"Idle Break" = false
 	#Chance for a mob to be able to steal items from inventory blocks
 	#Range: 0.0 ~ 1.0
-	"Stealer Chance" = 0.30000001192092896
+	"Stealer Chance" = 0.030000001192092896
 	#List of blocks mobs shouldn't steal from. You can also add a modid to blacklist whole mods
 	"Steal Block Blacklist" = []
 	#Items which will be given to mobs who can break blocks. Empty list = no items. Syntax: id;weight
@@ -176,25 +176,25 @@
 	"Entity Item Use Blacklist" = ["minecraft:drowned;TRIDENT", "minecraft:illusioner;BOW", "minecraft:piglin;CROSSBOW", "minecraft:pillager;CROSSBOW", "minecraft:skeleton;BOW", "minecraft:snow_golem;minecraft:snowball", "minecraft:stray;BOW", "minecraft:wither_skeleton;BOW"]
 	#Base chance that a mob can have one piece of armor
 	#Range: 0.0 ~ 1.0
-	"Equipment Chance" = 0.10000000149011612
+	"Equipment Chance" = 0.05000000014901161
 	#Base chance for each additional armor pieces
 	#Range: 0.0 ~ 1.0
-	"Additional Equipment Chance" = 0.30000001192092896
+	"Additional Equipment Chance" = 0.030000001192092896
 	#Adds additional x*difficulty% to base equip chance
 	#Range: 0.0 ~ 1.7976931348623157E308
-	"Equipment Addition" = 0.30000001192092896
+	"Equipment Addition" = 0.030000001192092896
 	#Chance for mobs to have a weapon
 	#Range: 0.0 ~ 1.0
-	"Weapon Chance" = 0.5
+	"Weapon Chance" = 0.05
 	#Adds additional x*difficulty% to base weapon chance
 	#Range: 0.0 ~ 1.7976931348623157E308
-	"Weapon Chance Add" = 0.30000001192092896
+	"Weapon Chance Add" = 0.030000001192092896
 	#Base chance for each armor pieces to get enchanted
 	#Range: 0.0 ~ 1.0
-	"Enchanting Chance" = 0.20000000298023224
+	"Enchanting Chance" = 0.020000000298023225
 	#Adds additional x*difficulty% to base enchanting chance
 	#Range: 0.0 ~ 1.7976931348623157E308
-	"Enchanting Addition" = 0.20000000298023224
+	"Enchanting Addition" = 0.020000000298023225
 	#Specify min and max enchanting levels according to difficulty. difficulty-minLevel-maxLevel
 	"Enchanting Calc" = ["0.0-5-10", "25.0-5-15", "50.0-10-17", "100.0-15-25", "200.0-20-30", "250.0-30-35"]
 	#Blacklist enchantments from being applied to equipments
@@ -203,10 +203,10 @@
 	"Enchanting Whitelist" = false
 	#Chance for mobs to have an item in offhand
 	#Range: 0.0 ~ 1.0
-	"Item Equip Chance" = 0.5
+	"Item Equip Chance" = 0.05
 	#Adds additional x*difficulty% to base item chance
 	#Range: 0.0 ~ 1.7976931348623157E308
-	"Item Chance add" = 0.20000000298023224
+	"Item Chance add" = 0.020000000298023225
 	#Should mobs drop the armor equipped through this mod? Will not change drops if the mob obtained the armor through other means (e.g. vanilla)
 	"Should drop equipment" = false
 
@@ -214,47 +214,47 @@
 [attributes]
 	#Health will be multiplied by 1 + difficulty*0.016*x. Set to 0 to disable
 	#Range: 0.0 ~ 1.7976931348623157E308
-	"Health Increase Multiplier" = 1.0
+	"Health Increase Multiplier" = 0.0
 	#Health will be multiplied by at maximum this. Set to 0 means no limit
 	#Range: 0.0 ~ 1.7976931348623157E308
-	"Max Health Increase" = 5.0
+	"Max Health Increase" = 0.0
 	#Round health to the nearest x. Set to 0 to disable
 	#Range: 0.0 ~ 1.7976931348623157E308
-	"Round HP" = 0.5
+	"Round HP" = 0.0
 	#Damage will be multiplied by 1 + difficulty*0.008*x. Set to 0 to disable
 	#Range: 0.0 ~ 1.7976931348623157E308
 	"Damage Increase Multiplier" = 1.0
 	#Damage will be multiplied by at maximum this. Set to 0 means no limit
 	#Range: 0.0 ~ 1.7976931348623157E308
-	"Max Damage Increase" = 3.0
+	"Max Damage Increase" = 0.0
 	#Speed will be increased by difficulty*0.0008*x. Set to 0 to disable
 	#Range: 0.0 ~ 1.7976931348623157E308
-	"Speed Increase" = 1.0
+	"Speed Increase" = 0.0
 	#Maximum increase in speed
 	#Range: 0.0 ~ 1.0
-	"Max Speed" = 0.1
+	"Max Speed" = 0.0
 	#Knockback will be increased by difficulty*0.002*x. Set to 0 to disable
 	#Range: 0.0 ~ 1.7976931348623157E308
-	"Knockback Increase" = 1.0
+	"Knockback Increase" = 0.0
 	#Maximum increase in knockback
 	#Range: 0.0 ~ 1.0
-	"Max Knockback" = 0.5
+	"Max Knockback" = 0.0
 	#Magic resistance will be increased by difficulty*0.0016*x. Set to 0 to disable
 	#Range: 0.0 ~ 1.7976931348623157E308
-	"Magic Resistance Increase" = 1.0
+	"Magic Resistance Increase" = 0.0
 	#Maximum increase in magic resistance. Magic reduction is percentage
 	#Range: 0.0 ~ 1.0
-	"Max Magic Resistance" = 0.4000000059604645
+	"Max Magic Resistance" = 0.0
 	#Projectile Damage will be multiplied by 1 + difficulty*0.008*x. Set to 0 to disable
 	#Range: 0.0 ~ 1.7976931348623157E308
-	"Projectile Damage Increase" = 1.0
+	"Projectile Damage Increase" = 0.0
 	#Projectile damage will be multiplied by maximum of this
 	#Range: 0.0 ~ 1.7976931348623157E308
-	"Max Projectile Damage" = 2.0
+	"Max Projectile Damage" = 0.0
 	#Explosion Damage will be multiplied by 1 + difficulty*0.003*x. Set to 0 to disable
 	#Range: 0.0 ~ 1.7976931348623157E308
-	"Explosion Damage Increase" = 1.0
+	"Explosion Damage Increase" = 0.0
 	#Explosion damage will be multiplied by maximum of this
 	#Range: 0.0 ~ 1.7976931348623157E308
-	"Max Explosion Damage" = 1.75
+	"Max Explosion Damage" = 0.0
 

@@ -55,40 +55,40 @@
 	Storm_PercentChanceOf_Hail = 80
 	#-
 	#Range: > -2147483648
-	Storm_PercentChanceOf_F0_Tornado = 70
+	Storm_PercentChanceOf_F0_Tornado = 14
 	#-
 	#Range: > -2147483648
-	Storm_PercentChanceOf_C0_Cyclone = 70
+	Storm_PercentChanceOf_C0_Cyclone = 14
 	#-
 	#Range: > -2147483648
-	Storm_PercentChanceOf_F1_Tornado = 50
+	Storm_PercentChanceOf_F1_Tornado = 10
 	#-
 	#Range: > -2147483648
-	Storm_PercentChanceOf_C1_Cyclone = 50
+	Storm_PercentChanceOf_C1_Cyclone = 10
 	#-
 	#Range: > -2147483648
-	Storm_PercentChanceOf_F2_Tornado = 40
+	Storm_PercentChanceOf_F2_Tornado = 8
 	#-
 	#Range: > -2147483648
-	Storm_PercentChanceOf_C2_Cyclone = 40
+	Storm_PercentChanceOf_C2_Cyclone = 8
 	#-
 	#Range: > -2147483648
-	Storm_PercentChanceOf_F3_Tornado = 30
+	Storm_PercentChanceOf_F3_Tornado = 6
 	#-
 	#Range: > -2147483648
-	Storm_PercentChanceOf_C3_Cyclone = 30
+	Storm_PercentChanceOf_C3_Cyclone = 6
 	#-
 	#Range: > -2147483648
-	Storm_PercentChanceOf_F4_Tornado = 20
+	Storm_PercentChanceOf_F4_Tornado = 4
 	#-
 	#Range: > -2147483648
-	Storm_PercentChanceOf_C4_Cyclone = 20
+	Storm_PercentChanceOf_C4_Cyclone = 4
 	#-
 	#Range: > -2147483648
-	Storm_PercentChanceOf_F5_Tornado = 10
+	Storm_PercentChanceOf_F5_Tornado = 2
 	#Also known as full blown hurricane
 	#Range: > -2147483648
-	Storm_PercentChanceOf_C5_Cyclone = 10
+	Storm_PercentChanceOf_C5_Cyclone = 2
 	#-
 	#Range: > -2147483648
 	Storm_ParticleSpawnDelay = 3

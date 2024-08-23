@@ -399,7 +399,7 @@ GTCEuServerEvents.oreVeins(event => {
 			.layer(l => l.weight(2).mat(GTMaterials.Silver).size(1, 1))
 			.layer(l => l.weight(1).mat(GTMaterials.Lead).size(1, 1))
 	}, '#forge:is_mountain')
-	addVein('iron_vein', GTWorldGenLayers.STONE, 50, 120, -10, 60, GTMaterials.Goethite, 'surface', passiveLayers.deepslate, pattern => {
+	addVein('iron_vein', GTWorldGenLayers.STONE, 50, 120, -10, 50, GTMaterials.Goethite, 'surface', passiveLayers.deepslate, pattern => {
 		pattern
 			.layer(l => l.weight(5).mat(GTMaterials.Goethite).size(1, 2))
 			.layer(l => l.weight(2).mat(GTMaterials.YellowLimonite).size(1, 1))

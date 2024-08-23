@@ -101,7 +101,7 @@
 	[temperature.biomes]
 		# How much a biome's temperature effects are multiplied.
 		#Range: 0.0 ~ Infinity
-		"Biome Temperature Multiplier" = 16.0
+		"Biome Temperature Multiplier" = 8.0
 		# Whether biomes will have an effect on a player's temperature.
 		"Biomes affect Temperature" = true
 		# How much hot biome's dryness will make nights really cold.

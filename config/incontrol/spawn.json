@@ -1,1 +1,90 @@
-[]
+[
+    {
+      "mob": "upgrade_aquatic:thrasher",
+      "mincount": {
+        "amount": 5,
+        "hostile": true
+      },
+      "result": "deny"
+    }, 
+    {
+        "mob": "minecraft:zombie",
+        "mincount": {
+          "amount": 5,
+          "hostile": true
+        },
+        "result": "deny"
+      },
+      {
+        "mob": "minecraft:husk",
+        "mincount": {
+          "amount": 5,
+          "hostile": true
+        },
+        "result": "deny"
+      },
+      {
+        "mob": "minecraft:drowned",
+        "mincount": {
+          "amount": 5,
+          "hostile": true
+        },
+        "result": "deny"
+      },
+      {
+        "mob": "minecraft:skeleton",
+        "mincount": {
+          "amount": 5,
+          "hostile": true
+        },
+        "result": "deny"
+      },
+      {
+        "mob": "minecraft:stray",
+        "mincount": {
+          "amount": 5,
+          "hostile": true
+        },
+        "result": "deny"
+      },
+      {
+        "mob": "minecraft:spider",
+        "mincount": {
+          "amount": 5,
+          "hostile": true
+        },
+        "result": "deny"
+      },
+      {
+        "mob": "minecraft:cave_spider",
+        "mincount": {
+          "amount": 5,
+          "hostile": true
+        },
+        "result": "deny"
+      },
+      {
+        "mob": "minecraft:witch",
+        "mincount": {
+          "amount": 5,
+          "hostile": true
+        },
+        "result": "deny"
+      },
+      {
+        "mob": "minecraft:enderman",
+        "mincount": {
+          "amount": 5,
+          "hostile": true
+        },
+        "result": "deny"
+        },
+        {
+          "mob": "minecraft:creeper",
+          "mincount": {
+            "amount": 5,
+            "hostile": true
+          },
+          "result": "deny"
+          }
+]
